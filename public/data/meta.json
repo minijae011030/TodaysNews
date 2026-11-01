@@ -1,61 +1,42 @@
 {
-  "updatedAt": "2026-10-31T23:01:30.654Z",
-  "count": 1746,
-  "summarized": 1252,
-  "fetched": 422,
-  "newCount": 29,
+  "updatedAt": "2026-11-01T00:01:12.316Z",
+  "count": 1747,
+  "summarized": 1251,
+  "fetched": 434,
+  "newCount": 27,
   "newByCategory": {
+    "경제": 10,
     "문화": 2,
-    "경제": 14,
-    "과학": 3,
+    "IT": 8,
     "정치": 6,
-    "IT": 4
+    "과학": 1
   },
-  "summarizedNow": 26,
+  "summarizedNow": 24,
   "bodyFound": 22,
   "pdfRead": 0,
-  "hidden": 0,
+  "hidden": 2,
   "moved": [
-    "IT→과학",
     "IT→경제",
-    "IT→경제",
-    "IT→경제",
-    "IT→경제"
+    "경제→정치",
+    "과학→경제"
   ],
   "llmFailedBatches": 0,
-  "failedFeeds": [
-    {
-      "category": "보도자료",
-      "source": "https://www.fsc.go.kr/no010101",
-      "error": "The operation was aborted due to timeout"
-    }
-  ],
+  "failedFeeds": [],
   "concept": null,
   "spacePhoto": null,
   "newTerms": [
-    "하방 압력",
-    "국채 10년물",
-    "자산효과",
-    "민간소비",
-    "쌍둥이 수지",
-    "재정 리스크",
-    "의무공개매수제",
-    "지배주주",
-    "실질 국내총소득",
-    "교역조건",
-    "설비투자",
-    "액티브 ETF",
-    "상관계수",
-    "비교지수"
+    "밸류체인",
+    "트레이더",
+    "하이퍼스케일러"
   ],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
-      "fetchedNow": 3,
-      "kept": 58,
-      "hidden": 13,
+      "fetchedNow": 4,
+      "kept": 57,
+      "hidden": 10,
       "dead": false
     },
     {
@@ -63,7 +44,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 59,
+      "kept": 56,
       "hidden": 26,
       "dead": false
     },
@@ -89,7 +70,7 @@
       "category": "경제",
       "query": "공매도",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 6,
       "kept": 1,
       "hidden": 0,
       "dead": false
@@ -117,8 +98,8 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 75,
-      "hidden": 13,
+      "kept": 73,
+      "hidden": 14,
       "dead": false
     },
     {
@@ -135,7 +116,7 @@
       "query": "세법 개정안",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 2,
+      "kept": 1,
       "hidden": 4,
       "dead": false
     },
@@ -144,8 +125,8 @@
       "query": "가상자산 규제",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 15,
-      "hidden": 11,
+      "kept": 14,
+      "hidden": 12,
       "dead": false
     },
     {
@@ -180,8 +161,8 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 32,
-      "hidden": 21,
+      "kept": 35,
+      "hidden": 24,
       "dead": false
     },
     {
@@ -198,7 +179,7 @@
       "query": "비트코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 23,
+      "kept": 25,
       "hidden": 27,
       "dead": false
     },
@@ -217,7 +198,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 9,
-      "hidden": 35,
+      "hidden": 34,
       "dead": false
     },
     {
@@ -234,7 +215,7 @@
       "query": "보험사 건전성",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 1,
+      "kept": 2,
       "hidden": 0,
       "dead": false
     },
@@ -261,7 +242,7 @@
       "query": "국민연금 기금",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 7,
+      "kept": 8,
       "hidden": 8,
       "dead": false
     },
@@ -333,7 +314,7 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 124,
+      "kept": 120,
       "hidden": 56,
       "dead": false
     },
@@ -342,7 +323,7 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 24,
+      "kept": 27,
       "hidden": 37,
       "dead": false
     },
@@ -369,8 +350,8 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 29,
-      "hidden": 41,
+      "kept": 28,
+      "hidden": 42,
       "dead": false
     },
     {
@@ -378,8 +359,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 147,
-      "hidden": 35,
+      "kept": 146,
+      "hidden": 34,
       "dead": false
     },
     {
@@ -397,7 +378,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 7,
+      "hidden": 6,
       "dead": true
     },
     {
@@ -405,8 +386,8 @@
       "query": "천문학 연구",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 6,
-      "hidden": 3,
+      "kept": 7,
+      "hidden": 2,
       "dead": false
     },
     {
@@ -458,9 +439,9 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 29,
-      "hidden": 18,
+      "fetchedNow": 7,
+      "kept": 27,
+      "hidden": 19,
       "dead": false
     },
     {
@@ -486,7 +467,7 @@
       "query": "영화 개봉",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 11,
+      "kept": 13,
       "hidden": 11,
       "dead": false
     },
@@ -494,9 +475,9 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 7,
       "kept": 27,
-      "hidden": 9,
+      "hidden": 10,
       "dead": false
     },
     {
