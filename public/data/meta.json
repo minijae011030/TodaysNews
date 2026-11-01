@@ -1,40 +1,40 @@
 {
-  "updatedAt": "2026-11-01T02:01:13.231Z",
-  "count": 1745,
+  "updatedAt": "2026-11-01T03:01:25.442Z",
+  "count": 1741,
   "summarized": 1251,
-  "fetched": 434,
-  "newCount": 27,
+  "fetched": 429,
+  "newCount": 29,
   "newByCategory": {
-    "정치": 5,
-    "경제": 13,
-    "문화": 4,
-    "과학": 2,
-    "IT": 3
+    "경제": 15,
+    "문화": 2,
+    "정치": 7,
+    "IT": 4,
+    "과학": 1
   },
-  "summarizedNow": 24,
-  "bodyFound": 23,
+  "summarizedNow": 26,
+  "bodyFound": 21,
   "pdfRead": 0,
-  "hidden": 2,
+  "hidden": 0,
   "moved": [
     "IT→경제",
     "IT→경제",
-    "IT→과학",
+    "과학→경제",
     "IT→경제",
-    "IT→문화",
-    "과학→문화"
+    "IT→경제",
+    "IT→정치"
   ],
   "llmFailedBatches": 0,
-  "failedFeeds": [],
+  "failedFeeds": [
+    {
+      "category": "보도자료",
+      "source": "https://www.fsc.go.kr/no010101",
+      "error": "The operation was aborted due to timeout"
+    }
+  ],
   "concept": null,
   "spacePhoto": null,
   "newTerms": [
-    "미국주식예탁증서",
-    "금융통화위원회",
-    "순유출",
-    "내구재",
-    "생성형 AI",
-    "프롬프트",
-    "지갑 주소"
+    "보안관제"
   ],
   "keywords": [
     {
@@ -42,8 +42,8 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 51,
-      "hidden": 8,
+      "kept": 53,
+      "hidden": 9,
       "dead": false
     },
     {
@@ -51,7 +51,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 56,
+      "kept": 55,
       "hidden": 27,
       "dead": false
     },
@@ -69,15 +69,15 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 13,
-      "hidden": 4,
+      "kept": 12,
+      "hidden": 3,
       "dead": false
     },
     {
       "category": "경제",
       "query": "공매도",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 7,
       "kept": 1,
       "hidden": 0,
       "dead": false
@@ -104,9 +104,9 @@
       "category": "경제",
       "query": "환율",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 72,
-      "hidden": 13,
+      "fetchedNow": 5,
+      "kept": 71,
+      "hidden": 11,
       "dead": false
     },
     {
@@ -133,7 +133,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 14,
-      "hidden": 12,
+      "hidden": 13,
       "dead": false
     },
     {
@@ -141,7 +141,7 @@
       "query": "은행 대출 규제",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 4,
       "hidden": 1,
       "dead": false
     },
@@ -150,7 +150,7 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 14,
+      "kept": 16,
       "hidden": 5,
       "dead": false
     },
@@ -168,7 +168,7 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 39,
+      "kept": 42,
       "hidden": 24,
       "dead": false
     },
@@ -186,8 +186,8 @@
       "query": "비트코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 26,
-      "hidden": 34,
+      "kept": 27,
+      "hidden": 36,
       "dead": false
     },
     {
@@ -203,9 +203,9 @@
       "category": "경제",
       "query": "보이스피싱",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 10,
-      "hidden": 30,
+      "fetchedNow": 7,
+      "kept": 9,
+      "hidden": 27,
       "dead": false
     },
     {
@@ -231,7 +231,7 @@
       "query": "상장폐지",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 4,
       "hidden": 2,
       "dead": false
     },
@@ -240,7 +240,7 @@
       "query": "사모펀드 MBK",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
+      "kept": 2,
       "hidden": 0,
       "dead": false
     },
@@ -249,8 +249,8 @@
       "query": "국민연금 기금",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 6,
-      "hidden": 6,
+      "kept": 5,
+      "hidden": 5,
       "dead": false
     },
     {
@@ -267,7 +267,7 @@
       "query": "여야 충돌",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 17,
+      "kept": 18,
       "hidden": 6,
       "dead": false
     },
@@ -276,9 +276,9 @@
       "query": "국회 본회의 강행",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 0,
+      "kept": 1,
       "hidden": 0,
-      "dead": true
+      "dead": false
     },
     {
       "category": "정치",
@@ -322,7 +322,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 121,
-      "hidden": 57,
+      "hidden": 58,
       "dead": false
     },
     {
@@ -330,7 +330,7 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 27,
+      "kept": 24,
       "hidden": 38,
       "dead": false
     },
@@ -339,8 +339,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 46,
-      "hidden": 25,
+      "kept": 47,
+      "hidden": 26,
       "dead": false
     },
     {
@@ -358,7 +358,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 26,
-      "hidden": 39,
+      "hidden": 37,
       "dead": false
     },
     {
@@ -366,7 +366,7 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 148,
+      "kept": 149,
       "hidden": 36,
       "dead": false
     },
@@ -376,7 +376,7 @@
       "hot": false,
       "fetchedNow": 6,
       "kept": 8,
-      "hidden": 4,
+      "hidden": 5,
       "dead": false
     },
     {
@@ -385,7 +385,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 4,
+      "hidden": 3,
       "dead": true
     },
     {
@@ -402,7 +402,7 @@
       "query": "블랙홀 관측",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 1,
+      "kept": 2,
       "hidden": 0,
       "dead": false
     },
@@ -411,8 +411,8 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 38,
-      "hidden": 11,
+      "kept": 37,
+      "hidden": 10,
       "dead": false
     },
     {
@@ -430,7 +430,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 4,
-      "hidden": 4,
+      "hidden": 3,
       "dead": false
     },
     {
@@ -456,7 +456,7 @@
       "query": "신간",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
+      "kept": 2,
       "hidden": 3,
       "dead": false
     },
@@ -474,7 +474,7 @@
       "query": "영화 개봉",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 13,
+      "kept": 12,
       "hidden": 11,
       "dead": false
     },
@@ -483,8 +483,8 @@
       "query": "드라마",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 27,
-      "hidden": 9,
+      "kept": 29,
+      "hidden": 10,
       "dead": false
     },
     {
