@@ -1,35 +1,33 @@
 {
-  "updatedAt": "2026-11-01T05:01:13.054Z",
-  "count": 1757,
-  "summarized": 1257,
-  "fetched": 434,
-  "newCount": 29,
+  "updatedAt": "2026-11-01T06:01:15.418Z",
+  "count": 1762,
+  "summarized": 1259,
+  "fetched": 430,
+  "newCount": 28,
   "newByCategory": {
-    "정치": 6,
-    "문화": 4,
+    "IT": 7,
     "경제": 11,
-    "과학": 3,
-    "IT": 5
+    "정치": 6,
+    "문화": 2,
+    "과학": 2
   },
-  "summarizedNow": 26,
-  "bodyFound": 22,
+  "summarizedNow": 25,
+  "bodyFound": 24,
   "pdfRead": 0,
-  "hidden": 0,
+  "hidden": 1,
   "moved": [
-    "정치→경제",
-    "IT→과학",
-    "경제→문화",
-    "경제→문화",
     "IT→경제",
-    "IT→정치",
     "IT→경제"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [],
   "concept": null,
-  "spacePhoto": "달의 다양한 색깔들",
+  "spacePhoto": null,
   "newTerms": [
-    "외국인 매도세"
+    "운용사",
+    "신용융자잔고",
+    "한계기업",
+    "밸류업"
   ],
   "keywords": [
     {
@@ -37,8 +35,8 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 54,
-      "hidden": 10,
+      "kept": 52,
+      "hidden": 12,
       "dead": false
     },
     {
@@ -46,8 +44,8 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 53,
-      "hidden": 26,
+      "kept": 51,
+      "hidden": 27,
       "dead": false
     },
     {
@@ -64,7 +62,7 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 13,
+      "kept": 15,
       "hidden": 3,
       "dead": false
     },
@@ -100,17 +98,17 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 67,
-      "hidden": 11,
+      "kept": 65,
+      "hidden": 12,
       "dead": false
     },
     {
       "category": "경제",
       "query": "국회 정무위원회",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 1,
-      "hidden": 5,
+      "hidden": 4,
       "dead": false
     },
     {
@@ -128,7 +126,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 16,
-      "hidden": 13,
+      "hidden": 12,
       "dead": false
     },
     {
@@ -145,7 +143,7 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 15,
+      "kept": 16,
       "hidden": 5,
       "dead": false
     },
@@ -163,8 +161,8 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 44,
-      "hidden": 27,
+      "kept": 45,
+      "hidden": 28,
       "dead": false
     },
     {
@@ -180,9 +178,9 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 26,
-      "hidden": 39,
+      "hidden": 40,
       "dead": false
     },
     {
@@ -263,7 +261,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 18,
-      "hidden": 6,
+      "hidden": 7,
       "dead": false
     },
     {
@@ -316,7 +314,7 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 125,
+      "kept": 128,
       "hidden": 55,
       "dead": false
     },
@@ -325,8 +323,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 24,
-      "hidden": 37,
+      "kept": 23,
+      "hidden": 38,
       "dead": false
     },
     {
@@ -334,7 +332,7 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 47,
+      "kept": 48,
       "hidden": 26,
       "dead": false
     },
@@ -343,7 +341,7 @@
       "query": "개발자 채용",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 6,
       "hidden": 5,
       "dead": false
     },
@@ -352,7 +350,7 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 25,
+      "kept": 24,
       "hidden": 36,
       "dead": false
     },
@@ -361,8 +359,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 149,
-      "hidden": 36,
+      "kept": 148,
+      "hidden": 37,
       "dead": false
     },
     {
@@ -379,9 +377,9 @@
       "query": "구글 애플 인앱결제",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 0,
+      "kept": 1,
       "hidden": 3,
-      "dead": true
+      "dead": false
     },
     {
       "category": "과학",
@@ -407,7 +405,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 35,
-      "hidden": 9,
+      "hidden": 8,
       "dead": false
     },
     {
@@ -424,8 +422,8 @@
       "query": "미술관 전시",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
-      "hidden": 3,
+      "kept": 2,
+      "hidden": 2,
       "dead": false
     },
     {
@@ -441,9 +439,9 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 30,
-      "hidden": 18,
+      "fetchedNow": 4,
+      "kept": 31,
+      "hidden": 17,
       "dead": false
     },
     {
@@ -468,16 +466,16 @@
       "category": "문화",
       "query": "영화 개봉",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 5,
       "kept": 11,
-      "hidden": 11,
+      "hidden": 10,
       "dead": false
     },
     {
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 6,
       "kept": 31,
       "hidden": 10,
       "dead": false
@@ -496,9 +494,9 @@
       "query": "코스피 6000선 회복",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 0,
+      "kept": 1,
       "hidden": 0,
-      "dead": true
+      "dead": false
     },
     {
       "category": "IT",
