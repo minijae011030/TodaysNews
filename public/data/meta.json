@@ -1,37 +1,35 @@
 {
-  "updatedAt": "2026-11-01T04:01:14.878Z",
-  "count": 1752,
-  "summarized": 1254,
-  "fetched": 433,
-  "newCount": 30,
+  "updatedAt": "2026-11-01T05:01:13.054Z",
+  "count": 1757,
+  "summarized": 1257,
+  "fetched": 434,
+  "newCount": 29,
   "newByCategory": {
-    "보도자료": 1,
-    "경제": 12,
-    "정치": 7,
-    "문화": 2,
-    "IT": 7,
-    "과학": 1
+    "정치": 6,
+    "문화": 4,
+    "경제": 11,
+    "과학": 3,
+    "IT": 5
   },
-  "summarizedNow": 27,
-  "bodyFound": 25,
-  "pdfRead": 1,
+  "summarizedNow": 26,
+  "bodyFound": 22,
+  "pdfRead": 0,
   "hidden": 0,
   "moved": [
+    "정치→경제",
+    "IT→과학",
+    "경제→문화",
+    "경제→문화",
     "IT→경제",
-    "IT→경제",
-    "IT→경제",
-    "과학→IT",
-    "경제→정치"
+    "IT→정치",
+    "IT→경제"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [],
   "concept": null,
-  "spacePhoto": null,
+  "spacePhoto": "달의 다양한 색깔들",
   "newTerms": [
-    "기술특례상장",
-    "의무보유 확약",
-    "여소야대",
-    "HBM4"
+    "외국인 매도세"
   ],
   "keywords": [
     {
@@ -48,7 +46,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 55,
+      "kept": 53,
       "hidden": 26,
       "dead": false
     },
@@ -76,7 +74,7 @@
       "hot": false,
       "fetchedNow": 6,
       "kept": 1,
-      "hidden": 0,
+      "hidden": 1,
       "dead": false
     },
     {
@@ -101,7 +99,7 @@
       "category": "경제",
       "query": "환율",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 6,
       "kept": 67,
       "hidden": 11,
       "dead": false
@@ -129,7 +127,7 @@
       "query": "가상자산 규제",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 14,
+      "kept": 16,
       "hidden": 13,
       "dead": false
     },
@@ -147,7 +145,7 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 16,
+      "kept": 15,
       "hidden": 5,
       "dead": false
     },
@@ -156,7 +154,7 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 9,
+      "kept": 10,
       "hidden": 6,
       "dead": false
     },
@@ -165,8 +163,8 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 43,
-      "hidden": 26,
+      "kept": 44,
+      "hidden": 27,
       "dead": false
     },
     {
@@ -184,7 +182,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 26,
-      "hidden": 37,
+      "hidden": 39,
       "dead": false
     },
     {
@@ -201,7 +199,7 @@
       "query": "보이스피싱",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
+      "kept": 7,
       "hidden": 28,
       "dead": false
     },
@@ -218,7 +216,7 @@
       "category": "경제",
       "query": "보험사 건전성",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 2,
       "hidden": 0,
       "dead": false
@@ -228,7 +226,7 @@
       "query": "상장폐지",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 3,
       "hidden": 2,
       "dead": false
     },
@@ -246,8 +244,8 @@
       "query": "국민연금 기금",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 6,
-      "hidden": 6,
+      "kept": 7,
+      "hidden": 7,
       "dead": false
     },
     {
@@ -318,8 +316,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 121,
-      "hidden": 58,
+      "kept": 125,
+      "hidden": 55,
       "dead": false
     },
     {
@@ -328,7 +326,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 24,
-      "hidden": 36,
+      "hidden": 37,
       "dead": false
     },
     {
@@ -336,7 +334,7 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 48,
+      "kept": 47,
       "hidden": 26,
       "dead": false
     },
@@ -346,7 +344,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 5,
-      "hidden": 4,
+      "hidden": 5,
       "dead": false
     },
     {
@@ -354,16 +352,16 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 26,
-      "hidden": 37,
+      "kept": 25,
+      "hidden": 36,
       "dead": false
     },
     {
       "category": "IT",
       "query": "AI 반도체",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 147,
+      "fetchedNow": 7,
+      "kept": 149,
       "hidden": 36,
       "dead": false
     },
@@ -372,7 +370,7 @@
       "query": "핀테크",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
+      "kept": 7,
       "hidden": 5,
       "dead": false
     },
@@ -390,7 +388,7 @@
       "query": "천문학 연구",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
+      "kept": 9,
       "hidden": 1,
       "dead": false
     },
@@ -408,8 +406,8 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 37,
-      "hidden": 10,
+      "kept": 35,
+      "hidden": 9,
       "dead": false
     },
     {
@@ -426,7 +424,7 @@
       "query": "미술관 전시",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 3,
       "hidden": 3,
       "dead": false
     },
@@ -454,7 +452,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 1,
-      "hidden": 3,
+      "hidden": 2,
       "dead": false
     },
     {
@@ -479,8 +477,8 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 30,
+      "fetchedNow": 5,
+      "kept": 31,
       "hidden": 10,
       "dead": false
     },
