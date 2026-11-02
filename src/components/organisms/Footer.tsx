@@ -5,6 +5,7 @@ import { href } from "../../lib/route";
 import type { NewsItem } from "../../types/news";
 import { GithubIcon } from "../atoms/GithubIcon";
 import { NotifyButton } from "../molecules/NotifyButton";
+import { ThemeSwitch } from "../molecules/ThemeSwitch";
 import { StatRow } from "../molecules/StatRow";
 
 export function Footer({
@@ -76,6 +77,9 @@ export function Footer({
             <StatRow label="Archive">3 days</StatRow>
           </dl>
           <NotifyButton />
+          <div className="mt-6">
+            <ThemeSwitch />
+          </div>
         </div>
       </div>
 

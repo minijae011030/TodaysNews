@@ -50,7 +50,7 @@ export function SpaceFeature({ photo }: { photo: SpacePhoto }) {
             playsInline
             controls
             preload="metadata"
-            className="aspect-3/2 w-full bg-ink object-cover"
+            className="aspect-3/2 w-full bg-black object-cover"
           />
           <figcaption className="mt-1 text-right text-[0.7rem] text-muted">
             {photo.credit}
@@ -63,7 +63,7 @@ export function SpaceFeature({ photo }: { photo: SpacePhoto }) {
             title={photo.title}
             allow="autoplay; encrypted-media; picture-in-picture; fullscreen"
             allowFullScreen
-            className="aspect-video w-full bg-ink"
+            className="aspect-video w-full bg-black"
           />
           <figcaption className="mt-1 text-right text-[0.7rem] text-muted">
             {photo.credit}
