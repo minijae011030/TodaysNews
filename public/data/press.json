@@ -4,7 +4,7 @@
     "id": "faa8bc597e",
     "category": "보도자료",
     "label": "보도자료",
-    "keepDays": 30,
+    "keepDays": 90,
     "title": "글로벌 해킹 위협에 대비한 국내 가상자산사업자의 사고대응력 제고를 위해 긴밀하고 신속하게 대응해 나가겠습니다.",
     "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249686&menuNo=200218",
     "source": "금융감독원",
@@ -22,7 +22,8 @@
     "keyPoints": [
       "글로벌 해킹 위협에 대비한 국내 가상자산사업자의 사고대응력을 제고합니다.",
       "관계기관 및 업계와 긴밀하고 신속하게 대응 체계를 가동합니다."
-    ]
+    ],
+    "attachment": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=bf7a86c51a1e4a79abd5b1ed300c3a23&fileSn=2&bbsId="
   },
   {
     "key": "생산적금융의온기를지방과중소기업까지이어갑니다",
