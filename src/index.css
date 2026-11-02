@@ -25,20 +25,20 @@
    - 아무것도 안 골랐으면(Auto) 기기 설정을 따름 */
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --color-ink: #ececec;
-  --color-ink-soft: #c4c4c4;
-  --color-muted: #959595;
-  --color-rule: #2f2f2f;
-  --color-paper: #121212;
+  --color-ink: #d4d4d4;
+  --color-ink-soft: #ababab;
+  --color-muted: #858585;
+  --color-rule: #333333;
+  --color-paper: #1b1b1b;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     color-scheme: dark;
-    --color-ink: #ececec;
-    --color-ink-soft: #c4c4c4;
-    --color-muted: #959595;
-    --color-rule: #2f2f2f;
-    --color-paper: #121212;
+    --color-ink: #d4d4d4;
+    --color-ink-soft: #ababab;
+    --color-muted: #858585;
+    --color-rule: #333333;
+    --color-paper: #1b1b1b;
   }
 }
 
@@ -160,4 +160,16 @@ html {
 .date-field::-webkit-calendar-picker-indicator {
   opacity: 0.45;
   cursor: pointer;
+}
+
+/* 다크 모드에서 사진·영상이 너무 눈부시지 않게 살짝 어둡게 */
+:root[data-theme="dark"] img,
+:root[data-theme="dark"] video {
+  filter: brightness(0.88);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) img,
+  :root:not([data-theme="light"]) video {
+    filter: brightness(0.88);
+  }
 }
