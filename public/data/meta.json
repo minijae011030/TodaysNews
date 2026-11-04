@@ -1,51 +1,45 @@
 {
-  "updatedAt": "2026-11-04T08:01:31.743Z",
+  "updatedAt": "2026-11-04T09:01:16.875Z",
   "count": 1848,
   "summarized": 1333,
-  "fetched": 451,
-  "newCount": 28,
+  "fetched": 466,
+  "newCount": 29,
   "newByCategory": {
     "경제": 12,
-    "정치": 8,
-    "문화": 2,
-    "IT": 4,
-    "과학": 2
+    "정치": 7,
+    "문화": 3,
+    "과학": 2,
+    "IT": 5
   },
-  "summarizedNow": 25,
+  "summarizedNow": 26,
   "bodyFound": 24,
   "pdfRead": 0,
-  "hidden": 1,
+  "hidden": 0,
   "moved": [
-    "정치→경제",
-    "IT→정치",
-    "IT→정치",
+    "IT→경제",
+    "정치→문화",
     "IT→경제",
     "IT→경제",
+    "경제→정치",
     "IT→정치"
   ],
   "llmFailedBatches": 0,
-  "failedFeeds": [
-    {
-      "category": "보도자료",
-      "source": "https://www.fss.or.kr/fss/bbs/B0000188/list.do?menuNo=200218",
-      "error": "The operation was aborted due to timeout"
-    }
-  ],
+  "failedFeeds": [],
   "concept": null,
   "spacePhoto": null,
   "newTerms": [
-    "컨트롤타워",
-    "셧다운",
-    "부채한도",
-    "행정명령",
-    "가공식품"
+    "외화환산손익",
+    "공공재개발",
+    "용적률",
+    "주가수익스와프",
+    "그림자금융"
   ],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
-      "fetchedNow": 3,
+      "fetchedNow": 7,
       "kept": 77,
       "hidden": 35,
       "dead": false
@@ -55,7 +49,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 39,
+      "kept": 40,
       "hidden": 13,
       "dead": false
     },
@@ -74,14 +68,14 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 16,
-      "hidden": 14,
+      "hidden": 15,
       "dead": false
     },
     {
       "category": "경제",
       "query": "공매도",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 3,
       "hidden": 2,
       "dead": false
@@ -100,7 +94,7 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 23,
+      "kept": 22,
       "hidden": 5,
       "dead": false
     },
@@ -108,9 +102,9 @@
       "category": "경제",
       "query": "환율",
       "hot": false,
-      "fetchedNow": 4,
-      "kept": 62,
-      "hidden": 29,
+      "fetchedNow": 7,
+      "kept": 64,
+      "hidden": 31,
       "dead": false
     },
     {
@@ -163,7 +157,7 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 22,
+      "kept": 23,
       "hidden": 20,
       "dead": false
     },
@@ -171,7 +165,7 @@
       "category": "경제",
       "query": "스테이블코인",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 17,
       "hidden": 16,
       "dead": false
@@ -181,7 +175,7 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 19,
+      "kept": 17,
       "hidden": 10,
       "dead": false
     },
@@ -189,9 +183,9 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 22,
-      "hidden": 20,
+      "fetchedNow": 7,
+      "kept": 21,
+      "hidden": 19,
       "dead": false
     },
     {
@@ -207,9 +201,9 @@
       "category": "경제",
       "query": "보이스피싱",
       "hot": false,
-      "fetchedNow": 2,
+      "fetchedNow": 3,
       "kept": 12,
-      "hidden": 12,
+      "hidden": 14,
       "dead": false
     },
     {
@@ -225,7 +219,7 @@
       "category": "경제",
       "query": "보험사 건전성",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 5,
       "kept": 1,
       "hidden": 2,
       "dead": false
@@ -272,7 +266,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 9,
-      "hidden": 13,
+      "hidden": 11,
       "dead": false
     },
     {
@@ -325,8 +319,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 153,
-      "hidden": 39,
+      "kept": 154,
+      "hidden": 38,
       "dead": false
     },
     {
@@ -334,8 +328,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 18,
-      "hidden": 30,
+      "kept": 17,
+      "hidden": 29,
       "dead": false
     },
     {
@@ -344,7 +338,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 28,
-      "hidden": 24,
+      "hidden": 25,
       "dead": false
     },
     {
@@ -353,7 +347,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 5,
-      "hidden": 8,
+      "hidden": 7,
       "dead": false
     },
     {
@@ -361,17 +355,17 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 48,
-      "hidden": 25,
+      "kept": 50,
+      "hidden": 24,
       "dead": false
     },
     {
       "category": "IT",
       "query": "AI 반도체",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 165,
-      "hidden": 22,
+      "fetchedNow": 4,
+      "kept": 163,
+      "hidden": 21,
       "dead": false
     },
     {
@@ -379,7 +373,7 @@
       "query": "핀테크",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 11,
+      "kept": 10,
       "hidden": 6,
       "dead": false
     },
@@ -414,9 +408,9 @@
       "category": "과학",
       "query": "과학 연구 성과",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 49,
-      "hidden": 25,
+      "hidden": 26,
       "dead": false
     },
     {
@@ -468,7 +462,7 @@
       "category": "문화",
       "query": "베스트셀러",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 3,
       "hidden": 1,
       "dead": false
@@ -478,7 +472,7 @@
       "query": "영화 개봉",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 12,
+      "kept": 14,
       "hidden": 7,
       "dead": false
     },
@@ -486,8 +480,8 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 40,
+      "fetchedNow": 6,
+      "kept": 38,
       "hidden": 10,
       "dead": false
     },
@@ -524,7 +518,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 1,
+      "hidden": 2,
       "dead": false
     },
     {
@@ -541,7 +535,7 @@
       "query": "삼성 SDS 데이터센터",
       "hot": true,
       "fetchedNow": 5,
-      "kept": 1,
+      "kept": 2,
       "hidden": 0,
       "dead": false
     },
