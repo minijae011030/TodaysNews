@@ -1,42 +1,41 @@
 {
-  "updatedAt": "2026-11-04T00:01:18.699Z",
-  "count": 1833,
-  "summarized": 1331,
-  "fetched": 469,
+  "updatedAt": "2026-11-04T01:02:11.731Z",
+  "count": 1838,
+  "summarized": 1332,
+  "fetched": 454,
   "newCount": 28,
   "newByCategory": {
-    "경제": 16,
-    "정치": 4,
-    "문화": 2,
-    "IT": 4,
-    "과학": 2
+    "IT": 5,
+    "과학": 2,
+    "경제": 12,
+    "정치": 6,
+    "문화": 3
   },
   "summarizedNow": 25,
-  "bodyFound": 24,
+  "bodyFound": 20,
   "pdfRead": 0,
-  "hidden": 0,
+  "hidden": 1,
   "moved": [
-    "정치→경제",
     "IT→경제",
-    "정치→경제",
-    "IT→경제",
-    "IT→경제",
-    "IT→과학",
-    "IT→경제"
+    "IT→문화",
+    "IT→정치",
+    "정치→경제"
   ],
   "llmFailedBatches": 0,
-  "failedFeeds": [],
+  "failedFeeds": [
+    {
+      "category": "보도자료",
+      "source": "https://www.fss.or.kr/fss/bbs/B0000188/list.do?menuNo=200218",
+      "error": "The operation was aborted due to timeout"
+    }
+  ],
   "concept": null,
   "spacePhoto": null,
   "newTerms": [
-    "온디바이스 AI",
-    "모듈러주택",
-    "패키징",
-    "정책금융상품",
-    "증권선물",
-    "멀티모달 AI",
-    "금융중개지원대출",
-    "정비충당부채"
+    "인허가",
+    "정보 비대칭",
+    "자본 규제",
+    "합병"
   ],
   "keywords": [
     {
@@ -44,8 +43,8 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 79,
-      "hidden": 33,
+      "kept": 80,
+      "hidden": 35,
       "dead": false
     },
     {
@@ -53,7 +52,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 43,
+      "kept": 42,
       "hidden": 13,
       "dead": false
     },
@@ -71,8 +70,8 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 13,
-      "hidden": 11,
+      "kept": 15,
+      "hidden": 12,
       "dead": false
     },
     {
@@ -97,8 +96,8 @@
       "category": "경제",
       "query": "미국 연준",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 23,
+      "fetchedNow": 6,
+      "kept": 24,
       "hidden": 3,
       "dead": false
     },
@@ -106,8 +105,8 @@
       "category": "경제",
       "query": "환율",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 55,
+      "fetchedNow": 3,
+      "kept": 56,
       "hidden": 28,
       "dead": false
     },
@@ -152,7 +151,7 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 40,
+      "kept": 39,
       "hidden": 13,
       "dead": false
     },
@@ -170,8 +169,8 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 26,
-      "hidden": 17,
+      "kept": 23,
+      "hidden": 18,
       "dead": false
     },
     {
@@ -179,17 +178,17 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 23,
-      "hidden": 9,
+      "kept": 22,
+      "hidden": 10,
       "dead": false
     },
     {
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 24,
-      "hidden": 29,
+      "fetchedNow": 5,
+      "kept": 25,
+      "hidden": 26,
       "dead": false
     },
     {
@@ -205,9 +204,9 @@
       "category": "경제",
       "query": "보이스피싱",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 5,
       "kept": 5,
-      "hidden": 7,
+      "hidden": 9,
       "dead": false
     },
     {
@@ -223,9 +222,9 @@
       "category": "경제",
       "query": "보험사 건전성",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 7,
       "kept": 1,
-      "hidden": 0,
+      "hidden": 2,
       "dead": false
     },
     {
@@ -233,7 +232,7 @@
       "query": "상장폐지",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 5,
       "hidden": 2,
       "dead": false
     },
@@ -252,7 +251,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 11,
-      "hidden": 15,
+      "hidden": 14,
       "dead": false
     },
     {
@@ -269,7 +268,7 @@
       "query": "여야 충돌",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 11,
+      "kept": 10,
       "hidden": 13,
       "dead": false
     },
@@ -296,8 +295,8 @@
       "query": "국정감사 공방",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
-      "hidden": 6,
+      "kept": 2,
+      "hidden": 4,
       "dead": false
     },
     {
@@ -323,8 +322,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 157,
-      "hidden": 42,
+      "kept": 159,
+      "hidden": 41,
       "dead": false
     },
     {
@@ -332,8 +331,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 18,
-      "hidden": 36,
+      "kept": 17,
+      "hidden": 35,
       "dead": false
     },
     {
@@ -341,7 +340,7 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 27,
+      "kept": 28,
       "hidden": 29,
       "dead": false
     },
@@ -359,7 +358,7 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 46,
+      "kept": 48,
       "hidden": 26,
       "dead": false
     },
@@ -367,8 +366,8 @@
       "category": "IT",
       "query": "AI 반도체",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 165,
+      "fetchedNow": 4,
+      "kept": 162,
       "hidden": 28,
       "dead": false
     },
@@ -412,8 +411,8 @@
       "category": "과학",
       "query": "과학 연구 성과",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 45,
+      "fetchedNow": 6,
+      "kept": 46,
       "hidden": 19,
       "dead": false
     },
@@ -448,8 +447,8 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 13,
+      "fetchedNow": 6,
+      "kept": 12,
       "hidden": 12,
       "dead": false
     },
@@ -468,15 +467,15 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 3,
-      "hidden": 0,
+      "hidden": 1,
       "dead": false
     },
     {
       "category": "문화",
       "query": "영화 개봉",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 9,
+      "fetchedNow": 7,
+      "kept": 11,
       "hidden": 4,
       "dead": false
     },
@@ -484,8 +483,8 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 4,
-      "kept": 44,
+      "fetchedNow": 7,
+      "kept": 43,
       "hidden": 10,
       "dead": false
     },
@@ -493,7 +492,7 @@
       "category": "경제",
       "query": "쿠팡 물류센터 화재",
       "hot": true,
-      "fetchedNow": 6,
+      "fetchedNow": 3,
       "kept": 0,
       "hidden": 3,
       "dead": false
@@ -531,7 +530,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 2,
-      "hidden": 0,
+      "hidden": 2,
       "dead": false
     },
     {
