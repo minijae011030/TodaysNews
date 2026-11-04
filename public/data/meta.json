@@ -1,21 +1,19 @@
 {
-  "updatedAt": "2026-11-04T22:02:32.523Z",
-  "count": 1781,
-  "summarized": 1281,
-  "fetched": 467,
-  "newCount": 25,
+  "updatedAt": "2026-11-04T23:01:19.345Z",
+  "count": 1780,
+  "summarized": 1284,
+  "fetched": 458,
+  "newCount": 28,
   "newByCategory": {
-    "경제": 14,
+    "경제": 15,
+    "정치": 5,
     "문화": 2,
-    "IT": 4,
-    "정치": 2,
-    "과학": 2,
-    "보도자료": 1
+    "IT": 6
   },
   "summarizedNow": 22,
-  "bodyFound": 20,
-  "pdfRead": 1,
-  "hidden": 5,
+  "bodyFound": 22,
+  "pdfRead": 0,
+  "hidden": 3,
   "moved": [
     "IT→경제",
     "IT→경제",
@@ -24,19 +22,29 @@
     "IT→경제"
   ],
   "llmFailedBatches": 0,
-  "failedFeeds": [],
-  "concept": "코너스톤투자자 제도",
+  "failedFeeds": [
+    {
+      "category": "경제",
+      "source": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "error": "Status code 404"
+    }
+  ],
+  "concept": null,
   "spacePhoto": null,
   "newTerms": [
-    "인사 인준"
+    "블루웨이브",
+    "피크아웃",
+    "분점 정부",
+    "필리버스터",
+    "감가상각"
   ],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 74,
+      "fetchedNow": 4,
+      "kept": 73,
       "hidden": 36,
       "dead": false
     },
@@ -45,7 +53,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 39,
+      "kept": 38,
       "hidden": 13,
       "dead": false
     },
@@ -72,7 +80,7 @@
       "query": "공매도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
+      "kept": 4,
       "hidden": 0,
       "dead": false
     },
@@ -90,8 +98,8 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 21,
-      "hidden": 5,
+      "kept": 24,
+      "hidden": 6,
       "dead": false
     },
     {
@@ -99,8 +107,8 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 61,
-      "hidden": 31,
+      "kept": 63,
+      "hidden": 32,
       "dead": false
     },
     {
@@ -126,7 +134,7 @@
       "query": "가상자산 규제",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
+      "kept": 7,
       "hidden": 6,
       "dead": false
     },
@@ -144,7 +152,7 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 40,
+      "kept": 41,
       "hidden": 17,
       "dead": false
     },
@@ -163,7 +171,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 13,
-      "hidden": 13,
+      "hidden": 10,
       "dead": false
     },
     {
@@ -171,16 +179,16 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 17,
-      "hidden": 10,
+      "kept": 15,
+      "hidden": 9,
       "dead": false
     },
     {
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 20,
+      "fetchedNow": 5,
+      "kept": 19,
       "hidden": 17,
       "dead": false
     },
@@ -224,7 +232,7 @@
       "category": "경제",
       "query": "상장폐지",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 3,
       "hidden": 2,
       "dead": false
@@ -243,7 +251,7 @@
       "query": "국민연금 기금",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 9,
+      "kept": 8,
       "hidden": 11,
       "dead": false
     },
@@ -262,7 +270,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 8,
-      "hidden": 11,
+      "hidden": 10,
       "dead": false
     },
     {
@@ -280,7 +288,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 1,
+      "hidden": 0,
       "dead": true
     },
     {
@@ -315,8 +323,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 141,
-      "hidden": 42,
+      "kept": 144,
+      "hidden": 40,
       "dead": false
     },
     {
@@ -351,8 +359,8 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 49,
-      "hidden": 23,
+      "kept": 51,
+      "hidden": 22,
       "dead": false
     },
     {
@@ -361,7 +369,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 156,
-      "hidden": 19,
+      "hidden": 18,
       "dead": false
     },
     {
@@ -369,7 +377,7 @@
       "query": "핀테크",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 9,
+      "kept": 8,
       "hidden": 5,
       "dead": false
     },
@@ -388,7 +396,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 13,
-      "hidden": 3,
+      "hidden": 4,
       "dead": false
     },
     {
@@ -404,9 +412,9 @@
       "category": "과학",
       "query": "과학 연구 성과",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 6,
       "kept": 48,
-      "hidden": 25,
+      "hidden": 26,
       "dead": false
     },
     {
@@ -441,7 +449,7 @@
       "query": "연극",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 12,
+      "kept": 11,
       "hidden": 11,
       "dead": false
     },
@@ -469,7 +477,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 13,
-      "hidden": 6,
+      "hidden": 7,
       "dead": false
     },
     {
@@ -477,7 +485,7 @@
       "query": "드라마",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 34,
+      "kept": 35,
       "hidden": 7,
       "dead": false
     },
