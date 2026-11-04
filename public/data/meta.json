@@ -1,24 +1,27 @@
 {
-  "updatedAt": "2026-11-03T23:01:21.158Z",
-  "count": 1840,
-  "summarized": 1330,
+  "updatedAt": "2026-11-04T00:01:18.699Z",
+  "count": 1833,
+  "summarized": 1331,
   "fetched": 469,
-  "newCount": 26,
+  "newCount": 28,
   "newByCategory": {
+    "경제": 16,
+    "정치": 4,
     "문화": 2,
-    "경제": 13,
-    "IT": 5,
-    "정치": 5,
-    "과학": 1
+    "IT": 4,
+    "과학": 2
   },
-  "summarizedNow": 23,
-  "bodyFound": 22,
+  "summarizedNow": 25,
+  "bodyFound": 24,
   "pdfRead": 0,
-  "hidden": 2,
+  "hidden": 0,
   "moved": [
+    "정치→경제",
+    "IT→경제",
+    "정치→경제",
     "IT→경제",
     "IT→경제",
-    "IT→경제",
+    "IT→과학",
     "IT→경제"
   ],
   "llmFailedBatches": 0,
@@ -26,16 +29,21 @@
   "concept": null,
   "spacePhoto": null,
   "newTerms": [
-    "배당수익률",
-    "사회공학",
-    "구인건수"
+    "온디바이스 AI",
+    "모듈러주택",
+    "패키징",
+    "정책금융상품",
+    "증권선물",
+    "멀티모달 AI",
+    "금융중개지원대출",
+    "정비충당부채"
   ],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 7,
       "kept": 79,
       "hidden": 33,
       "dead": false
@@ -45,7 +53,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 42,
+      "kept": 43,
       "hidden": 13,
       "dead": false
     },
@@ -63,7 +71,7 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 12,
+      "kept": 13,
       "hidden": 11,
       "dead": false
     },
@@ -98,8 +106,8 @@
       "category": "경제",
       "query": "환율",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 53,
+      "fetchedNow": 6,
+      "kept": 55,
       "hidden": 28,
       "dead": false
     },
@@ -108,7 +116,7 @@
       "query": "국회 정무위원회",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 11,
+      "kept": 12,
       "hidden": 11,
       "dead": false
     },
@@ -125,9 +133,9 @@
       "category": "경제",
       "query": "가상자산 규제",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 10,
-      "hidden": 7,
+      "hidden": 6,
       "dead": false
     },
     {
@@ -144,7 +152,7 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 39,
+      "kept": 40,
       "hidden": 13,
       "dead": false
     },
@@ -162,8 +170,8 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 28,
-      "hidden": 20,
+      "kept": 26,
+      "hidden": 17,
       "dead": false
     },
     {
@@ -171,8 +179,8 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 24,
-      "hidden": 8,
+      "kept": 23,
+      "hidden": 9,
       "dead": false
     },
     {
@@ -180,8 +188,8 @@
       "query": "비트코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 25,
-      "hidden": 31,
+      "kept": 24,
+      "hidden": 29,
       "dead": false
     },
     {
@@ -197,8 +205,8 @@
       "category": "경제",
       "query": "보이스피싱",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 4,
+      "fetchedNow": 7,
+      "kept": 5,
       "hidden": 7,
       "dead": false
     },
@@ -215,8 +223,8 @@
       "category": "경제",
       "query": "보험사 건전성",
       "hot": false,
-      "fetchedNow": 3,
-      "kept": 2,
+      "fetchedNow": 5,
+      "kept": 1,
       "hidden": 0,
       "dead": false
     },
@@ -243,7 +251,7 @@
       "query": "국민연금 기금",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 12,
+      "kept": 11,
       "hidden": 15,
       "dead": false
     },
@@ -315,8 +323,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 156,
-      "hidden": 43,
+      "kept": 157,
+      "hidden": 42,
       "dead": false
     },
     {
@@ -324,7 +332,7 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 21,
+      "kept": 18,
       "hidden": 36,
       "dead": false
     },
@@ -333,7 +341,7 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 26,
+      "kept": 27,
       "hidden": 29,
       "dead": false
     },
@@ -360,7 +368,7 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 162,
+      "kept": 165,
       "hidden": 28,
       "dead": false
     },
@@ -387,7 +395,7 @@
       "query": "천문학 연구",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 15,
+      "kept": 14,
       "hidden": 2,
       "dead": false
     },
@@ -406,7 +414,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 45,
-      "hidden": 20,
+      "hidden": 19,
       "dead": false
     },
     {
@@ -423,7 +431,7 @@
       "query": "미술관 전시",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 7,
+      "kept": 8,
       "hidden": 0,
       "dead": false
     },
@@ -440,9 +448,9 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 5,
       "kept": 13,
-      "hidden": 13,
+      "hidden": 12,
       "dead": false
     },
     {
@@ -459,7 +467,7 @@
       "query": "베스트셀러",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 2,
+      "kept": 3,
       "hidden": 0,
       "dead": false
     },
@@ -467,8 +475,8 @@
       "category": "문화",
       "query": "영화 개봉",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 11,
+      "fetchedNow": 6,
+      "kept": 9,
       "hidden": 4,
       "dead": false
     },
@@ -476,18 +484,18 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 4,
       "kept": 44,
-      "hidden": 11,
+      "hidden": 10,
       "dead": false
     },
     {
       "category": "경제",
       "query": "쿠팡 물류센터 화재",
       "hot": true,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 0,
-      "hidden": 2,
+      "hidden": 3,
       "dead": false
     },
     {
@@ -522,7 +530,7 @@
       "query": "조작기소 특검법",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 0,
+      "kept": 2,
       "hidden": 0,
       "dead": false
     },
