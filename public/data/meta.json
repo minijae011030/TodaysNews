@@ -1,51 +1,39 @@
 {
-  "updatedAt": "2026-11-04T05:01:14.771Z",
-  "count": 1847,
-  "summarized": 1330,
-  "fetched": 462,
-  "newCount": 28,
+  "updatedAt": "2026-11-04T06:01:17.755Z",
+  "count": 1843,
+  "summarized": 1323,
+  "fetched": 457,
+  "newCount": 29,
   "newByCategory": {
-    "경제": 14,
-    "정치": 6,
-    "과학": 2,
+    "경제": 12,
+    "IT": 7,
     "문화": 2,
-    "IT": 4
+    "정치": 6,
+    "과학": 2
   },
-  "summarizedNow": 25,
-  "bodyFound": 24,
+  "summarizedNow": 18,
+  "bodyFound": 13,
   "pdfRead": 0,
-  "hidden": 2,
+  "hidden": 0,
   "moved": [
     "IT→경제",
-    "IT→경제",
-    "경제→정치",
-    "IT→경제",
-    "IT→과학",
-    "과학→경제",
-    "IT→경제",
-    "IT→정치"
+    "IT→경제"
   ],
-  "llmFailedBatches": 0,
+  "llmFailedBatches": 1,
   "failedFeeds": [],
   "concept": null,
-  "spacePhoto": null,
+  "spacePhoto": "숨겨지지 않은 은하, IC 342",
   "newTerms": [
-    "재대출",
-    "스와프",
-    "T+2 제도",
-    "외화 환산 손실",
-    "딥테크",
-    "품절주",
-    "계속사업"
+    "영업손실"
   ],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 74,
-      "hidden": 37,
+      "fetchedNow": 5,
+      "kept": 73,
+      "hidden": 35,
       "dead": false
     },
     {
@@ -71,7 +59,7 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 17,
+      "kept": 15,
       "hidden": 13,
       "dead": false
     },
@@ -89,7 +77,7 @@
       "query": "불공정거래",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
+      "kept": 10,
       "hidden": 12,
       "dead": false
     },
@@ -106,17 +94,17 @@
       "category": "경제",
       "query": "환율",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 59,
-      "hidden": 30,
+      "fetchedNow": 7,
+      "kept": 61,
+      "hidden": 29,
       "dead": false
     },
     {
       "category": "경제",
       "query": "국회 정무위원회",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 14,
+      "fetchedNow": 6,
+      "kept": 15,
       "hidden": 12,
       "dead": false
     },
@@ -161,7 +149,7 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 22,
+      "kept": 23,
       "hidden": 20,
       "dead": false
     },
@@ -169,9 +157,9 @@
       "category": "경제",
       "query": "스테이블코인",
       "hot": false,
-      "fetchedNow": 4,
-      "kept": 19,
-      "hidden": 19,
+      "fetchedNow": 5,
+      "kept": 18,
+      "hidden": 18,
       "dead": false
     },
     {
@@ -187,9 +175,9 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 2,
+      "fetchedNow": 7,
       "kept": 25,
-      "hidden": 20,
+      "hidden": 21,
       "dead": false
     },
     {
@@ -205,9 +193,9 @@
       "category": "경제",
       "query": "보이스피싱",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 4,
       "kept": 12,
-      "hidden": 10,
+      "hidden": 11,
       "dead": false
     },
     {
@@ -234,14 +222,14 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 5,
-      "hidden": 2,
+      "hidden": 3,
       "dead": false
     },
     {
       "category": "경제",
       "query": "사모펀드 MBK",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 4,
       "kept": 0,
       "hidden": 0,
       "dead": true
@@ -269,8 +257,8 @@
       "query": "여야 충돌",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 9,
-      "hidden": 14,
+      "kept": 10,
+      "hidden": 13,
       "dead": false
     },
     {
@@ -279,7 +267,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 1,
-      "hidden": 6,
+      "hidden": 9,
       "dead": false
     },
     {
@@ -323,8 +311,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 156,
-      "hidden": 40,
+      "kept": 155,
+      "hidden": 38,
       "dead": false
     },
     {
@@ -332,8 +320,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 17,
-      "hidden": 32,
+      "kept": 18,
+      "hidden": 31,
       "dead": false
     },
     {
@@ -341,8 +329,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 26,
-      "hidden": 27,
+      "kept": 25,
+      "hidden": 26,
       "dead": false
     },
     {
@@ -358,7 +346,7 @@
       "category": "IT",
       "query": "해킹 개인정보 유출",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 4,
       "kept": 47,
       "hidden": 25,
       "dead": false
@@ -368,8 +356,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 165,
-      "hidden": 26,
+      "kept": 166,
+      "hidden": 24,
       "dead": false
     },
     {
@@ -386,7 +374,7 @@
       "query": "구글 애플 인앱결제",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
+      "kept": 2,
       "hidden": 0,
       "dead": false
     },
@@ -394,7 +382,7 @@
       "category": "과학",
       "query": "천문학 연구",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 14,
       "hidden": 2,
       "dead": false
@@ -413,8 +401,8 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 47,
-      "hidden": 24,
+      "kept": 45,
+      "hidden": 25,
       "dead": false
     },
     {
@@ -422,7 +410,7 @@
       "query": "노벨상",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
+      "kept": 4,
       "hidden": 2,
       "dead": false
     },
@@ -440,7 +428,7 @@
       "query": "클래식 공연",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
+      "kept": 4,
       "hidden": 1,
       "dead": false
     },
@@ -466,7 +454,7 @@
       "category": "문화",
       "query": "베스트셀러",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 4,
       "kept": 3,
       "hidden": 1,
       "dead": false
@@ -475,7 +463,7 @@
       "category": "문화",
       "query": "영화 개봉",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 12,
       "hidden": 7,
       "dead": false
@@ -485,7 +473,7 @@
       "query": "드라마",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 41,
+      "kept": 40,
       "hidden": 10,
       "dead": false
     },
@@ -512,9 +500,9 @@
       "query": "코스피 6000선 회복",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 1,
+      "kept": 0,
       "hidden": 0,
-      "dead": false
+      "dead": true
     },
     {
       "category": "정치",
