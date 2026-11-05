@@ -1,26 +1,25 @@
 {
-  "updatedAt": "2026-11-05T01:01:18.411Z",
-  "count": 1780,
-  "summarized": 1291,
-  "fetched": 449,
+  "updatedAt": "2026-11-05T02:01:27.964Z",
+  "count": 1783,
+  "summarized": 1289,
+  "fetched": 456,
   "newCount": 32,
   "newByCategory": {
-    "보도자료": 1,
-    "경제": 13,
     "정치": 7,
-    "IT": 7,
-    "문화": 1,
-    "과학": 3
+    "문화": 3,
+    "경제": 10,
+    "IT": 10,
+    "과학": 2
   },
-  "summarizedNow": 27,
-  "bodyFound": 25,
-  "pdfRead": 1,
+  "summarizedNow": 23,
+  "bodyFound": 24,
+  "pdfRead": 0,
   "hidden": 0,
   "moved": [
-    "문화→정치",
+    "경제→정치",
     "IT→경제",
-    "IT→경제",
-    "IT→경제",
+    "경제→문화",
+    "과학→경제",
     "IT→과학"
   ],
   "llmFailedBatches": 0,
@@ -28,16 +27,15 @@
   "concept": null,
   "spacePhoto": null,
   "newTerms": [
-    "합동대응단",
-    "기업결합"
+    "체크리스트"
   ],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
-      "fetchedNow": 2,
-      "kept": 73,
+      "fetchedNow": 4,
+      "kept": 74,
       "hidden": 37,
       "dead": false
     },
@@ -65,7 +63,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 16,
-      "hidden": 13,
+      "hidden": 10,
       "dead": false
     },
     {
@@ -73,7 +71,7 @@
       "query": "공매도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 3,
       "hidden": 0,
       "dead": false
     },
@@ -91,8 +89,8 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 23,
-      "hidden": 4,
+      "kept": 24,
+      "hidden": 3,
       "dead": false
     },
     {
@@ -101,7 +99,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 61,
-      "hidden": 32,
+      "hidden": 33,
       "dead": false
     },
     {
@@ -126,8 +124,8 @@
       "category": "경제",
       "query": "가상자산 규제",
       "hot": false,
-      "fetchedNow": 4,
-      "kept": 7,
+      "fetchedNow": 5,
+      "kept": 6,
       "hidden": 6,
       "dead": false
     },
@@ -144,8 +142,8 @@
       "category": "경제",
       "query": "코스피 외국인",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 38,
+      "fetchedNow": 7,
+      "kept": 35,
       "hidden": 16,
       "dead": false
     },
@@ -153,7 +151,7 @@
       "category": "경제",
       "query": "소비자물가",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 23,
       "hidden": 21,
       "dead": false
@@ -163,8 +161,8 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 14,
-      "hidden": 8,
+      "kept": 15,
+      "hidden": 9,
       "dead": false
     },
     {
@@ -172,17 +170,17 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 15,
-      "hidden": 10,
+      "kept": 16,
+      "hidden": 11,
       "dead": false
     },
     {
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 3,
-      "kept": 21,
-      "hidden": 20,
+      "fetchedNow": 7,
+      "kept": 23,
+      "hidden": 22,
       "dead": false
     },
     {
@@ -198,9 +196,9 @@
       "category": "경제",
       "query": "보이스피싱",
       "hot": false,
-      "fetchedNow": 3,
+      "fetchedNow": 5,
       "kept": 15,
-      "hidden": 15,
+      "hidden": 16,
       "dead": false
     },
     {
@@ -245,7 +243,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 8,
-      "hidden": 11,
+      "hidden": 10,
       "dead": false
     },
     {
@@ -271,7 +269,7 @@
       "query": "국회 본회의 강행",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
+      "kept": 4,
       "hidden": 12,
       "dead": false
     },
@@ -307,7 +305,7 @@
       "query": "원내대표 회동",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 2,
+      "kept": 3,
       "hidden": 1,
       "dead": false
     },
@@ -316,8 +314,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 139,
-      "hidden": 40,
+      "kept": 137,
+      "hidden": 41,
       "dead": false
     },
     {
@@ -325,8 +323,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 16,
-      "hidden": 26,
+      "kept": 17,
+      "hidden": 25,
       "dead": false
     },
     {
@@ -334,8 +332,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 28,
-      "hidden": 22,
+      "kept": 27,
+      "hidden": 23,
       "dead": false
     },
     {
@@ -344,7 +342,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 5,
-      "hidden": 7,
+      "hidden": 5,
       "dead": false
     },
     {
@@ -352,7 +350,7 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 51,
+      "kept": 52,
       "hidden": 22,
       "dead": false
     },
@@ -370,7 +368,7 @@
       "query": "핀테크",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 7,
+      "kept": 6,
       "hidden": 7,
       "dead": false
     },
@@ -405,9 +403,9 @@
       "category": "과학",
       "query": "과학 연구 성과",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 7,
       "kept": 49,
-      "hidden": 24,
+      "hidden": 25,
       "dead": false
     },
     {
@@ -432,8 +430,8 @@
       "category": "문화",
       "query": "클래식 공연",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 3,
+      "fetchedNow": 4,
+      "kept": 4,
       "hidden": 1,
       "dead": false
     },
@@ -441,9 +439,9 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 10,
-      "hidden": 9,
+      "fetchedNow": 5,
+      "kept": 9,
+      "hidden": 8,
       "dead": false
     },
     {
@@ -459,7 +457,7 @@
       "category": "문화",
       "query": "베스트셀러",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 5,
       "kept": 3,
       "hidden": 1,
       "dead": false
@@ -477,7 +475,7 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 7,
       "kept": 36,
       "hidden": 7,
       "dead": false
@@ -523,8 +521,8 @@
       "query": "조작기소 특검법",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 7,
-      "hidden": 7,
+      "kept": 8,
+      "hidden": 8,
       "dead": false
     },
     {
