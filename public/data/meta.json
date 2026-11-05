@@ -1,49 +1,55 @@
 {
-  "updatedAt": "2026-11-05T22:09:55.024Z",
-  "count": 1812,
-  "summarized": 1229,
-  "fetched": 463,
-  "newCount": 29,
+  "updatedAt": "2026-11-05T23:06:22.273Z",
+  "count": 1811,
+  "summarized": 1249,
+  "fetched": 460,
+  "newCount": 30,
   "newByCategory": {
-    "문화": 2,
-    "경제": 11,
-    "정치": 5,
-    "IT": 9,
-    "과학": 2
+    "경제": 14,
+    "IT": 10,
+    "문화": 3,
+    "정치": 2,
+    "과학": 1
   },
-  "summarizedNow": 43,
-  "bodyFound": 42,
+  "summarizedNow": 46,
+  "bodyFound": 44,
   "pdfRead": 0,
-  "hidden": 2,
+  "hidden": 4,
   "moved": [
-    "정치→경제",
     "IT→경제",
+    "정치→문화",
+    "정치→경제",
+    "정치→IT",
     "IT→경제",
+    "과학→경제",
+    "IT→정치",
     "IT→경제",
-    "정치→경제",
-    "IT→경제",
-    "IT→경제",
-    "정치→경제",
-    "과학→정치",
-    "정치→경제",
-    "정치→경제",
-    "정치→경제",
-    "과학→문화",
     "IT→경제",
     "IT→경제"
   ],
-  "llmFailedBatches": 9,
+  "llmFailedBatches": 6,
   "failedFeeds": [],
-  "concept": "기업지배구조보고서 공시",
+  "concept": null,
   "spacePhoto": null,
-  "newTerms": [],
+  "newTerms": [
+    "모라토리엄",
+    "최종호가수익률",
+    "손실이월공제",
+    "하이브리드차",
+    "매출원가율",
+    "마진콜",
+    "모듈화",
+    "시간외매매",
+    "거부권",
+    "무역법 301조"
+  ],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 71,
+      "fetchedNow": 3,
+      "kept": 73,
       "hidden": 33,
       "dead": false
     },
@@ -52,7 +58,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 41,
+      "kept": 40,
       "hidden": 10,
       "dead": false
     },
@@ -71,7 +77,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 15,
-      "hidden": 8,
+      "hidden": 7,
       "dead": false
     },
     {
@@ -98,7 +104,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 24,
-      "hidden": 3,
+      "hidden": 4,
       "dead": false
     },
     {
@@ -106,7 +112,7 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 77,
+      "kept": 75,
       "hidden": 25,
       "dead": false
     },
@@ -133,8 +139,8 @@
       "query": "가상자산 규제",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 7,
-      "hidden": 11,
+      "kept": 9,
+      "hidden": 12,
       "dead": false
     },
     {
@@ -151,7 +157,7 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 29,
+      "kept": 30,
       "hidden": 21,
       "dead": false
     },
@@ -160,7 +166,7 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 24,
+      "kept": 22,
       "hidden": 21,
       "dead": false
     },
@@ -169,7 +175,7 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 15,
+      "kept": 14,
       "hidden": 12,
       "dead": false
     },
@@ -178,15 +184,15 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 15,
-      "hidden": 13,
+      "kept": 16,
+      "hidden": 14,
       "dead": false
     },
     {
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 4,
       "kept": 16,
       "hidden": 21,
       "dead": false
@@ -269,7 +275,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 8,
-      "hidden": 15,
+      "hidden": 14,
       "dead": false
     },
     {
@@ -331,8 +337,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 15,
-      "hidden": 21,
+      "kept": 13,
+      "hidden": 24,
       "dead": false
     },
     {
@@ -341,7 +347,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 34,
-      "hidden": 25,
+      "hidden": 24,
       "dead": false
     },
     {
@@ -349,7 +355,7 @@
       "query": "개발자 채용",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 6,
+      "kept": 7,
       "hidden": 5,
       "dead": false
     },
@@ -358,8 +364,8 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 50,
-      "hidden": 31,
+      "kept": 47,
+      "hidden": 30,
       "dead": false
     },
     {
@@ -367,8 +373,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 159,
-      "hidden": 14,
+      "kept": 161,
+      "hidden": 11,
       "dead": false
     },
     {
@@ -377,7 +383,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 6,
-      "hidden": 6,
+      "hidden": 8,
       "dead": false
     },
     {
@@ -412,7 +418,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 48,
+      "kept": 49,
       "hidden": 22,
       "dead": false
     },
@@ -438,7 +444,7 @@
       "category": "문화",
       "query": "클래식 공연",
       "hot": false,
-      "fetchedNow": 0,
+      "fetchedNow": 2,
       "kept": 5,
       "hidden": 1,
       "dead": false
@@ -501,7 +507,7 @@
       "category": "경제",
       "query": "증권사 해킹 사고",
       "hot": true,
-      "fetchedNow": 4,
+      "fetchedNow": 5,
       "kept": 1,
       "hidden": 3,
       "dead": false
@@ -530,7 +536,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 10,
-      "hidden": 12,
+      "hidden": 13,
       "dead": false
     },
     {
