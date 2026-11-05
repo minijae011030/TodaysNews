@@ -1,34 +1,46 @@
 {
-  "updatedAt": "2026-11-05T06:03:10.239Z",
-  "count": 1800,
+  "updatedAt": "2026-11-05T07:01:51.778Z",
+  "count": 1805,
   "summarized": 1292,
-  "fetched": 461,
-  "newCount": 29,
+  "fetched": 455,
+  "newCount": 30,
   "newByCategory": {
-    "정치": 5,
-    "과학": 2,
-    "경제": 14,
     "문화": 2,
-    "IT": 6
+    "경제": 12,
+    "정치": 7,
+    "과학": 2,
+    "IT": 7
   },
-  "summarizedNow": 24,
-  "bodyFound": 23,
+  "summarizedNow": 25,
+  "bodyFound": 24,
   "pdfRead": 0,
-  "hidden": 2,
+  "hidden": 1,
   "moved": [
     "IT→경제",
-    "정치→문화",
-    "정치→경제",
+    "IT→과학",
     "IT→경제",
-    "IT→정치",
     "IT→경제",
-    "IT→경제"
+    "과학→정치"
   ],
   "llmFailedBatches": 0,
-  "failedFeeds": [],
+  "failedFeeds": [
+    {
+      "category": "IT",
+      "source": "https://medium.com/feed/daangn",
+      "error": "Status code 504"
+    }
+  ],
   "concept": null,
-  "spacePhoto": "실루엣으로 드러난 토성의 위성 엔켈라두스",
-  "newTerms": [],
+  "spacePhoto": null,
+  "newTerms": [
+    "규제 정책",
+    "공시",
+    "계열사",
+    "최대주주",
+    "LTV",
+    "순손실",
+    "에너지저장장치"
+  ],
   "keywords": [
     {
       "category": "경제",
@@ -44,8 +56,8 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 36,
-      "hidden": 13,
+      "kept": 35,
+      "hidden": 10,
       "dead": false
     },
     {
@@ -62,7 +74,7 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 15,
+      "kept": 16,
       "hidden": 8,
       "dead": false
     },
@@ -80,7 +92,7 @@
       "query": "불공정거래",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
+      "kept": 9,
       "hidden": 12,
       "dead": false
     },
@@ -98,7 +110,7 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 69,
+      "kept": 72,
       "hidden": 35,
       "dead": false
     },
@@ -108,7 +120,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 14,
-      "hidden": 13,
+      "hidden": 14,
       "dead": false
     },
     {
@@ -134,7 +146,7 @@
       "query": "은행 대출 규제",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 3,
       "hidden": 0,
       "dead": false
     },
@@ -143,8 +155,8 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 33,
-      "hidden": 19,
+      "kept": 30,
+      "hidden": 22,
       "dead": false
     },
     {
@@ -170,15 +182,15 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 12,
-      "hidden": 12,
+      "kept": 13,
+      "hidden": 14,
       "dead": false
     },
     {
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 2,
+      "fetchedNow": 4,
       "kept": 20,
       "hidden": 21,
       "dead": false
@@ -225,14 +237,14 @@
       "hot": false,
       "fetchedNow": 5,
       "kept": 3,
-      "hidden": 2,
+      "hidden": 1,
       "dead": false
     },
     {
       "category": "경제",
       "query": "사모펀드 MBK",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 1,
       "hidden": 0,
       "dead": false
@@ -243,7 +255,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 7,
-      "hidden": 9,
+      "hidden": 8,
       "dead": false
     },
     {
@@ -261,7 +273,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 9,
-      "hidden": 13,
+      "hidden": 14,
       "dead": false
     },
     {
@@ -269,7 +281,7 @@
       "query": "국회 본회의 강행",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 6,
+      "kept": 7,
       "hidden": 16,
       "dead": false
     },
@@ -297,7 +309,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 3,
-      "hidden": 2,
+      "hidden": 3,
       "dead": false
     },
     {
@@ -314,7 +326,7 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 130,
+      "kept": 127,
       "hidden": 47,
       "dead": false
     },
@@ -332,8 +344,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 29,
-      "hidden": 22,
+      "kept": 31,
+      "hidden": 23,
       "dead": false
     },
     {
@@ -341,7 +353,7 @@
       "query": "개발자 채용",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 6,
       "hidden": 5,
       "dead": false
     },
@@ -351,7 +363,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 51,
-      "hidden": 25,
+      "hidden": 26,
       "dead": false
     },
     {
@@ -359,7 +371,7 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 159,
+      "kept": 157,
       "hidden": 17,
       "dead": false
     },
@@ -368,8 +380,8 @@
       "query": "핀테크",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
-      "hidden": 7,
+      "kept": 5,
+      "hidden": 6,
       "dead": false
     },
     {
@@ -403,9 +415,9 @@
       "category": "과학",
       "query": "과학 연구 성과",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 5,
       "kept": 50,
-      "hidden": 24,
+      "hidden": 23,
       "dead": false
     },
     {
@@ -413,7 +425,7 @@
       "query": "노벨상",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 5,
       "hidden": 1,
       "dead": false
     },
@@ -430,7 +442,7 @@
       "category": "문화",
       "query": "클래식 공연",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 5,
       "kept": 5,
       "hidden": 1,
       "dead": false
@@ -441,7 +453,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 8,
-      "hidden": 3,
+      "hidden": 2,
       "dead": false
     },
     {
@@ -457,7 +469,7 @@
       "category": "문화",
       "query": "베스트셀러",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 7,
       "kept": 3,
       "hidden": 1,
       "dead": false
@@ -468,7 +480,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 14,
-      "hidden": 6,
+      "hidden": 7,
       "dead": false
     },
     {
@@ -493,7 +505,7 @@
       "category": "경제",
       "query": "증권사 해킹 사고",
       "hot": true,
-      "fetchedNow": 7,
+      "fetchedNow": 5,
       "kept": 1,
       "hidden": 3,
       "dead": false
@@ -522,14 +534,14 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 9,
-      "hidden": 9,
+      "hidden": 11,
       "dead": false
     },
     {
       "category": "IT",
       "query": "삼성 SDS 데이터센터",
       "hot": true,
-      "fetchedNow": 5,
+      "fetchedNow": 6,
       "kept": 2,
       "hidden": 0,
       "dead": false
