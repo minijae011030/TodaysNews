@@ -104,17 +104,12 @@ export function SearchPage({ q, page, items }: { q: string; page: number; items:
         <p className="mt-3 text-sm text-muted">
           {results.length} {results.length === 1 ? "result" : "results"} for &ldquo;{trimmed}&rdquo;
         </p>
-      ) : (
-        <p className="mt-3 text-sm text-muted">Search titles, summaries, tags and press releases.</p>
-      )}
+      ) : null}
 
       {/* 검색 전이거나 결과가 없을 때: 요즘 많이 나오는 주제 */}
       {(!trimmed || results.length === 0) && trending.length > 0 && (
-        <section className="mt-12">
-          <h3 className="border-b-2 border-ink pb-1 font-serif text-xl font-bold">
-            {trimmed ? "Try instead" : "Trending now"}
-          </h3>
-          <ul className="mt-5 flex flex-wrap gap-2">
+        <section className="mt-5">
+          <ul className="flex flex-wrap gap-2">
             {trending.map((t) => (
               <li key={t}>
                 <button

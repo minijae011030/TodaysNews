@@ -29,7 +29,7 @@ export function PageLayout({
     <>
     <PullToRefresh onRefresh={onRefresh}>
       <div className="mx-auto max-w-300 px-4 pb-24 sm:px-6">
-        <Masthead active={activeSection} isGlossary={isGlossary} />
+        <Masthead active={activeSection} isGlossary={isGlossary} hideSections={isSearch || isGlossary} />
         {children}
         <Footer items={items} version={version} />
       </div>

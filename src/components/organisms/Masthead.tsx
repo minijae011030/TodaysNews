@@ -6,9 +6,11 @@ import { NavLink } from "../atoms/NavLink";
 export function Masthead({
   active,
   isGlossary = false,
+  hideSections = false,
 }: {
   active?: string;
   isGlossary?: boolean;
+  hideSections?: boolean; // 검색 화면처럼 섹션 메뉴가 필요 없는 곳
 }) {
   // 폰에서 메뉴가 넘치면 가로 스크롤: 현재 탭이 보이게 맞추고, 더 있으면 가장자리를 흐리게
   const scroller = useRef<HTMLDivElement>(null);
@@ -59,26 +61,30 @@ export function Masthead({
         </h1>
       </a>
 
-      <nav className="relative border-y border-ink">
-        <div ref={scroller} onScroll={updateFade} className="no-scrollbar overflow-x-auto overscroll-x-none">
-        <ul className="mx-auto flex w-max gap-4 px-1 py-2.5 text-sm sm:gap-8">
-          {SECTIONS.map((s) => (
-            <NavLink key={s} href={href.section(s)} current={active === s}>
-              {s}
-            </NavLink>
-          ))}
-        </ul>
-        </div>
-        <span
-          aria-hidden
-          className={`pointer-events-none absolute inset-y-0 left-0 w-8 bg-linear-to-r from-paper transition-opacity ${fade.left ? "opacity-100" : "opacity-0"}`}
-        />
-        <span
-          aria-hidden
-          className={`pointer-events-none absolute inset-y-0 right-0 w-8 bg-linear-to-l from-paper transition-opacity ${fade.right ? "opacity-100" : "opacity-0"}`}
-        />
-      </nav>
-      <div className="mt-0.75 border-t border-ink" />
+      {!hideSections && (
+        <>
+        <nav className="relative border-y border-ink">
+          <div ref={scroller} onScroll={updateFade} className="no-scrollbar overflow-x-auto overscroll-x-none">
+          <ul className="mx-auto flex w-max gap-4 px-1 py-2.5 text-sm sm:gap-8">
+            {SECTIONS.map((s) => (
+              <NavLink key={s} href={href.section(s)} current={active === s}>
+                {s}
+              </NavLink>
+            ))}
+          </ul>
+          </div>
+          <span
+            aria-hidden
+            className={`pointer-events-none absolute inset-y-0 left-0 w-8 bg-linear-to-r from-paper transition-opacity ${fade.left ? "opacity-100" : "opacity-0"}`}
+          />
+          <span
+            aria-hidden
+            className={`pointer-events-none absolute inset-y-0 right-0 w-8 bg-linear-to-l from-paper transition-opacity ${fade.right ? "opacity-100" : "opacity-0"}`}
+          />
+        </nav>
+        <div className="mt-0.75 border-t border-ink" />
+        </>
+      )}
     </header>
   );
 }
