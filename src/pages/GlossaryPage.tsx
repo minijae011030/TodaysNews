@@ -1,12 +1,32 @@
 import { useEffect, useMemo, useState } from "react";
 import { Notice } from "../components/atoms/Notice";
+import { Pagination } from "../components/molecules/Pagination";
 import { SearchIcon } from "../components/atoms/SearchIcon";
-import { initialOf, termKey, type TermInfo } from "../lib/glossary";
+import { chosungOf, initialOf, isChosungQuery, termKey, type TermInfo } from "../lib/glossary";
 import { href } from "../lib/route";
-import { countMatches } from "../lib/search";
+import { PRESS_THEMES } from "../lib/constants";
+import { matchingItems } from "../lib/search";
 import type { NewsItem } from "../types/news";
 
-/** 용어 사전: 기사에서 모인 경제·금융 용어를 가나다순으로 */
+type Sort = "abc" | "frequent" | "recent" | "theme";
+const SORTS: { key: Sort; name: string }[] = [
+  { key: "abc", name: "가나다순" },
+  { key: "frequent", name: "자주 나온 순" },
+  { key: "recent", name: "최근 추가" },
+  { key: "theme", name: "주제별" },
+];
+const readSort = (): Sort => {
+  try {
+    const v = localStorage.getItem("glossarySort");
+    return SORTS.some((x) => x.key === v) ? (v as Sort) : "abc";
+  } catch {
+    return "abc";
+  }
+};
+const dayLabel = (d: string) =>
+  new Date(`${d}T00:00:00+09:00`).toLocaleDateString("ko-KR", { month: "long", day: "numeric", timeZone: "Asia/Seoul" });
+
+/** 용어 사전: 기사에서 모인 경제·금융 용어. 가나다순 / 자주 나온 순 / 최근 추가 / 주제별 */
 export function GlossaryPage({
   lookup,
   items,
@@ -17,53 +37,100 @@ export function GlossaryPage({
   focus?: string; // #/glossary?t=DSR 처럼 들어오면 그 용어로 스크롤
 }) {
   const [filter, setFilter] = useState("");
+  const [sort, setSortState] = useState<Sort>(readSort); // 고른 정렬은 이 기기에 기억
+  const setSort = (v: Sort) => {
+    setSortState(v);
+    try {
+      localStorage.setItem("glossarySort", v);
+    } catch {}
+  };
   const entries = useMemo(
     () => [...new Set(lookup.values())].sort((a, b) => a.term.localeCompare(b.term, "ko")),
     [lookup],
   );
 
+  // 용어마다 관련 기사 + 그 기사들(보도자료)에서 가장 많이 나온 주제: 기사 목록이 바뀔 때만 한 번 계산
+  const stats = useMemo(() => {
+    const map = new Map<string, { related: number; theme: string }>();
+    for (const e of entries) {
+      const hits = matchingItems(items, e.term);
+      const count = new Map<string, number>();
+      for (const n of hits) if (n.theme && n.theme !== "기타") count.set(n.theme, (count.get(n.theme) ?? 0) + 1);
+      const theme = [...count.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] ?? "기타";
+      map.set(e.term, { related: hits.length, theme });
+    }
+    return map;
+  }, [entries, items]);
+  const related_ = useMemo(() => new Map([...stats].map(([t, s]) => [t, s.related])), [stats]);
+
+  // 찾기: 글자 그대로, 또는 자음만 치면 초성으로 (ㄱㅁㄷ → 공매도)
   const shown = useMemo(() => {
-    const f = termKey(filter);
-    if (!f) return entries;
-    return entries.filter((e) =>
-      [e.term, ...(e.aliases ?? [])].some((t) => termKey(t).includes(f)) || e.definition.includes(filter.trim()),
-    );
+    const q = filter.trim();
+    if (!q) return entries;
+    const names = (e: TermInfo) => [e.term, ...(e.aliases ?? [])];
+    if (isChosungQuery(q)) {
+      const c = q.replace(/\s+/g, "");
+      return entries.filter((e) => names(e).some((t) => chosungOf(t).includes(c)));
+    }
+    const f = termKey(q);
+    return entries.filter((e) => names(e).some((t) => termKey(t).includes(f)) || e.definition.includes(q));
   }, [entries, filter]);
 
-  // 초성/알파벳별 묶음
-  const groups = useMemo(() => {
-    const map = new Map<string, TermInfo[]>();
-    for (const e of shown) {
-      const g = initialOf(e.term);
-      map.set(g, [...(map.get(g) ?? []), e]);
+  // 정렬에 따라 묶음: 가나다순은 초성별, 최근 추가는 날짜별, 주제별은 보도자료 주제별, 자주 나온 순은 묶지 않음
+  const groups = useMemo((): [string, TermInfo[]][] => {
+    if (sort === "frequent") {
+      return [["", [...shown].sort((a, b) => (related_.get(b.term) ?? 0) - (related_.get(a.term) ?? 0) || a.term.localeCompare(b.term, "ko"))]];
     }
-    return [...map.entries()];
-  }, [shown]);
+    const key =
+      sort === "recent" ? (e: TermInfo) => e.addedAt : sort === "theme" ? (e: TermInfo) => stats.get(e.term)?.theme ?? "기타" : (e: TermInfo) => initialOf(e.term);
+    const map = new Map<string, TermInfo[]>();
+    for (const e of shown) map.set(key(e), [...(map.get(key(e)) ?? []), e]);
+    const list = [...map.entries()];
+    if (sort === "recent") list.sort((a, b) => b[0].localeCompare(a[0]));
+    if (sort === "theme")
+      list.sort(
+        ([a, x], [b, y]) => Number(a === "기타") - Number(b === "기타") || y.length - x.length || PRESS_THEMES.indexOf(a) - PRESS_THEMES.indexOf(b),
+      );
+    return list.map(([g, l]) => [sort === "recent" ? dayLabel(g) : g, l]);
+  }, [shown, sort, related_, stats]);
 
-  // 용어마다 관련 기사 수: 기사 목록이 바뀔 때만 한 번 계산 (스크롤할 때마다 다시 세지 않게)
-  const related_ = useMemo(() => new Map(entries.map((e) => [e.term, countMatches(items, e.term)])), [entries, items]);
-
-  // 지금 화면 위쪽에 걸린 초성 묶음 (인덱스에서 강조)
-  const [current, setCurrent] = useState<string>();
+  // 한 번에 한 묶음만 보여줌 (초성·날짜·주제가 곧 "페이지"). 찾기 중엔 걸린 것 전부
+  // 자주 나온 순은 묶음이 없어서 20개씩 페이지로
+  const [picked, setPicked] = useState<string>();
+  const [page, setPage] = useState(1);
   useEffect(() => {
-    const onScroll = () => {
-      let now: string | undefined;
-      for (const [g] of groups) {
-        const el = document.getElementById(`group-${g}`);
-        if (el && el.getBoundingClientRect().top <= 140) now = g;
-      }
-      setCurrent(now ?? groups[0]?.[0]);
-    };
-    onScroll();
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
-  }, [groups]);
+    setPicked(undefined);
+    setPage(1);
+  }, [sort, filter]);
+  const paged = sort === "frequent";
+  const current = filter || paged ? undefined : groups.some(([g]) => g === picked) ? picked : groups[0]?.[0];
+  const visibleGroups = current === undefined ? groups : groups.filter(([g]) => g === current);
+  const PAGE = 20;
+  const freqList = paged ? (groups[0]?.[1] ?? []) : [];
+  const totalPages = Math.max(1, Math.ceil(freqList.length / PAGE));
+  const pick = (g: string) => {
+    setPicked(g);
+    document.getElementById("glossary-list")?.scrollIntoView({ block: "start" });
+  };
 
   const focusId = focus ? `term-${termKey(lookup.get(termKey(focus))?.term ?? focus)}` : undefined;
+  // #/glossary?t=DSR 로 들어오면: 그 용어가 있는 묶음(페이지)을 열고 스크롤
+  useEffect(() => {
+    if (!focus) return;
+    const term = lookup.get(termKey(focus))?.term;
+    if (!term) return;
+    if (paged) {
+      const i = freqList.findIndex((e) => e.term === term);
+      if (i >= 0) setPage(Math.floor(i / PAGE) + 1);
+    } else {
+      const g = groups.find(([, l]) => l.some((e) => e.term === term))?.[0];
+      if (g !== undefined) setPicked(g);
+    }
+  }, [focus, lookup, groups, paged, freqList]);
   useEffect(() => {
     if (!focusId) return;
-    document.getElementById(focusId)?.scrollIntoView({ block: "center" });
-  }, [focusId, entries.length]);
+    requestAnimationFrame(() => document.getElementById(focusId)?.scrollIntoView({ block: "center" }));
+  }, [focusId, current, page]);
 
   return (
     // 용어가 적어도 화면을 채워서 푸터가 바로 올라오지 않게 (검색 화면과 같은 방식)
@@ -89,8 +156,24 @@ export function GlossaryPage({
             />
           </div>
 
-          {/* 초성 바로가기: 스크롤해도 위(작은 헤더 바로 아래)에 붙어 있고, 지금 보고 있는 초성은 검게 */}
-          {!filter && (
+          {/* 정렬 (고른 건 이 기기에 기억) */}
+          <div role="radiogroup" aria-label="정렬" className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+            {SORTS.map((o) => (
+              <button
+                key={o.key}
+                type="button"
+                role="radio"
+                aria-checked={sort === o.key}
+                onClick={() => setSort(o.key)}
+                className={sort === o.key ? "font-semibold text-ink underline underline-offset-4" : "text-muted hover:text-ink"}
+              >
+                {o.name}
+              </button>
+            ))}
+          </div>
+
+          {/* 묶음 고르기 (초성·날짜·주제): 스크롤해도 위(작은 헤더 바로 아래)에 붙어 있고, 지금 묶음은 검게 */}
+          {!filter && !paged && groups.length > 1 && (
             <nav
               aria-label="Index"
               className="sticky top-12 z-20 -mx-4 mt-4 border-b border-rule bg-paper/95 px-4 backdrop-blur sm:top-14 sm:-mx-6 sm:px-6"
@@ -100,13 +183,14 @@ export function GlossaryPage({
                   <button
                     key={g}
                     type="button"
-                    onClick={() => document.getElementById(`group-${g}`)?.scrollIntoView({ behavior: "smooth" })}
+                    onClick={() => pick(g)}
                     aria-current={current === g ? "true" : undefined}
                     className={`min-w-8 shrink-0 px-1.5 py-1 font-semibold transition-colors ${
                       current === g ? "bg-ink text-paper" : "text-muted hover:text-ink"
                     }`}
                   >
                     {g}
+                    {sort !== "abc" && <span className="ml-1 font-normal opacity-60">{groups.find(([x]) => x === g)?.[1].length}</span>}
                   </button>
                 ))}
               </div>
@@ -115,9 +199,10 @@ export function GlossaryPage({
 
           {shown.length === 0 && <Notice>No terms match &ldquo;{filter.trim()}&rdquo;.</Notice>}
 
-          {groups.map(([g, list]) => (
-            <section key={g} id={`group-${g}`} className="mt-10 scroll-mt-28 sm:scroll-mt-32">
-              <h3 className="border-b-2 border-ink pb-1 font-serif text-2xl font-bold">{g}</h3>
+          <div id="glossary-list" className="scroll-mt-28 sm:scroll-mt-32" />
+          {(paged ? [["", freqList.slice((page - 1) * PAGE, page * PAGE)] as [string, TermInfo[]]] : visibleGroups).map(([g, list]) => (
+            <section key={g || "all"} id={`group-${g}`} className="mt-8 scroll-mt-28 sm:scroll-mt-32">
+              {g && <h3 className="border-b-2 border-ink pb-1 font-serif text-2xl font-bold">{g}</h3>}
               <dl className="lg:grid lg:grid-cols-2 lg:gap-x-12">
                 {list.map((e) => {
                   const id = `term-${termKey(e.term)}`;
@@ -151,8 +236,48 @@ export function GlossaryPage({
               </dl>
             </section>
           ))}
+
+          {/* 다음 묶음으로 / 자주 나온 순 페이지 */}
+          {paged ? (
+            <Pagination
+              current={page}
+              total={totalPages}
+              hrefFor={() => "#/glossary"}
+              onSelect={(p) => {
+                setPage(p);
+                document.getElementById("glossary-list")?.scrollIntoView({ block: "start" });
+              }}
+            />
+          ) : (
+            current !== undefined && <NextGroup groups={groups} current={current} onPick={pick} />
+          )}
         </>
       )}
     </main>
+  );
+}
+
+/** 묶음 끝: ← 이전 묶음 · 다음 묶음 → (초성 ㄱ 다음은 ㄴ …) */
+function NextGroup({ groups, current, onPick }: { groups: [string, TermInfo[]][]; current: string; onPick: (g: string) => void }) {
+  const i = groups.findIndex(([g]) => g === current);
+  const prev = groups[i - 1]?.[0];
+  const next = groups[i + 1]?.[0];
+  if (prev === undefined && next === undefined) return null;
+  const btn = "px-2 py-1 text-sm hover:underline";
+  return (
+    <nav aria-label="Groups" className="mt-10 flex items-center justify-between font-sans">
+      {prev !== undefined ? (
+        <button type="button" onClick={() => onPick(prev)} className={btn}>
+          &larr; {prev}
+        </button>
+      ) : (
+        <span />
+      )}
+      {next !== undefined && (
+        <button type="button" onClick={() => onPick(next)} className={`${btn} font-semibold`}>
+          {next} &rarr;
+        </button>
+      )}
+    </nav>
   );
 }

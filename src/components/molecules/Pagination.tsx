@@ -8,10 +8,12 @@ export function Pagination({
   current,
   total,
   hrefFor,
+  onSelect,
 }: {
   current: number;
   total: number;
   hrefFor: (page: number) => string;
+  onSelect?: (page: number) => void; // 주소를 안 바꾸고 화면 안에서만 페이지를 바꿀 때 (용어 사전)
 }) {
   if (total <= 1) return null;
 
@@ -26,6 +28,7 @@ export function Pagination({
           <li key={p}>
             <a
               href={hrefFor(p)}
+              data-page={p}
               aria-current={p === current ? "page" : undefined}
               className={`inline-block min-w-8 py-1.5 text-center font-serif tabular-nums sm:min-w-9 ${
                 p === current ? "border-b-2 border-ink font-bold text-ink" : "text-ink-soft hover:text-ink"
@@ -50,7 +53,7 @@ export function Pagination({
     );
     const base = "shrink-0 px-2 py-1 text-sm";
     return enabled ? (
-      <a href={hrefFor(page)} aria-label={text} className={`${base} hover:underline`}>
+      <a href={hrefFor(page)} data-page={page} aria-label={text} className={`${base} hover:underline`}>
         {inner}
       </a>
     ) : (
@@ -61,7 +64,16 @@ export function Pagination({
   };
 
   return (
-    <nav aria-label="Pagination" className="mt-10 flex items-center justify-between gap-2 font-sans sm:gap-4">
+    <nav
+      aria-label="Pagination"
+      className="mt-10 flex items-center justify-between gap-2 font-sans sm:gap-4"
+      onClick={(e) => {
+        const a = (e.target as HTMLElement).closest<HTMLElement>("[data-page]");
+        if (!onSelect || !a) return;
+        e.preventDefault();
+        onSelect(Number(a.dataset.page));
+      }}
+    >
       {edge(current - 1, current > 1, "Previous", "←")}
       {pages(0, "flex sm:hidden")}
       {pages(1, "hidden sm:flex")}

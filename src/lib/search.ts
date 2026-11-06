@@ -51,6 +51,16 @@ export function searchItems(items: NewsItem[], query: string): NewsItem[] {
     .map((s) => s.n);
 }
 
+/** 검색어가 든 기사들 (정렬 없이, 원래 순서 그대로) */
+export function matchingItems(items: NewsItem[], query: string): NewsItem[] {
+  const terms = norm(query).split(" ").filter(Boolean);
+  if (terms.length === 0) return [];
+  return items.filter((n) => {
+    const { title, body } = textOf(n);
+    return terms.every((t) => title.includes(t) || body.includes(t));
+  });
+}
+
 /** 개수만 필요할 때 (정렬 없이 빠르게) */
 export function countMatches(items: NewsItem[], query: string): number {
   const terms = norm(query).split(" ").filter(Boolean);

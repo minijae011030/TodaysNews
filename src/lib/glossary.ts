@@ -30,3 +30,15 @@ export function initialOf(term: string): string {
   if (/[a-z]/i.test(c)) return c.toUpperCase();
   return "#";
 }
+
+// 초성 검색: "ㄱㅁㄷ" → 공매도. 한글은 글자마다 첫 자음(ㄲ·ㄸ 등은 그대로), 나머지 글자는 그대로
+export function chosungOf(text: string): string {
+  let out = "";
+  for (const ch of text) {
+    const code = ch.charCodeAt(0);
+    out += code >= 0xac00 && code <= 0xd7a3 ? CHO[Math.floor((code - 0xac00) / 588)] : ch;
+  }
+  return out.replace(/\s+/g, "");
+}
+// 자음만으로 된 검색어인지 (ㄱ~ㅎ)
+export const isChosungQuery = (q: string) => /^[ㄱ-ㅎ\s]+$/.test(q) && q.trim().length > 0;
