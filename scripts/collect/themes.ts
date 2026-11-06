@@ -1,10 +1,10 @@
 // 보도자료 주제 붙이기: 주제가 없는 보도자료(예전에 요약된 것)만 제목·주요 내용으로 가볍게 분류
-// 새 보도자료는 요약할 때 enrich가 같이 붙이니, 여기선 남은 것만. 한 번에 120건씩 (40건 × 3번 호출)
+// 새 보도자료는 요약할 때 enrich가 같이 붙이니, 여기선 남은 것만
 import { PRESS_LABEL, PRESS_THEMES, type NewsItem } from "./config.ts";
 import { callGemini, geminiKey } from "./gemini.ts";
 import { chunk, parseJson } from "./util.ts";
 
-const PER_RUN = 120;
+const PER_RUN = 400; // 주제 없는 3달치를 한 번에 (40건씩 최대 10번 호출, 분당 한도에 걸리면 알아서 재시도)
 const PER_CALL = 40;
 
 export async function classifyThemes(items: NewsItem[]): Promise<void> {
