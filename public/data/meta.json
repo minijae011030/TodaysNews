@@ -1,43 +1,44 @@
 {
-  "updatedAt": "2026-11-06T04:02:41.863Z",
-  "count": 1830,
-  "summarized": 1302,
-  "fetched": 444,
-  "newCount": 26,
+  "updatedAt": "2026-11-06T05:02:17.996Z",
+  "count": 1840,
+  "summarized": 1301,
+  "fetched": 436,
+  "newCount": 28,
   "newByCategory": {
-    "정치": 7,
-    "경제": 10,
-    "문화": 3,
-    "IT": 6
+    "경제": 14,
+    "정치": 6,
+    "IT": 5,
+    "문화": 2,
+    "과학": 1
   },
-  "summarizedNow": 30,
-  "bodyFound": 26,
+  "summarizedNow": 24,
+  "bodyFound": 24,
   "pdfRead": 0,
-  "hidden": 0,
+  "hidden": 2,
   "moved": [
     "IT→경제",
-    "경제→정치",
     "IT→경제",
-    "IT→문화",
-    "IT→경제"
+    "IT→경제",
+    "정치→경제",
+    "IT→경제",
+    "IT→경제",
+    "경제→정치"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [],
   "concept": null,
   "spacePhoto": null,
-  "newTerms": [
-    "HBM",
-    "하이퍼스케일러"
-  ],
+  "newTerms": [],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 73,
-      "hidden": 47,
-      "dead": false
+      "kept": 75,
+      "hidden": 48,
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -46,7 +47,8 @@
       "fetchedNow": 7,
       "kept": 36,
       "hidden": 11,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -55,16 +57,18 @@
       "fetchedNow": 7,
       "kept": 1,
       "hidden": 2,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 14,
+      "kept": 13,
       "hidden": 7,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -73,7 +77,8 @@
       "fetchedNow": 7,
       "kept": 5,
       "hidden": 1,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -82,25 +87,28 @@
       "fetchedNow": 7,
       "kept": 7,
       "hidden": 5,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 25,
+      "kept": 24,
       "hidden": 4,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 78,
-      "hidden": 25,
-      "dead": false
+      "kept": 77,
+      "hidden": 24,
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -109,7 +117,8 @@
       "fetchedNow": 7,
       "kept": 10,
       "hidden": 9,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -118,7 +127,8 @@
       "fetchedNow": 7,
       "kept": 1,
       "hidden": 0,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -127,7 +137,8 @@
       "fetchedNow": 7,
       "kept": 10,
       "hidden": 11,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -136,25 +147,28 @@
       "fetchedNow": 7,
       "kept": 3,
       "hidden": 0,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 37,
-      "hidden": 21,
-      "dead": false
+      "kept": 36,
+      "hidden": 22,
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
+      "kept": 9,
       "hidden": 12,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -163,25 +177,28 @@
       "fetchedNow": 7,
       "kept": 13,
       "hidden": 14,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
       "query": "주가 폭락",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 23,
+      "fetchedNow": 7,
+      "kept": 25,
       "hidden": 17,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 5,
       "kept": 17,
       "hidden": 19,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -190,16 +207,18 @@
       "fetchedNow": 7,
       "kept": 0,
       "hidden": 0,
-      "dead": true
+      "dead": true,
+      "sleeping": false
     },
     {
       "category": "경제",
       "query": "보이스피싱",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 4,
       "kept": 18,
-      "hidden": 17,
-      "dead": false
+      "hidden": 18,
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -208,7 +227,8 @@
       "fetchedNow": 7,
       "kept": 0,
       "hidden": 8,
-      "dead": true
+      "dead": true,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -217,16 +237,18 @@
       "fetchedNow": 3,
       "kept": 1,
       "hidden": 2,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
       "query": "상장폐지",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 6,
       "kept": 5,
       "hidden": 8,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -235,7 +257,8 @@
       "fetchedNow": 7,
       "kept": 1,
       "hidden": 0,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -244,7 +267,8 @@
       "fetchedNow": 7,
       "kept": 5,
       "hidden": 9,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -253,16 +277,18 @@
       "fetchedNow": 7,
       "kept": 0,
       "hidden": 0,
-      "dead": true
+      "dead": true,
+      "sleeping": false
     },
     {
       "category": "정치",
       "query": "여야 충돌",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 7,
+      "kept": 5,
       "hidden": 13,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "정치",
@@ -271,25 +297,18 @@
       "fetchedNow": 7,
       "kept": 8,
       "hidden": 25,
-      "dead": false
-    },
-    {
-      "category": "정치",
-      "query": "대통령실 야당",
-      "hot": false,
-      "fetchedNow": 7,
-      "kept": 0,
-      "hidden": 0,
-      "dead": true
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "정치",
       "query": "국정감사 공방",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 1,
       "hidden": 0,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "정치",
@@ -298,7 +317,8 @@
       "fetchedNow": 7,
       "kept": 4,
       "hidden": 4,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "정치",
@@ -307,16 +327,18 @@
       "fetchedNow": 7,
       "kept": 4,
       "hidden": 5,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "정치",
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 130,
-      "hidden": 49,
-      "dead": false
+      "kept": 133,
+      "hidden": 50,
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "정치",
@@ -325,16 +347,18 @@
       "fetchedNow": 7,
       "kept": 11,
       "hidden": 18,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "정치",
       "query": "국민의힘 민주당",
       "hot": false,
-      "fetchedNow": 4,
-      "kept": 37,
-      "hidden": 26,
-      "dead": false
+      "fetchedNow": 7,
+      "kept": 36,
+      "hidden": 28,
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "IT",
@@ -342,44 +366,39 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 7,
-      "hidden": 5,
-      "dead": false
+      "hidden": 4,
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "IT",
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 43,
-      "hidden": 23,
-      "dead": false
+      "kept": 42,
+      "hidden": 25,
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "IT",
       "query": "AI 반도체",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 7,
       "kept": 158,
       "hidden": 10,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "IT",
       "query": "핀테크",
       "hot": false,
-      "fetchedNow": 3,
+      "fetchedNow": 6,
       "kept": 9,
       "hidden": 10,
-      "dead": false
-    },
-    {
-      "category": "IT",
-      "query": "구글 애플 인앱결제",
-      "hot": false,
-      "fetchedNow": 7,
-      "kept": 0,
-      "hidden": 0,
-      "dead": true
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "과학",
@@ -387,26 +406,19 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 11,
-      "hidden": 4,
-      "dead": false
-    },
-    {
-      "category": "과학",
-      "query": "블랙홀 관측",
-      "hot": false,
-      "fetchedNow": 7,
-      "kept": 0,
-      "hidden": 0,
-      "dead": true
+      "hidden": 5,
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "과학",
       "query": "과학 연구 성과",
       "hot": false,
-      "fetchedNow": 1,
+      "fetchedNow": 7,
       "kept": 47,
-      "hidden": 21,
-      "dead": false
+      "hidden": 20,
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "과학",
@@ -414,44 +426,39 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 6,
-      "hidden": 1,
-      "dead": false
+      "hidden": 2,
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "문화",
       "query": "미술관 전시",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 7,
+      "kept": 6,
       "hidden": 5,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "문화",
       "query": "클래식 공연",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 6,
       "kept": 5,
       "hidden": 1,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 5,
       "kept": 8,
       "hidden": 2,
-      "dead": false
-    },
-    {
-      "category": "문화",
-      "query": "신간",
-      "hot": false,
-      "fetchedNow": 7,
-      "kept": 0,
-      "hidden": 1,
-      "dead": true
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "문화",
@@ -460,7 +467,8 @@
       "fetchedNow": 7,
       "kept": 5,
       "hidden": 4,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "문화",
@@ -469,16 +477,18 @@
       "fetchedNow": 7,
       "kept": 15,
       "hidden": 5,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 3,
-      "kept": 36,
-      "hidden": 9,
-      "dead": false
+      "fetchedNow": 7,
+      "kept": 37,
+      "hidden": 12,
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -487,7 +497,8 @@
       "fetchedNow": 7,
       "kept": 1,
       "hidden": 12,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -496,7 +507,8 @@
       "fetchedNow": 5,
       "kept": 1,
       "hidden": 2,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "경제",
@@ -505,7 +517,8 @@
       "fetchedNow": 7,
       "kept": 0,
       "hidden": 0,
-      "dead": true
+      "dead": true,
+      "sleeping": false
     },
     {
       "category": "정치",
@@ -514,7 +527,8 @@
       "fetchedNow": 7,
       "kept": 0,
       "hidden": 4,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "정치",
@@ -522,17 +536,19 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 12,
-      "hidden": 17,
-      "dead": false
+      "hidden": 18,
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "IT",
       "query": "삼성 SDS 데이터센터",
       "hot": true,
-      "fetchedNow": 6,
-      "kept": 3,
+      "fetchedNow": 7,
+      "kept": 4,
       "hidden": 0,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "IT",
@@ -541,7 +557,8 @@
       "fetchedNow": 7,
       "kept": 0,
       "hidden": 1,
-      "dead": false
+      "dead": false,
+      "sleeping": false
     },
     {
       "category": "IT",
@@ -550,8 +567,11 @@
       "fetchedNow": 4,
       "kept": 0,
       "hidden": 0,
-      "dead": true
+      "dead": true,
+      "sleeping": false
     }
   ],
-  "newHot": []
+  "newHot": [],
+  "keywordsSlept": [],
+  "keywordsWoke": []
 }

@@ -1,4 +1,13 @@
 {
   "pressBackfillDoneOn": "2026-11-06",
-  "glossaryCleanup": 1
+  "glossaryCleanup": 2,
+  "glossaryRejected": [
+    "개인정보",
+    "금융감독원",
+    "금융공기업",
+    "중대재해처벌법",
+    "하도급",
+    "하이퍼스케일러",
+    "향후치료비"
+  ]
 }
