@@ -1,6 +1,8 @@
 // 키워드 관리 (keywords.json)
 // 1) 성적표: 검색어마다 실린 기사·숨긴 기사 수를 세서, 며칠째 실린 게 없으면 "죽은 키워드"로 표시
 // 2) 핫 키워드: 일주일에 한 번 최근 헤드라인을 보고 요즘 뜨는 검색어를 Gemini가 골라 2주 동안만 추가로 검색
+// 3) 자동 휴면: 고정 키워드가 2주째 죽어 있으면 평소엔 안 돌리고 하루 첫 수집 때만 확인 → 기사가 실리면 저절로 깨어남
+//    (feeds.json은 그대로. "은행 횡령"처럼 사고 날 때만 나오는 키워드도 하루 안에 다시 잡힘)
 import { mkdir, writeFile } from "node:fs/promises";
 import { DATA_DIR, KEEP_DAYS, report, type FeedSource, type KeywordRow, type NewsItem } from "./config.ts";
 import { callGemini, geminiKey } from "./gemini.ts";
@@ -10,12 +12,16 @@ const HOT_SECTIONS = ["경제", "정치", "IT"];
 const HOT_DAYS = 14; // 핫 키워드 유지 기간
 const HOT_EVERY_DAYS = 7; // 새로 뽑는 주기
 const HOT_PER_SECTION = 4; // 섹션당 핫 키워드 최대 수
+const SLEEP_AFTER_DAYS = 14; // 이만큼 죽어 있으면 휴면
 
 type Hot = { category: string; query: string; addedAt: string };
 type KeywordFile = {
   firstSeen: Record<string, string>; // 검색어를 처음 쓴 날 (새 검색어는 며칠 지켜본 뒤에 죽었다고 판단)
   hot: Hot[];
   hotUpdatedAt?: string;
+  deadSince: Record<string, string>; // 실린 기사가 0건이 된 날
+  sleeping: Record<string, string>; // 휴면에 들어간 날
+  lastProbe?: string; // 휴면 키워드를 마지막으로 확인한 날
 };
 
 const daysSince = (date: string) => (Date.parse(kstToday()) - Date.parse(date)) / 86_400_000;
@@ -23,14 +29,38 @@ const daysSince = (date: string) => (Date.parse(kstToday()) - Date.parse(date)) 
 export async function loadKeywords(): Promise<KeywordFile> {
   const k = await readData<KeywordFile>("keywords.json");
   const hot = (k?.hot ?? []).filter((h) => daysSince(h.addedAt) < HOT_DAYS); // 2주 지난 건 자동으로 빠짐
-  return { firstSeen: k?.firstSeen ?? {}, hot, hotUpdatedAt: k?.hotUpdatedAt };
+  return {
+    firstSeen: k?.firstSeen ?? {},
+    hot,
+    hotUpdatedAt: k?.hotUpdatedAt,
+    deadSince: k?.deadSince ?? {},
+    sleeping: k?.sleeping ?? {},
+    lastProbe: k?.lastProbe,
+  };
+}
+
+/** 이번 수집에 돌릴 소스: 휴면 키워드는 빼되, 그날 첫 수집이면 전부 돌려서 깨어날 기회를 줌 */
+export function activeSources(k: KeywordFile, sources: FeedSource[]): FeedSource[] {
+  const today = kstToday();
+  if (k.lastProbe !== today) {
+    k.lastProbe = today;
+    return sources;
+  }
+  return sources.filter((s) => !(s.type === "naver" && k.sleeping[s.query]));
 }
 
 // 핫 키워드도 네이버 검색으로 (기본: 주요 언론사만)
 export const hotSources = (k: KeywordFile): FeedSource[] =>
   k.hot.map((h) => ({ category: h.category, type: "naver", query: h.query }));
 
-export function scoreKeywords(k: KeywordFile, sources: FeedSource[], fetched: NewsItem[], items: NewsItem[]): void {
+// sources: 이번에 돌린 것, all: feeds.json + 핫 키워드 전체 (휴면 포함)
+export function scoreKeywords(
+  k: KeywordFile,
+  sources: FeedSource[],
+  all: FeedSource[],
+  fetched: NewsItem[],
+  items: NewsItem[],
+): void {
   const today = kstToday();
   const hotSet = new Set(k.hot.map((h) => h.query));
   const rows: KeywordRow[] = [];
@@ -47,14 +77,43 @@ export function scoreKeywords(k: KeywordFile, sources: FeedSource[], fetched: Ne
       kept,
       hidden: mine.length - kept,
       dead: kept === 0 && daysSince(k.firstSeen[s.query]) >= KEEP_DAYS,
+      sleeping: false,
     });
   }
+  // 휴면 판단 (고정 키워드만. 핫 키워드는 2주면 어차피 빠짐)
+  const woke: string[] = [];
+  const slept: string[] = [];
+  for (const r of rows) {
+    if (r.hot) continue;
+    if (!r.dead) {
+      delete k.deadSince[r.query];
+      if (k.sleeping[r.query]) woke.push(r.query);
+      delete k.sleeping[r.query];
+      continue;
+    }
+    k.deadSince[r.query] ??= today;
+    if (!k.sleeping[r.query] && daysSince(k.deadSince[r.query]) >= SLEEP_AFTER_DAYS) {
+      k.sleeping[r.query] = today;
+      slept.push(r.query);
+    }
+    r.sleeping = !!k.sleeping[r.query];
+  }
+  // 이번에 안 돌린 휴면 키워드도 성적표에 휴면으로 표시
+  const ran = new Set(rows.map((r) => r.query));
+  for (const s of all)
+    if (s.type === "naver" && !ran.has(s.query) && k.sleeping[s.query])
+      rows.push({ category: s.category, query: s.query, hot: false, fetchedNow: 0, kept: 0, hidden: 0, dead: true, sleeping: true });
+
   // feeds.json에서 빠진 검색어는 기록에서도 정리
-  const live = new Set(rows.map((r) => r.query));
-  for (const q of Object.keys(k.firstSeen)) if (!live.has(q)) delete k.firstSeen[q];
+  const live = new Set(all.flatMap((s) => (s.type === "naver" ? [s.query] : [])));
+  for (const rec of [k.firstSeen, k.deadSince, k.sleeping]) for (const q of Object.keys(rec)) if (!live.has(q)) delete rec[q];
   report.keywords = rows;
-  const dead = rows.filter((r) => r.dead).map((r) => r.query);
+  report.keywordsWoke = woke;
+  report.keywordsSlept = slept;
+  const dead = rows.filter((r) => r.dead && !r.sleeping).map((r) => r.query);
   if (dead.length) console.log(`💤 죽은 키워드: ${dead.join(", ")}`);
+  if (slept.length) console.log(`😴 휴면 (2주째 0건): ${slept.join(", ")}`);
+  if (woke.length) console.log(`☀️  다시 깨어남: ${woke.join(", ")}`);
 }
 
 export async function updateHot(k: KeywordFile, fixed: FeedSource[], items: NewsItem[]): Promise<void> {

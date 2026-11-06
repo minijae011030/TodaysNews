@@ -15,7 +15,7 @@ export type GlossaryEntry = {
 };
 
 const MIN_MENTIONS = 2; // 기사 몇 건 이상에 나와야 사전에 넣을지 (한 번 스친 용어는 기다림)
-const CLEANUP_VERSION = 1; // 대청소 기준이 바뀌면 올려서 한 번 더
+const CLEANUP_VERSION = 2; // 대청소 기준이 바뀌면 올려서 한 번 더 (2: 뺀 용어를 기억하도록 바꾸면서 한 번 더)
 
 // 표기 비교용: 띄어쓰기·괄호·대소문자 무시
 export const termKey = (t: string) => t.toLowerCase().replace(/[\s()\[\]·・\-_'"“”‘’]/g, "");
@@ -33,13 +33,16 @@ export async function updateGlossary(items: NewsItem[]): Promise<void> {
   if (!apiKey) return;
   const glossary = (await readData<GlossaryEntry[]>("glossary.json")) ?? [];
   const known = new Set(glossary.flatMap((e) => [e.term, ...(e.aliases ?? [])].map(termKey)));
+  // 대청소나 정의 단계에서 뺀 용어는 다시 안 넣음 (안 그러면 다음 수집 때 바로 또 들어옴)
+  const state = (await readData<{ glossaryRejected?: string[] }>("state.json")) ?? {};
+  const rejected = new Set(state.glossaryRejected ?? []);
 
   // 사전에 없는 용어 중 기사 MIN_MENTIONS건 이상에 나온 것 (자주 나온 것부터)
   const count = new Map<string, { t: string; n: number }>();
   for (const n of items)
     for (const t of new Set(n.terms ?? [])) {
       const k = termKey(t);
-      if (known.has(k)) continue;
+      if (known.has(k) || rejected.has(k)) continue;
       count.set(k, { t: count.get(k)?.t ?? t, n: (count.get(k)?.n ?? 0) + 1 });
     }
   const missing = [...count.values()]
@@ -79,6 +82,10 @@ export async function updateGlossary(items: NewsItem[]): Promise<void> {
       added.push({ term: o.term, ...(aliases.length ? { aliases } : {}), definition: o.definition, addedAt: today, level });
       for (const k of [o.term, ...aliases]) known.add(termKey(k));
     }
+    // Gemini가 정의를 안 준 용어 = 사전감이 아니라고 본 것 → 거절 목록에
+    const got = new Set(added.flatMap((e) => [e.term, ...(e.aliases ?? [])].map(termKey)));
+    const newlyRejected = missing.map(termKey).filter((k) => !got.has(k));
+    if (newlyRejected.length) await rememberRejected(newlyRejected);
     if (added.length === 0) return;
     const next = [...glossary, ...added].sort((a, b) => a.term.localeCompare(b.term, "ko"));
     await save(next);
@@ -160,6 +167,7 @@ ${JSON.stringify(batch.map((e) => ({ term: e.term, def: e.definition.slice(0, 60
 
     await save(kept.sort((a, b) => a.term.localeCompare(b.term, "ko")));
     await writeFile(`${DATA_DIR}/state.json`, JSON.stringify({ ...state, glossaryCleanup: CLEANUP_VERSION }, null, 2));
+    await rememberRejected(dropped.map(termKey));
     const lv = [1, 2, 3].map((l) => kept.filter((e) => e.level === l).length);
     console.log(
       `🧽 용어 사전 대청소: ${before} → ${kept.length} (합침 ${merged}, 뺌 ${dropped.length}) · 필수 ${lv[0]} / 알면 좋음 ${lv[1]} / 참고 ${lv[2]}`,
@@ -222,4 +230,12 @@ function looksSame(a: string, b: string): boolean {
   let same = 0;
   for (const g of ga) if (gb.has(g)) same++;
   return (2 * same) / (ga.size + gb.size || 1) >= 0.5;
+}
+
+/** 사전에서 뺀 용어 기억 (state.json의 glossaryRejected). 최근 2000개만 */
+async function rememberRejected(keys: string[]): Promise<void> {
+  const state = (await readData<Record<string, unknown> & { glossaryRejected?: string[] }>("state.json")) ?? {};
+  const list = [...new Set([...(state.glossaryRejected ?? []), ...keys])].slice(-2000);
+  await mkdir(DATA_DIR, { recursive: true });
+  await writeFile(`${DATA_DIR}/state.json`, JSON.stringify({ ...state, glossaryRejected: list }, null, 2));
 }

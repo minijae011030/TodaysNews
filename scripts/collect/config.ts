@@ -106,6 +106,8 @@ export const report = {
   newTerms: [] as string[], // 이번에 사전에 추가된 용어
   keywords: [] as KeywordRow[], // 키워드 성적표
   newHot: [] as string[], // 이번에 새로 잡힌 핫 키워드
+  keywordsSlept: [] as string[], // 이번에 휴면에 들어간 키워드
+  keywordsWoke: [] as string[], // 휴면에서 깨어난 키워드
 };
 
 export type KeywordRow = {
@@ -116,4 +118,5 @@ export type KeywordRow = {
   kept: number; // 보관 중 기사 중 섹션에 실린 수
   hidden: number; // 보관 중 기사 중 섹션에 안 맞아 숨긴 수
   dead: boolean; // 며칠째 실린 기사가 없음
+  sleeping: boolean; // 2주째 없어서 휴면 (하루 한 번만 확인)
 };

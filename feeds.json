@@ -30,7 +30,6 @@
 
   { "category": "정치", "type": "naver", "query": "여야 충돌" },
   { "category": "정치", "type": "naver", "query": "국회 본회의 강행" },
-  { "category": "정치", "type": "naver", "query": "대통령실 야당" },
   { "category": "정치", "type": "naver", "query": "국정감사 공방" },
   { "category": "정치", "type": "naver", "query": "특검 공방" },
   { "category": "정치", "type": "naver", "query": "원내대표 회동" },
@@ -48,10 +47,8 @@
   { "category": "IT", "type": "naver", "query": "해킹 개인정보 유출" },
   { "category": "IT", "type": "naver", "query": "AI 반도체" },
   { "category": "IT", "type": "naver", "query": "핀테크" },
-  { "category": "IT", "type": "naver", "query": "구글 애플 인앱결제" },
 
   { "category": "과학", "type": "naver", "query": "천문학 연구" },
-  { "category": "과학", "type": "naver", "query": "블랙홀 관측" },
   { "category": "과학", "type": "naver", "query": "과학 연구 성과" },
   { "category": "과학", "type": "naver", "query": "노벨상" },
   { "category": "과학", "type": "rss", "url": "https://science.nasa.gov/feed/" },
@@ -59,7 +56,6 @@
   { "category": "문화", "type": "naver", "query": "미술관 전시" },
   { "category": "문화", "type": "naver", "query": "클래식 공연" },
   { "category": "문화", "type": "naver", "query": "연극" },
-  { "category": "문화", "type": "naver", "query": "신간" },
   { "category": "문화", "type": "naver", "query": "베스트셀러" },
   { "category": "문화", "type": "rss", "url": "https://mediahub.seoul.go.kr/news/rss/06" },
   { "category": "문화", "type": "naver", "query": "영화 개봉" },

@@ -23,7 +23,7 @@ import { enrich } from "./collect/enrich.ts";
 import { StoryIndex, hideDuplicates, isPhotoOnly } from "./collect/dedupe.ts";
 import { cleanupGlossary, updateGlossary } from "./collect/glossary.ts";
 import { classifyThemes } from "./collect/themes.ts";
-import { hotSources, loadKeywords, saveKeywords, scoreKeywords, updateHot } from "./collect/keywords.ts";
+import { activeSources, hotSources, loadKeywords, saveKeywords, scoreKeywords, updateHot } from "./collect/keywords.ts";
 import { save, writeActionsSummary } from "./collect/output.ts";
 import { cleanBoardTitle, fetchSource } from "./collect/sources.ts";
 import { makeSpacePhoto } from "./collect/space.ts";
@@ -89,7 +89,8 @@ function pickNew(fetched: NewsItem[], known: Map<string, NewsItem>): NewsItem[] 
 async function main() {
   const fixed: FeedSource[] = JSON.parse(await readFile("feeds.json", "utf8"));
   const keywords = await loadKeywords();
-  const sources = [...fixed, ...hotSources(keywords)]; // 고정 키워드 + 요즘 뜨는 키워드(2주짜리)
+  const allSources = [...fixed, ...hotSources(keywords)]; // 고정 키워드 + 요즘 뜨는 키워드(2주짜리)
+  const sources = activeSources(keywords, allSources); // 휴면 키워드는 하루 첫 수집 때만
   const prev = await loadPrevious();
   const dup = hideDuplicates([...prev.values()]); // 이미 쌓인 중복도 정리 (처음 한 번 많이 숨겨지고, 이후엔 거의 0)
   if (dup) console.log(`🧹 같은 소식 중복 ${dup}건 숨김`);
@@ -114,7 +115,7 @@ async function main() {
     report.newCount++;
     report.newByCategory[n.category] = (report.newByCategory[n.category] ?? 0) + 1;
   }
-  scoreKeywords(keywords, sources, fetched, items);
+  scoreKeywords(keywords, sources, allSources, fetched, items);
   await updateHot(keywords, fixed, items); // 일주일에 한 번, 다음 수집부터 적용
   await saveKeywords(keywords);
   await classifyThemes(items);
