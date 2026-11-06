@@ -15,7 +15,7 @@
  *   glossary.ts 용어 사전              keywords.ts 키워드 성적표·핫 키워드
  */
 import { readFile } from "node:fs/promises";
-import { DROPPED, KEEP_DAYS, MAX_NEW_BY_SECTION, MAX_NEW_PER_BUCKET, MIGRATE, PRESS_KEEP_DAYS, PRESS_LABEL, report, type FeedSource, type NewsItem } from "./collect/config.ts";
+import { THEME_RENAME, DROPPED, KEEP_DAYS, MAX_NEW_BY_SECTION, MAX_NEW_PER_BUCKET, MIGRATE, PRESS_KEEP_DAYS, PRESS_LABEL, report, type FeedSource, type NewsItem } from "./collect/config.ts";
 import { fillMissingPdfs, fixTitles } from "./collect/article.ts";
 import { backfillPress } from "./collect/backfill.ts";
 import { makeConcept } from "./collect/concept.ts";
@@ -23,6 +23,7 @@ import { enrich } from "./collect/enrich.ts";
 import { StoryIndex, hideDuplicates, isPhotoOnly } from "./collect/dedupe.ts";
 import { cleanupGlossary, updateGlossary } from "./collect/glossary.ts";
 import { classifyThemes } from "./collect/themes.ts";
+import { updatePressWeekly } from "./collect/pressWeekly.ts";
 import { activeSources, hotSources, loadKeywords, saveKeywords, scoreKeywords, updateHot } from "./collect/keywords.ts";
 import { save, writeActionsSummary } from "./collect/output.ts";
 import { cleanBoardTitle, fetchSource } from "./collect/sources.ts";
@@ -42,7 +43,13 @@ async function loadPrevious(): Promise<Map<string, NewsItem>> {
       .map((n) => [
         n.key,
         n.label === PRESS_LABEL
-          ? { ...n, category: PRESS_LABEL, title: cleanBoardTitle(n.title), keepDays: PRESS_KEEP_DAYS } // 보관 기간은 설정값으로 통일
+          ? {
+              ...n,
+              category: PRESS_LABEL,
+              title: cleanBoardTitle(n.title),
+              keepDays: PRESS_KEEP_DAYS, // 보관 기간은 설정값으로 통일
+              ...(n.theme && THEME_RENAME[n.theme] ? { theme: THEME_RENAME[n.theme] } : {}),
+            }
           : { ...n, category: MIGRATE[n.category] ?? n.category },
       ]),
   );
@@ -119,6 +126,7 @@ async function main() {
   await updateHot(keywords, fixed, items); // 일주일에 한 번, 다음 수집부터 적용
   await saveKeywords(keywords);
   await classifyThemes(items);
+  await updatePressWeekly(items);
   await cleanupGlossary(); // 한 번만
   await updateGlossary(items.filter((n) => !n.hidden));
   await makeConcept(items);

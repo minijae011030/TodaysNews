@@ -49,7 +49,7 @@ export const PRESS_THEMES = [
   "불공정거래·자본시장",
   "가계부채·부동산금융",
   "가상자산·디지털금융",
-  "보안·전산사고",
+  "IT·보안 규제", // 망분리·전자금융 보안·해킹 대응
   "건전성·리스크관리",
   "지배구조·내부통제",
   "포용금융·서민금융",
@@ -60,6 +60,8 @@ export const PRESS_THEMES = [
   "기후·ESG",
   "기타",
 ];
+// 주제 이름을 바꾼 경우: 예전 이름 → 새 이름 (이미 붙은 주제를 다시 분류하지 않고 옮김)
+export const THEME_RENAME: Record<string, string> = { "보안·전산사고": "IT·보안 규제" };
 export const PRESS_KEEP_DAYS = 90; // 보도자료 보관 기간 (지난 글 채우기도 이 기간만큼). 논술·면접 준비용으로 한 분기
 export const PRESS_RECENT_DAYS = 14; // news.json에 같이 넣는 최근 보도자료 (나머지는 press.json 보관소 → 앱이 필요할 때만 받음)
 export const PRESS_BACKFILL_PER_RUN = 40; // 지난 보도자료를 한 번 수집에 최대 몇 건씩 채울지 (Gemini 한도 고려)

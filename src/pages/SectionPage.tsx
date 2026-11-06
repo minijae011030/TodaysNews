@@ -6,6 +6,7 @@ import { FilterTabs } from "../components/molecules/FilterTabs";
 import { Pagination } from "../components/molecules/Pagination";
 import { StoryListItem } from "../components/molecules/StoryListItem";
 import { SpaceFeature } from "../components/organisms/SpaceFeature";
+import { PressFlow } from "../components/organisms/PressFlow";
 import { ThemeGroups } from "../components/organisms/ThemeGroups";
 import { AGENCY_SHORT, PAGE_SIZE, PRESS } from "../lib/constants";
 import { href } from "../lib/route";
@@ -65,13 +66,14 @@ export function SectionPage({
     const t = setTimeout(() => setSearched(query.trim()), 300);
     return () => clearTimeout(t);
   }, [query]);
-  const byTheme = isPress && view === "themes";
-  const opts = { from, to, q: searched || undefined, view: byTheme ? "themes" : undefined };
+  const pressView = isPress && (view === "themes" || view === "flow") ? view : undefined;
+  const byTheme = pressView === "themes";
+  const opts = { from, to, q: searched || undefined, view: pressView };
   useEffect(() => {
     if (!isPress) return;
-    const next = href.section(section, 1, active, { from, to, q: searched || undefined, view: byTheme ? "themes" : undefined });
+    const next = href.section(section, 1, active, { from, to, q: searched || undefined, view: pressView });
     if (window.location.hash !== next) history.replaceState(null, "", next);
-  }, [isPress, section, active, from, to, searched, byTheme]);
+  }, [isPress, section, active, from, to, searched, pressView]);
   // 날짜 고르기
   const setRange = (next: { from?: string; to?: string }) => {
     let f = "from" in next ? next.from : from;
@@ -175,8 +177,9 @@ export function SectionPage({
           {[
             { key: undefined, name: "날짜순" },
             { key: "themes", name: "주제별" },
+            { key: "flow", name: "흐름" },
           ].map((v) => {
-            const on = (v.key === "themes") === byTheme;
+            const on = v.key === pressView;
             return (
               <a
                 key={v.name}
@@ -191,7 +194,9 @@ export function SectionPage({
         </div>
       )}
 
-      {byTheme ? (
+      {pressView === "flow" ? (
+        <PressFlow items={shown} />
+      ) : byTheme ? (
         <ThemeGroups items={shown} />
       ) : (
       <>

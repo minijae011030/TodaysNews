@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { THEME_RENAME } from "../lib/constants";
 import { fetchData } from "../lib/data";
 import type { Concept, NewsItem, SpacePhoto } from "../types/news";
 
@@ -9,7 +10,7 @@ function normalize(all: NewsItem[]): NewsItem[] {
     .filter((n) => !n.hidden && n.category !== "사회")
     .map((n) =>
       n.label === "보도자료" // 보도자료는 경제 탭에 있다가 따로 탭이 생김
-        ? { ...n, category: "보도자료" }
+        ? { ...n, category: "보도자료", ...(n.theme && THEME_RENAME[n.theme] ? { theme: THEME_RENAME[n.theme] } : {}) }
         : MIGRATE[n.category]
           ? { ...n, category: MIGRATE[n.category] }
           : n,
