@@ -6,6 +6,7 @@ import { FilterTabs } from "../components/molecules/FilterTabs";
 import { Pagination } from "../components/molecules/Pagination";
 import { StoryListItem } from "../components/molecules/StoryListItem";
 import { SpaceFeature } from "../components/organisms/SpaceFeature";
+import { ThemeGroups } from "../components/organisms/ThemeGroups";
 import { AGENCY_SHORT, PAGE_SIZE, PRESS } from "../lib/constants";
 import { href } from "../lib/route";
 import { searchItems } from "../lib/search";
@@ -28,6 +29,7 @@ export function SectionPage({
   from: fromProp,
   to: toProp,
   q = "",
+  view,
   items,
   space = null,
 }: {
@@ -37,6 +39,7 @@ export function SectionPage({
   from?: string; // 보도자료 기간 시작일 (YYYY-MM-DD)
   to?: string; // 보도자료 기간 종료일
   q?: string; // 보도자료 안에서 검색
+  view?: string; // 보도자료: "themes"면 주제별 보기
   items: NewsItem[];
   space?: SpacePhoto | null; // 과학 섹션 맨 위: NASA 오늘의 우주 사진·영상
 }) {
@@ -62,12 +65,13 @@ export function SectionPage({
     const t = setTimeout(() => setSearched(query.trim()), 300);
     return () => clearTimeout(t);
   }, [query]);
-  const opts = { from, to, q: searched || undefined };
+  const byTheme = isPress && view === "themes";
+  const opts = { from, to, q: searched || undefined, view: byTheme ? "themes" : undefined };
   useEffect(() => {
     if (!isPress) return;
-    const next = href.section(section, 1, active, { from, to, q: searched || undefined });
+    const next = href.section(section, 1, active, { from, to, q: searched || undefined, view: byTheme ? "themes" : undefined });
     if (window.location.hash !== next) history.replaceState(null, "", next);
-  }, [isPress, section, active, from, to, searched]);
+  }, [isPress, section, active, from, to, searched, byTheme]);
   // 날짜 고르기
   const setRange = (next: { from?: string; to?: string }) => {
     let f = "from" in next ? next.from : from;
@@ -165,7 +169,33 @@ export function SectionPage({
       {shown.length === 0 &&
         (filtering ? <Notice>No releases match these filters.</Notice> : <Notice>No stories in this section yet.</Notice>)}
 
-      <ul className={`${showTabs ? "mt-0" : "mt-6"} border-t border-ink`}>
+      {/* 보도자료: 날짜순 / 주제별 */}
+      {isPress && shown.length > 0 && (
+        <div className="mt-5 flex justify-end gap-4 text-sm">
+          {[
+            { key: undefined, name: "날짜순" },
+            { key: "themes", name: "주제별" },
+          ].map((v) => {
+            const on = (v.key === "themes") === byTheme;
+            return (
+              <a
+                key={v.name}
+                href={href.section(section, 1, active, { ...opts, view: v.key })}
+                aria-current={on ? "true" : undefined}
+                className={on ? "font-semibold text-ink underline underline-offset-4" : "text-muted hover:text-ink"}
+              >
+                {v.name}
+              </a>
+            );
+          })}
+        </div>
+      )}
+
+      {byTheme ? (
+        <ThemeGroups items={shown} />
+      ) : (
+      <>
+      <ul className={`${showTabs && !isPress ? "mt-0" : "mt-3"} border-t border-ink`}>
         {visible.map((n, i) => {
           // 보도자료는 2주치라 날짜 머리글로 묶음 (10월 28일 화요일)
           const day = isPress ? kstDay(n.publishedAt) : null;
@@ -182,6 +212,8 @@ export function SectionPage({
       </ul>
 
       <Pagination current={current} total={totalPages} hrefFor={(p) => href.section(section, p, active, opts)} />
+      </>
+      )}
     </main>
   );
 }

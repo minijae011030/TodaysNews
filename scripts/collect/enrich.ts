@@ -1,5 +1,5 @@
 // Gemini로 요약 · 섹션 확인 · 논술 포인트
-import { BATCH, BODY_CHARS, NEWS_SECTIONS, PRESS_CHARS, PRESS_LABEL, SUMMARY_VERSION, TERM_SECTIONS, report, type NewsItem } from "./config.ts";
+import { BATCH, BODY_CHARS, NEWS_SECTIONS, PRESS_CHARS, PRESS_LABEL, PRESS_THEMES, SUMMARY_VERSION, TERM_SECTIONS, report, type NewsItem } from "./config.ts";
 import { readArticle } from "./article.ts";
 import { callGemini, geminiKey } from "./gemini.ts";
 import { chunk, parseJson, runPool, sleep } from "./util.ts";
@@ -18,6 +18,7 @@ category는 검색 키워드로 붙은 임시 섹션이라 틀릴 수 있어. es
 summary와 essayPoint는 제공된 title, snippet, body에 있는 내용만 근거로 쓰고 지어내지 마. 정치 기사는 사실만 쓰고 평가나 판단을 붙이지 마. 다툼 기사는 양쪽 주장을 함께 담고 한쪽 표현만 키우지 마. 문체는 '~습니다/~입니다'.
 label이 "보도자료"면 금융당국이 직접 낸 자료(body는 첨부 PDF 전문일 수 있음)이니, summary는 무엇을 왜 하는지만 1~2문장으로 짧게 쓰고 (세부 수치·일정은 keyPoints에 맡겨서 겹치지 않게),
 "keyPoints"에 주요 내용을 3~5개 (각 한 문장, 수치·시행일·대상 포함) 배열로 넣어. 보도자료가 아니면 keyPoints는 null. spaceFact는 널리 확립된 과학 지식만 써.
+"theme": label이 "보도자료"면 아래 주제 중 가장 가까운 하나를 그대로: ${PRESS_THEMES.join(", ")}. 행사·인사·기념식처럼 정책 내용이 없으면 "기타". 보도자료가 아니면 null.
 "terms": 보도자료·경제·정치만. 일반인이 뜻을 모를 만한 경제·금융·정책 전문 용어 0~3개 (예: DSR, 책무구조도, 공매도, 기준금리, 테이퍼링).
 네가 쓴 summary·keyPoints·essayPoint 안에 나온 표기 그대로 적어. 금리·주식·정부처럼 흔한 단어, 기관·사람·회사 이름은 빼. 다른 섹션은 null.`;
 
@@ -31,6 +32,7 @@ type LlmResult = {
   titleKo: string | null;
   keyPoints: string[] | null;
   terms: string[] | null;
+  theme: string | null;
 };
 
 function apply(n: NewsItem, o: LlmResult): void {
@@ -54,6 +56,7 @@ function apply(n: NewsItem, o: LlmResult): void {
   if (o.spaceFact) n.spaceFact = o.spaceFact;
   if (n.label === PRESS_LABEL && o.keyPoints?.length) n.keyPoints = o.keyPoints.slice(0, 5);
   // 용어는 화면에서 링크를 걸 수 있게, 실제로 글에 나온 것만
+  if (n.label === PRESS_LABEL && o.theme && PRESS_THEMES.includes(o.theme)) n.theme = o.theme;
   if (TERM_SECTIONS.includes(n.category) && o.terms?.length) {
     const text = [n.summary, n.essayPoint, ...(n.keyPoints ?? [])].join(" ");
     const terms = [...new Set(o.terms.map((t) => t.trim()))].filter((t) => t.length >= 2 && text.includes(t));

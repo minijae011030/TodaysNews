@@ -17,6 +17,7 @@ export type NewsItem = {
   keyPoints?: string[]; // 보도자료 주요 내용
   terms?: string[]; // 용어 풀이 링크를 걸 용어
   coverage?: number; // 같은 소식을 다룬 매체 수
+  theme?: string; // 보도자료 주제
   image?: string;
 };
 

@@ -37,11 +37,29 @@ export type NewsItem = {
   keyPoints?: string[]; // 보도자료 주요 내용
   terms?: string[]; // 용어 풀이할 전문 용어 (보도자료·경제·정치)
   via?: string; // 어느 검색어로 들어왔는지 (키워드 성적표용)
+  theme?: string; // 보도자료 주제 (PRESS_THEMES 중 하나)
   coverage?: number; // 같은 소식을 다룬 매체 수 (중복으로 걸러진 기사 포함)
   duplicate?: boolean; // 다른 기사와 같은 소식이라 숨김
 };
 
 export const PRESS_LABEL = "보도자료";
+// 보도자료 주제: 보도자료 탭 "주제별" 보기용. 이름을 바꾸면 화면(src/lib/constants.ts)도 같이
+export const PRESS_THEMES = [
+  "소비자보호·분쟁",
+  "불공정거래·자본시장",
+  "가계부채·부동산금융",
+  "가상자산·디지털금융",
+  "보안·전산사고",
+  "건전성·리스크관리",
+  "지배구조·내부통제",
+  "포용금융·서민금융",
+  "보험",
+  "회계·공시",
+  "제재·검사",
+  "거시·통화·외환",
+  "기후·ESG",
+  "기타",
+];
 export const PRESS_KEEP_DAYS = 90; // 보도자료 보관 기간 (지난 글 채우기도 이 기간만큼). 논술·면접 준비용으로 한 분기
 export const PRESS_RECENT_DAYS = 14; // news.json에 같이 넣는 최근 보도자료 (나머지는 press.json 보관소 → 앱이 필요할 때만 받음)
 export const PRESS_BACKFILL_PER_RUN = 40; // 지난 보도자료를 한 번 수집에 최대 몇 건씩 채울지 (Gemini 한도 고려)

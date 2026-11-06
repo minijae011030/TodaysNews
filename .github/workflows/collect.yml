@@ -55,8 +55,13 @@ jobs:
           git config user.email "news-bot@users.noreply.github.com"
           git add public/data
           git commit -m "$(node scripts/commit-message.mjs)"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          # GitHub가 가끔 500(Internal Server Error)으로 push를 거절함 → 잠깐 쉬고 최대 4번 다시 시도
+          for i in 1 2 3 4; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            if [ "$i" = 4 ]; then echo "⚠️ push 4번 실패" >> "$GITHUB_STEP_SUMMARY"; exit 1; fi
+            echo "push 실패 → $((i * 15))초 후 다시 시도 ($i/4)"
+            sleep $((i * 15))
+          done
           echo "changed=true" >> "$GITHUB_OUTPUT"
 
   deploy:
