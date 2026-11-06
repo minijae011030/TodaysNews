@@ -21,7 +21,7 @@ import { backfillPress } from "./collect/backfill.ts";
 import { makeConcept } from "./collect/concept.ts";
 import { enrich } from "./collect/enrich.ts";
 import { StoryIndex, hideDuplicates, isPhotoOnly } from "./collect/dedupe.ts";
-import { updateGlossary } from "./collect/glossary.ts";
+import { cleanupGlossary, updateGlossary } from "./collect/glossary.ts";
 import { classifyThemes } from "./collect/themes.ts";
 import { hotSources, loadKeywords, saveKeywords, scoreKeywords, updateHot } from "./collect/keywords.ts";
 import { save, writeActionsSummary } from "./collect/output.ts";
@@ -118,6 +118,7 @@ async function main() {
   await updateHot(keywords, fixed, items); // 일주일에 한 번, 다음 수집부터 적용
   await saveKeywords(keywords);
   await classifyThemes(items);
+  await cleanupGlossary(); // 한 번만
   await updateGlossary(items.filter((n) => !n.hidden));
   await makeConcept(items);
   await makeSpacePhoto();

@@ -67,7 +67,7 @@ export const SUMMARY_VERSION = 2; // 2: 보도자료 요약 짧게 + 논점 배�
 export const NEWS_SECTIONS = ["경제", "정치", "IT", "과학", "문화"]; // LLM이 기사를 나눌 섹션
 export const SECTIONS = [PRESS_LABEL, ...NEWS_SECTIONS]; // 화면·요약 카드 순서
 export const TERM_SECTIONS = [PRESS_LABEL, "경제", "정치"]; // 용어 풀이를 하는 섹션
-export const MAX_NEW_TERMS = 20; // 한 번 수집에 새로 정의할 용어 최대 수 (토큰 절약)
+export const MAX_NEW_TERMS = 10; // 한 번 수집에 새로 정의할 용어 최대 수 (토큰 절약)
 
 // 섹션 개편 정리: 예전 섹션 이름 → 새 섹션, 없앤 섹션
 // (main 데이터가 한 번 정리되고 3일 지나면 지워도 됨)

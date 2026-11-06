@@ -26,6 +26,7 @@ export type GlossaryEntry = {
   aliases?: string[];
   definition: string;
   addedAt: string;
+  level?: 1 | 2 | 3; // 1 필수 · 2 알면 좋음 · 3 참고
 };
 
 export type Concept = {

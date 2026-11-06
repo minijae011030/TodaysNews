@@ -37,6 +37,7 @@ export function GlossaryPage({
   focus?: string; // #/glossary?t=DSR 처럼 들어오면 그 용어로 스크롤
 }) {
   const [filter, setFilter] = useState("");
+  const [essential, setEssential] = useState(false); // 필수 용어만
   const [sort, setSortState] = useState<Sort>(readSort); // 고른 정렬은 이 기기에 기억
   const setSort = (v: Sort) => {
     setSortState(v);
@@ -66,15 +67,16 @@ export function GlossaryPage({
   // 찾기: 글자 그대로, 또는 자음만 치면 초성으로 (ㄱㅁㄷ → 공매도)
   const shown = useMemo(() => {
     const q = filter.trim();
-    if (!q) return entries;
+    const base = essential ? entries.filter((e) => e.level === 1) : entries;
+    if (!q) return base;
     const names = (e: TermInfo) => [e.term, ...(e.aliases ?? [])];
     if (isChosungQuery(q)) {
       const c = q.replace(/\s+/g, "");
-      return entries.filter((e) => names(e).some((t) => chosungOf(t).includes(c)));
+      return base.filter((e) => names(e).some((t) => chosungOf(t).includes(c)));
     }
     const f = termKey(q);
-    return entries.filter((e) => names(e).some((t) => termKey(t).includes(f)) || e.definition.includes(q));
-  }, [entries, filter]);
+    return base.filter((e) => names(e).some((t) => termKey(t).includes(f)) || e.definition.includes(q));
+  }, [entries, filter, essential]);
 
   // 정렬에 따라 묶음: 가나다순은 초성별, 최근 추가는 날짜별, 주제별은 보도자료 주제별, 자주 나온 순은 묶지 않음
   const groups = useMemo((): [string, TermInfo[]][] => {
@@ -101,7 +103,7 @@ export function GlossaryPage({
   useEffect(() => {
     setPicked(undefined);
     setPage(1);
-  }, [sort, filter]);
+  }, [sort, filter, essential]);
   const paged = sort === "frequent";
   const current = filter || paged ? undefined : groups.some(([g]) => g === picked) ? picked : groups[0]?.[0];
   const visibleGroups = current === undefined ? groups : groups.filter(([g]) => g === current);
@@ -156,8 +158,9 @@ export function GlossaryPage({
             />
           </div>
 
-          {/* 정렬 (고른 건 이 기기에 기억) */}
-          <div role="radiogroup" aria-label="정렬" className="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+          {/* 정렬 (고른 건 이 기기에 기억) + 필수만 */}
+          <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+          <div role="radiogroup" aria-label="정렬" className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
             {SORTS.map((o) => (
               <button
                 key={o.key}
@@ -170,6 +173,15 @@ export function GlossaryPage({
                 {o.name}
               </button>
             ))}
+          </div>
+          <button
+            type="button"
+            aria-pressed={essential}
+            onClick={() => setEssential((v) => !v)}
+            className={`border px-3 py-1 text-sm ${essential ? "border-ink bg-ink font-semibold text-paper" : "border-ink/25 text-ink-soft hover:border-ink"}`}
+          >
+            필수만 <span className="tabular-nums opacity-70">{entries.filter((e) => e.level === 1).length}</span>
+          </button>
           </div>
 
           {/* 묶음 고르기 (초성·날짜·주제): 스크롤해도 위(작은 헤더 바로 아래)에 붙어 있고, 지금 묶음은 검게 */}
@@ -215,6 +227,9 @@ export function GlossaryPage({
                     >
                       <dt className="flex flex-wrap items-baseline gap-x-2">
                         <span className="font-serif text-lg font-bold">{e.term}</span>
+                        {e.level === 1 && (
+                          <span className="border border-ink px-1 text-[0.65rem] leading-tight font-semibold">필수</span>
+                        )}
                         {e.aliases && e.aliases.length > 0 && (
                           <span className="text-sm text-muted">{e.aliases.join(" · ")}</span>
                         )}
