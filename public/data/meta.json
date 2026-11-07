@@ -1,27 +1,29 @@
 {
-  "updatedAt": "2026-11-07T05:01:09.557Z",
-  "count": 1793,
-  "summarized": 1271,
-  "fetched": 432,
-  "newCount": 20,
+  "updatedAt": "2026-11-07T06:01:10.043Z",
+  "count": 1789,
+  "summarized": 1265,
+  "fetched": 428,
+  "newCount": 24,
   "newByCategory": {
-    "정치": 6,
-    "IT": 9,
-    "문화": 1,
-    "과학": 1,
-    "경제": 3
+    "정치": 5,
+    "문화": 2,
+    "경제": 11,
+    "과학": 2,
+    "IT": 4
   },
-  "summarizedNow": 16,
-  "bodyFound": 14,
+  "summarizedNow": 20,
+  "bodyFound": 21,
   "pdfRead": 0,
   "hidden": 1,
   "moved": [
-    "과학→경제"
+    "IT→경제",
+    "IT→경제",
+    "IT→경제"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [],
   "concept": null,
-  "spacePhoto": null,
+  "spacePhoto": "달의 남극에 위치한 드 게를라슈-코허 산맥",
   "newTerms": [],
   "keywords": [
     {
@@ -29,7 +31,7 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 77,
+      "kept": 78,
       "hidden": 57,
       "dead": false,
       "sleeping": false
@@ -40,7 +42,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 39,
-      "hidden": 10,
+      "hidden": 9,
       "dead": false,
       "sleeping": false
     },
@@ -79,7 +81,7 @@
       "query": "불공정거래",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 3,
       "hidden": 3,
       "dead": false,
       "sleeping": false
@@ -99,8 +101,8 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 72,
-      "hidden": 18,
+      "kept": 70,
+      "hidden": 19,
       "dead": false,
       "sleeping": false
     },
@@ -109,7 +111,7 @@
       "query": "국회 정무위원회",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 6,
+      "kept": 5,
       "hidden": 5,
       "dead": false,
       "sleeping": false
@@ -159,8 +161,8 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 9,
-      "hidden": 1,
+      "kept": 10,
+      "hidden": 2,
       "dead": false,
       "sleeping": false
     },
@@ -169,7 +171,7 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 3,
-      "kept": 10,
+      "kept": 9,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -179,8 +181,8 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 42,
-      "hidden": 18,
+      "kept": 44,
+      "hidden": 20,
       "dead": false,
       "sleeping": false
     },
@@ -190,7 +192,7 @@
       "hot": false,
       "fetchedNow": 2,
       "kept": 10,
-      "hidden": 16,
+      "hidden": 14,
       "dead": false,
       "sleeping": false
     },
@@ -210,7 +212,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 10,
-      "hidden": 14,
+      "hidden": 13,
       "dead": false,
       "sleeping": false
     },
@@ -240,7 +242,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 4,
-      "hidden": 8,
+      "hidden": 7,
       "dead": false,
       "sleeping": false
     },
@@ -279,8 +281,8 @@
       "query": "여야 충돌",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 9,
-      "hidden": 16,
+      "kept": 8,
+      "hidden": 17,
       "dead": false,
       "sleeping": false
     },
@@ -289,8 +291,8 @@
       "query": "국회 본회의 강행",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 16,
-      "hidden": 26,
+      "kept": 18,
+      "hidden": 24,
       "dead": false,
       "sleeping": false
     },
@@ -329,8 +331,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 121,
-      "hidden": 61,
+      "kept": 119,
+      "hidden": 63,
       "dead": false,
       "sleeping": false
     },
@@ -339,8 +341,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 17,
-      "hidden": 17,
+      "kept": 16,
+      "hidden": 16,
       "dead": false,
       "sleeping": false
     },
@@ -349,7 +351,7 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 28,
+      "kept": 29,
       "hidden": 27,
       "dead": false,
       "sleeping": false
@@ -359,7 +361,7 @@
       "query": "개발자 채용",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 4,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -379,8 +381,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 144,
-      "hidden": 11,
+      "kept": 142,
+      "hidden": 13,
       "dead": false,
       "sleeping": false
     },
@@ -419,7 +421,7 @@
       "query": "노벨상",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 6,
+      "kept": 5,
       "hidden": 7,
       "dead": false,
       "sleeping": false
@@ -439,7 +441,7 @@
       "query": "클래식 공연",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 3,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -449,7 +451,7 @@
       "query": "연극",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 4,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -478,8 +480,8 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 37,
+      "fetchedNow": 3,
+      "kept": 39,
       "hidden": 17,
       "dead": false,
       "sleeping": false
@@ -530,7 +532,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 8,
-      "hidden": 19,
+      "hidden": 20,
       "dead": false,
       "sleeping": false
     },
