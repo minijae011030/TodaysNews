@@ -1,29 +1,24 @@
 {
-  "updatedAt": "2026-11-07T06:01:10.043Z",
-  "count": 1789,
-  "summarized": 1265,
-  "fetched": 428,
-  "newCount": 24,
+  "updatedAt": "2026-11-07T07:01:11.158Z",
+  "count": 1795,
+  "summarized": 1258,
+  "fetched": 429,
+  "newCount": 22,
   "newByCategory": {
-    "정치": 5,
+    "경제": 9,
     "문화": 2,
-    "경제": 11,
-    "과학": 2,
-    "IT": 4
+    "정치": 6,
+    "IT": 5
   },
-  "summarizedNow": 20,
-  "bodyFound": 21,
+  "summarizedNow": 18,
+  "bodyFound": 14,
   "pdfRead": 0,
-  "hidden": 1,
-  "moved": [
-    "IT→경제",
-    "IT→경제",
-    "IT→경제"
-  ],
+  "hidden": 0,
+  "moved": [],
   "llmFailedBatches": 0,
   "failedFeeds": [],
   "concept": null,
-  "spacePhoto": "달의 남극에 위치한 드 게를라슈-코허 산맥",
+  "spacePhoto": null,
   "newTerms": [],
   "keywords": [
     {
@@ -31,7 +26,7 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 78,
+      "kept": 75,
       "hidden": 57,
       "dead": false,
       "sleeping": false
@@ -41,7 +36,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 39,
+      "kept": 40,
       "hidden": 9,
       "dead": false,
       "sleeping": false
@@ -61,7 +56,7 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
+      "kept": 7,
       "hidden": 5,
       "dead": false,
       "sleeping": false
@@ -71,7 +66,7 @@
       "query": "공매도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
+      "kept": 11,
       "hidden": 3,
       "dead": false,
       "sleeping": false
@@ -101,7 +96,7 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 70,
+      "kept": 69,
       "hidden": 19,
       "dead": false,
       "sleeping": false
@@ -150,9 +145,9 @@
       "category": "경제",
       "query": "코스피 외국인",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 36,
-      "hidden": 18,
+      "fetchedNow": 6,
+      "kept": 35,
+      "hidden": 17,
       "dead": false,
       "sleeping": false
     },
@@ -161,8 +156,8 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
-      "hidden": 2,
+      "kept": 11,
+      "hidden": 4,
       "dead": false,
       "sleeping": false
     },
@@ -170,8 +165,8 @@
       "category": "경제",
       "query": "스테이블코인",
       "hot": false,
-      "fetchedNow": 3,
-      "kept": 9,
+      "fetchedNow": 4,
+      "kept": 10,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -182,7 +177,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 44,
-      "hidden": 20,
+      "hidden": 23,
       "dead": false,
       "sleeping": false
     },
@@ -190,9 +185,9 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 2,
+      "fetchedNow": 0,
       "kept": 10,
-      "hidden": 14,
+      "hidden": 13,
       "dead": false,
       "sleeping": false
     },
@@ -211,7 +206,7 @@
       "query": "보이스피싱",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
+      "kept": 11,
       "hidden": 13,
       "dead": false,
       "sleeping": false
@@ -332,7 +327,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 119,
-      "hidden": 63,
+      "hidden": 64,
       "dead": false,
       "sleeping": false
     },
@@ -352,7 +347,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 29,
-      "hidden": 27,
+      "hidden": 28,
       "dead": false,
       "sleeping": false
     },
@@ -370,7 +365,7 @@
       "category": "IT",
       "query": "해킹 개인정보 유출",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 3,
       "kept": 42,
       "hidden": 34,
       "dead": false,
@@ -381,8 +376,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 142,
-      "hidden": 13,
+      "kept": 138,
+      "hidden": 18,
       "dead": false,
       "sleeping": false
     },
@@ -411,7 +406,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 44,
+      "kept": 42,
       "hidden": 12,
       "dead": false,
       "sleeping": false
@@ -471,7 +466,7 @@
       "query": "영화 개봉",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 17,
+      "kept": 16,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -480,9 +475,9 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 3,
-      "kept": 39,
-      "hidden": 17,
+      "fetchedNow": 7,
+      "kept": 40,
+      "hidden": 18,
       "dead": false,
       "sleeping": false
     },
@@ -531,8 +526,8 @@
       "query": "조작기소 특검법",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 8,
-      "hidden": 20,
+      "kept": 9,
+      "hidden": 22,
       "dead": false,
       "sleeping": false
     },
@@ -541,7 +536,7 @@
       "query": "삼성 SDS 데이터센터",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 7,
+      "kept": 6,
       "hidden": 1,
       "dead": false,
       "sleeping": false
