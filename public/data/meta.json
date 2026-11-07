@@ -1,22 +1,24 @@
 {
-  "updatedAt": "2026-11-07T10:01:07.546Z",
-  "count": 1784,
-  "summarized": 1252,
-  "fetched": 431,
-  "newCount": 21,
+  "updatedAt": "2026-11-07T11:01:06.183Z",
+  "count": 1802,
+  "summarized": 1265,
+  "fetched": 433,
+  "newCount": 17,
   "newByCategory": {
-    "정치": 5,
-    "경제": 7,
+    "경제": 5,
     "문화": 2,
-    "과학": 1,
-    "IT": 6
+    "정치": 6,
+    "IT": 4
   },
-  "summarizedNow": 17,
-  "bodyFound": 15,
+  "summarizedNow": 13,
+  "bodyFound": 9,
   "pdfRead": 0,
   "hidden": 0,
   "moved": [
-    "정치→경제"
+    "정치→경제",
+    "IT→경제",
+    "IT→경제",
+    "IT→정치"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [],
@@ -29,7 +31,7 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 71,
+      "kept": 72,
       "hidden": 57,
       "dead": false,
       "sleeping": false
@@ -180,7 +182,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 46,
-      "hidden": 26,
+      "hidden": 27,
       "dead": false,
       "sleeping": false
     },
@@ -188,8 +190,8 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 0,
-      "kept": 9,
+      "fetchedNow": 1,
+      "kept": 10,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -210,7 +212,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 11,
-      "hidden": 10,
+      "hidden": 11,
       "dead": false,
       "sleeping": false
     },
@@ -309,7 +311,7 @@
       "query": "특검 공방",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 6,
+      "kept": 7,
       "hidden": 9,
       "dead": false,
       "sleeping": false
@@ -329,8 +331,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 121,
-      "hidden": 65,
+      "kept": 124,
+      "hidden": 66,
       "dead": false,
       "sleeping": false
     },
@@ -349,8 +351,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 28,
-      "hidden": 26,
+      "kept": 29,
+      "hidden": 27,
       "dead": false,
       "sleeping": false
     },
@@ -368,7 +370,7 @@
       "category": "IT",
       "query": "해킹 개인정보 유출",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 7,
       "kept": 37,
       "hidden": 34,
       "dead": false,
@@ -379,7 +381,7 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 138,
+      "kept": 141,
       "hidden": 22,
       "dead": false,
       "sleeping": false
@@ -469,7 +471,7 @@
       "query": "영화 개봉",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 14,
+      "kept": 15,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -478,8 +480,8 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 43,
+      "fetchedNow": 5,
+      "kept": 44,
       "hidden": 17,
       "dead": false,
       "sleeping": false
@@ -529,8 +531,8 @@
       "query": "조작기소 특검법",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 9,
-      "hidden": 23,
+      "kept": 10,
+      "hidden": 24,
       "dead": false,
       "sleeping": false
     },
