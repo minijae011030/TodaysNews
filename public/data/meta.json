@@ -1,26 +1,30 @@
 {
-  "updatedAt": "2026-11-07T08:01:02.492Z",
-  "count": 1779,
-  "summarized": 1248,
-  "fetched": 430,
+  "updatedAt": "2026-11-07T09:01:09.673Z",
+  "count": 1761,
+  "summarized": 1235,
+  "fetched": 422,
   "newCount": 19,
   "newByCategory": {
-    "정치": 4,
+    "경제": 4,
+    "정치": 7,
     "문화": 2,
-    "경제": 7,
     "IT": 6
   },
   "summarizedNow": 15,
-  "bodyFound": 14,
+  "bodyFound": 13,
   "pdfRead": 0,
   "hidden": 0,
   "moved": [
-    "IT→경제",
-    "정치→경제",
-    "정치→IT"
+    "IT→정치"
   ],
   "llmFailedBatches": 0,
-  "failedFeeds": [],
+  "failedFeeds": [
+    {
+      "category": "보도자료",
+      "source": "https://www.fsc.go.kr/no010101",
+      "error": "fetch failed"
+    }
+  ],
   "concept": null,
   "spacePhoto": null,
   "newTerms": [],
@@ -30,8 +34,8 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 73,
-      "hidden": 56,
+      "kept": 69,
+      "hidden": 57,
       "dead": false,
       "sleeping": false
     },
@@ -40,7 +44,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 40,
+      "kept": 39,
       "hidden": 8,
       "dead": false,
       "sleeping": false
@@ -61,7 +65,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 7,
-      "hidden": 4,
+      "hidden": 3,
       "dead": false,
       "sleeping": false
     },
@@ -101,7 +105,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 70,
-      "hidden": 21,
+      "hidden": 19,
       "dead": false,
       "sleeping": false
     },
@@ -160,7 +164,7 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 11,
+      "kept": 10,
       "hidden": 5,
       "dead": false,
       "sleeping": false
@@ -180,7 +184,7 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 44,
+      "kept": 45,
       "hidden": 25,
       "dead": false,
       "sleeping": false
@@ -190,8 +194,8 @@
       "query": "비트코인",
       "hot": false,
       "fetchedNow": 0,
-      "kept": 10,
-      "hidden": 12,
+      "kept": 9,
+      "hidden": 11,
       "dead": false,
       "sleeping": false
     },
@@ -211,7 +215,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 11,
-      "hidden": 12,
+      "hidden": 10,
       "dead": false,
       "sleeping": false
     },
@@ -290,8 +294,8 @@
       "query": "국회 본회의 강행",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 19,
-      "hidden": 22,
+      "kept": 21,
+      "hidden": 23,
       "dead": false,
       "sleeping": false
     },
@@ -310,8 +314,8 @@
       "query": "특검 공방",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
-      "hidden": 7,
+      "kept": 6,
+      "hidden": 9,
       "dead": false,
       "sleeping": false
     },
@@ -330,7 +334,7 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 119,
+      "kept": 117,
       "hidden": 64,
       "dead": false,
       "sleeping": false
@@ -351,7 +355,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 27,
-      "hidden": 28,
+      "hidden": 26,
       "dead": false,
       "sleeping": false
     },
@@ -360,7 +364,7 @@
       "query": "개발자 채용",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 3,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -369,8 +373,8 @@
       "category": "IT",
       "query": "해킹 개인정보 유출",
       "hot": false,
-      "fetchedNow": 4,
-      "kept": 39,
+      "fetchedNow": 3,
+      "kept": 36,
       "hidden": 34,
       "dead": false,
       "sleeping": false
@@ -380,7 +384,7 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 137,
+      "kept": 138,
       "hidden": 21,
       "dead": false,
       "sleeping": false
@@ -410,8 +414,8 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 40,
-      "hidden": 12,
+      "kept": 38,
+      "hidden": 11,
       "dead": false,
       "sleeping": false
     },
@@ -470,7 +474,7 @@
       "query": "영화 개봉",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 15,
+      "kept": 14,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -480,7 +484,7 @@
       "query": "드라마",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 41,
+      "kept": 42,
       "hidden": 16,
       "dead": false,
       "sleeping": false
@@ -521,7 +525,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 3,
+      "hidden": 2,
       "dead": true,
       "sleeping": false
     },
@@ -540,7 +544,7 @@
       "query": "삼성 SDS 데이터센터",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 6,
+      "kept": 5,
       "hidden": 1,
       "dead": false,
       "sleeping": false
