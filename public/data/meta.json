@@ -1,30 +1,25 @@
 {
-  "updatedAt": "2026-11-07T09:01:09.673Z",
-  "count": 1761,
-  "summarized": 1235,
-  "fetched": 422,
-  "newCount": 19,
+  "updatedAt": "2026-11-07T10:01:07.546Z",
+  "count": 1784,
+  "summarized": 1252,
+  "fetched": 431,
+  "newCount": 21,
   "newByCategory": {
-    "경제": 4,
-    "정치": 7,
+    "정치": 5,
+    "경제": 7,
     "문화": 2,
+    "과학": 1,
     "IT": 6
   },
-  "summarizedNow": 15,
-  "bodyFound": 13,
+  "summarizedNow": 17,
+  "bodyFound": 15,
   "pdfRead": 0,
   "hidden": 0,
   "moved": [
-    "IT→정치"
+    "정치→경제"
   ],
   "llmFailedBatches": 0,
-  "failedFeeds": [
-    {
-      "category": "보도자료",
-      "source": "https://www.fsc.go.kr/no010101",
-      "error": "fetch failed"
-    }
-  ],
+  "failedFeeds": [],
   "concept": null,
   "spacePhoto": null,
   "newTerms": [],
@@ -34,7 +29,7 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 69,
+      "kept": 71,
       "hidden": 57,
       "dead": false,
       "sleeping": false
@@ -104,7 +99,7 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 70,
+      "kept": 72,
       "hidden": 19,
       "dead": false,
       "sleeping": false
@@ -154,7 +149,7 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 32,
+      "kept": 33,
       "hidden": 17,
       "dead": false,
       "sleeping": false
@@ -184,8 +179,8 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 45,
-      "hidden": 25,
+      "kept": 46,
+      "hidden": 26,
       "dead": false,
       "sleeping": false
     },
@@ -284,7 +279,7 @@
       "query": "여야 충돌",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
+      "kept": 9,
       "hidden": 17,
       "dead": false,
       "sleeping": false
@@ -295,7 +290,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 21,
-      "hidden": 23,
+      "hidden": 24,
       "dead": false,
       "sleeping": false
     },
@@ -334,8 +329,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 117,
-      "hidden": 64,
+      "kept": 121,
+      "hidden": 65,
       "dead": false,
       "sleeping": false
     },
@@ -354,7 +349,7 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 27,
+      "kept": 28,
       "hidden": 26,
       "dead": false,
       "sleeping": false
@@ -373,8 +368,8 @@
       "category": "IT",
       "query": "해킹 개인정보 유출",
       "hot": false,
-      "fetchedNow": 3,
-      "kept": 36,
+      "fetchedNow": 4,
+      "kept": 37,
       "hidden": 34,
       "dead": false,
       "sleeping": false
@@ -385,7 +380,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 138,
-      "hidden": 21,
+      "hidden": 22,
       "dead": false,
       "sleeping": false
     },
@@ -414,7 +409,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 38,
+      "kept": 39,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -434,7 +429,7 @@
       "query": "미술관 전시",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 6,
+      "kept": 7,
       "hidden": 6,
       "dead": false,
       "sleeping": false
@@ -473,7 +468,7 @@
       "category": "문화",
       "query": "영화 개봉",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 14,
       "hidden": 4,
       "dead": false,
@@ -484,8 +479,8 @@
       "query": "드라마",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 42,
-      "hidden": 16,
+      "kept": 43,
+      "hidden": 17,
       "dead": false,
       "sleeping": false
     },
@@ -535,7 +530,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 9,
-      "hidden": 22,
+      "hidden": 23,
       "dead": false,
       "sleeping": false
     },
