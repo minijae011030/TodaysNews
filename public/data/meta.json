@@ -1,31 +1,31 @@
 {
-  "updatedAt": "2026-11-08T05:01:21.347Z",
-  "count": 1767,
-  "summarized": 1267,
-  "fetched": 438,
-  "newCount": 28,
+  "updatedAt": "2026-11-08T06:01:11.222Z",
+  "count": 1758,
+  "summarized": 1268,
+  "fetched": 435,
+  "newCount": 29,
   "newByCategory": {
     "정치": 8,
     "경제": 9,
-    "과학": 1,
+    "IT": 9,
     "문화": 2,
-    "IT": 8
+    "과학": 1
   },
-  "summarizedNow": 24,
+  "summarizedNow": 25,
   "bodyFound": 22,
   "pdfRead": 0,
-  "hidden": 1,
+  "hidden": 0,
   "moved": [
+    "정치→경제",
     "IT→경제",
     "경제→정치",
     "경제→정치",
-    "경제→정치",
-    "IT→경제"
+    "경제→정치"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [],
   "concept": null,
-  "spacePhoto": null,
+  "spacePhoto": "이탈리아 돌로미티 알프스 상공의 거대한 유성",
   "newTerms": [],
   "keywords": [
     {
@@ -33,8 +33,8 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 74,
-      "hidden": 66,
+      "kept": 70,
+      "hidden": 67,
       "dead": false,
       "sleeping": false
     },
@@ -63,7 +63,7 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 6,
       "hidden": 3,
       "dead": false,
       "sleeping": false
@@ -104,7 +104,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 62,
-      "hidden": 13,
+      "hidden": 12,
       "dead": false,
       "sleeping": false
     },
@@ -113,8 +113,8 @@
       "query": "국회 정무위원회",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
-      "hidden": 4,
+      "kept": 11,
+      "hidden": 3,
       "dead": false,
       "sleeping": false
     },
@@ -134,7 +134,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 11,
-      "hidden": 6,
+      "hidden": 5,
       "dead": false,
       "sleeping": false
     },
@@ -143,7 +143,7 @@
       "query": "은행 대출 규제",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
+      "kept": 2,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -154,7 +154,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 38,
-      "hidden": 18,
+      "hidden": 15,
       "dead": false,
       "sleeping": false
     },
@@ -174,7 +174,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 8,
-      "hidden": 8,
+      "hidden": 7,
       "dead": false,
       "sleeping": false
     },
@@ -183,8 +183,8 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 58,
-      "hidden": 30,
+      "kept": 61,
+      "hidden": 32,
       "dead": false,
       "sleeping": false
     },
@@ -194,7 +194,7 @@
       "hot": false,
       "fetchedNow": 5,
       "kept": 5,
-      "hidden": 4,
+      "hidden": 3,
       "dead": false,
       "sleeping": false
     },
@@ -214,7 +214,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 11,
-      "hidden": 7,
+      "hidden": 6,
       "dead": false,
       "sleeping": false
     },
@@ -232,7 +232,7 @@
       "category": "경제",
       "query": "보험사 건전성",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 0,
       "hidden": 0,
       "dead": true,
@@ -263,7 +263,7 @@
       "query": "국민연금 기금",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 2,
+      "kept": 1,
       "hidden": 5,
       "dead": false,
       "sleeping": false
@@ -292,9 +292,9 @@
       "category": "정치",
       "query": "국회 본회의 강행",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 4,
       "kept": 16,
-      "hidden": 20,
+      "hidden": 19,
       "dead": false,
       "sleeping": false
     },
@@ -313,7 +313,7 @@
       "query": "특검 공방",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
+      "kept": 11,
       "hidden": 9,
       "dead": false,
       "sleeping": false
@@ -324,7 +324,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 4,
+      "hidden": 3,
       "dead": true,
       "sleeping": false
     },
@@ -353,7 +353,7 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 30,
+      "kept": 29,
       "hidden": 32,
       "dead": false,
       "sleeping": false
@@ -372,9 +372,9 @@
       "category": "IT",
       "query": "해킹 개인정보 유출",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 29,
-      "hidden": 32,
+      "fetchedNow": 7,
+      "kept": 28,
+      "hidden": 33,
       "dead": false,
       "sleeping": false
     },
@@ -383,7 +383,7 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 137,
+      "kept": 136,
       "hidden": 27,
       "dead": false,
       "sleeping": false
@@ -413,7 +413,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 36,
+      "kept": 34,
       "hidden": 7,
       "dead": false,
       "sleeping": false
@@ -434,7 +434,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 7,
-      "hidden": 5,
+      "hidden": 3,
       "dead": false,
       "sleeping": false
     },
@@ -442,7 +442,7 @@
       "category": "문화",
       "query": "클래식 공연",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 3,
       "kept": 3,
       "hidden": 1,
       "dead": false,
@@ -452,7 +452,7 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 3,
       "kept": 2,
       "hidden": 1,
       "dead": false,
@@ -482,8 +482,8 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 44,
+      "fetchedNow": 5,
+      "kept": 45,
       "hidden": 18,
       "dead": false,
       "sleeping": false
@@ -494,7 +494,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 2,
+      "hidden": 1,
       "dead": true,
       "sleeping": false
     },
