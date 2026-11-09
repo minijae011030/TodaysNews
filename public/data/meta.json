@@ -1,33 +1,30 @@
 {
-  "updatedAt": "2026-11-09T09:01:18.788Z",
-  "count": 1688,
-  "summarized": 1267,
-  "fetched": 433,
-  "newCount": 27,
+  "updatedAt": "2026-11-09T10:02:28.993Z",
+  "count": 1679,
+  "summarized": 1268,
+  "fetched": 436,
+  "newCount": 30,
   "newByCategory": {
-    "경제": 14,
-    "정치": 2,
-    "IT": 7,
-    "문화": 4
+    "경제": 11,
+    "정치": 6,
+    "IT": 9,
+    "문화": 2,
+    "과학": 2
   },
-  "summarizedNow": 24,
-  "bodyFound": 20,
+  "summarizedNow": 26,
+  "bodyFound": 22,
   "pdfRead": 0,
-  "hidden": 3,
+  "hidden": 0,
   "moved": [
-    "정치→경제",
-    "IT→경제",
-    "IT→경제",
-    "IT→경제",
-    "과학→문화",
-    "과학→문화"
+    "IT→경제"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [],
   "concept": null,
   "spacePhoto": null,
   "newTerms": [
-    "세액공제"
+    "장기보유특별공제",
+    "국민총소득"
   ],
   "keywords": [
     {
@@ -35,7 +32,7 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 60,
+      "kept": 56,
       "hidden": 61,
       "dead": false,
       "sleeping": false
@@ -45,7 +42,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 48,
+      "kept": 47,
       "hidden": 5,
       "dead": false,
       "sleeping": false
@@ -64,8 +61,8 @@
       "category": "경제",
       "query": "자본시장 제도",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 8,
+      "fetchedNow": 7,
+      "kept": 9,
       "hidden": 9,
       "dead": false,
       "sleeping": false
@@ -84,9 +81,9 @@
       "category": "경제",
       "query": "불공정거래",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 6,
       "kept": 3,
-      "hidden": 2,
+      "hidden": 1,
       "dead": false,
       "sleeping": false
     },
@@ -105,8 +102,8 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 45,
-      "hidden": 14,
+      "kept": 47,
+      "hidden": 13,
       "dead": false,
       "sleeping": false
     },
@@ -125,8 +122,8 @@
       "query": "세법 개정안",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 13,
-      "hidden": 4,
+      "kept": 18,
+      "hidden": 5,
       "dead": false,
       "sleeping": false
     },
@@ -154,8 +151,8 @@
       "category": "경제",
       "query": "코스피 외국인",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 45,
+      "fetchedNow": 7,
+      "kept": 44,
       "hidden": 6,
       "dead": false,
       "sleeping": false
@@ -165,7 +162,7 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 14,
+      "kept": 15,
       "hidden": 7,
       "dead": false,
       "sleeping": false
@@ -174,7 +171,7 @@
       "category": "경제",
       "query": "스테이블코인",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 7,
       "kept": 8,
       "hidden": 6,
       "dead": false,
@@ -185,7 +182,7 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 48,
+      "kept": 45,
       "hidden": 28,
       "dead": false,
       "sleeping": false
@@ -194,7 +191,7 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 7,
       "kept": 4,
       "hidden": 4,
       "dead": false,
@@ -214,9 +211,9 @@
       "category": "경제",
       "query": "보이스피싱",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 4,
       "kept": 11,
-      "hidden": 16,
+      "hidden": 17,
       "dead": false,
       "sleeping": false
     },
@@ -286,7 +283,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 8,
-      "hidden": 5,
+      "hidden": 3,
       "dead": false,
       "sleeping": false
     },
@@ -295,8 +292,8 @@
       "query": "국회 본회의 강행",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 15,
-      "hidden": 10,
+      "kept": 16,
+      "hidden": 9,
       "dead": false,
       "sleeping": false
     },
@@ -335,8 +332,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 135,
-      "hidden": 50,
+      "kept": 134,
+      "hidden": 49,
       "dead": false,
       "sleeping": false
     },
@@ -346,7 +343,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 16,
-      "hidden": 12,
+      "hidden": 10,
       "dead": false,
       "sleeping": false
     },
@@ -355,7 +352,7 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 33,
+      "kept": 34,
       "hidden": 25,
       "dead": false,
       "sleeping": false
@@ -375,8 +372,8 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 29,
-      "hidden": 27,
+      "kept": 26,
+      "hidden": 26,
       "dead": false,
       "sleeping": false
     },
@@ -385,7 +382,7 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 143,
+      "kept": 146,
       "hidden": 32,
       "dead": false,
       "sleeping": false
@@ -395,7 +392,7 @@
       "query": "핀테크",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
+      "kept": 11,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -405,7 +402,7 @@
       "query": "천문학 연구",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 13,
+      "kept": 12,
       "hidden": 3,
       "dead": false,
       "sleeping": false
@@ -415,7 +412,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 28,
+      "kept": 29,
       "hidden": 10,
       "dead": false,
       "sleeping": false
@@ -426,7 +423,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 2,
-      "hidden": 1,
+      "hidden": 0,
       "dead": false,
       "sleeping": false
     },
@@ -434,7 +431,7 @@
       "category": "문화",
       "query": "미술관 전시",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 7,
       "hidden": 1,
       "dead": false,
@@ -445,7 +442,7 @@
       "query": "클래식 공연",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 6,
+      "kept": 7,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -475,8 +472,8 @@
       "query": "영화 개봉",
       "hot": false,
       "fetchedNow": 4,
-      "kept": 11,
-      "hidden": 3,
+      "kept": 9,
+      "hidden": 2,
       "dead": false,
       "sleeping": false
     },
@@ -484,9 +481,9 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 50,
-      "hidden": 10,
+      "fetchedNow": 3,
+      "kept": 51,
+      "hidden": 9,
       "dead": false,
       "sleeping": false
     },
@@ -535,7 +532,7 @@
       "query": "조작기소 특검법",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 6,
+      "kept": 5,
       "hidden": 22,
       "dead": false,
       "sleeping": false
