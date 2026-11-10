@@ -1,40 +1,38 @@
 {
-  "updatedAt": "2026-11-10T22:02:41.846Z",
-  "count": 1764,
-  "summarized": 1349,
-  "fetched": 409,
-  "newCount": 29,
+  "updatedAt": "2026-11-10T23:02:23.513Z",
+  "count": 1779,
+  "summarized": 1347,
+  "fetched": 444,
+  "newCount": 28,
   "newByCategory": {
-    "보도자료": 1,
-    "경제": 9,
-    "정치": 8,
+    "경제": 13,
     "과학": 2,
-    "IT": 8,
-    "문화": 1
+    "문화": 2,
+    "정치": 6,
+    "IT": 5
   },
-  "summarizedNow": 25,
-  "bodyFound": 21,
-  "pdfRead": 1,
-  "hidden": 2,
+  "summarizedNow": 23,
+  "bodyFound": 18,
+  "pdfRead": 0,
+  "hidden": 3,
   "moved": [
+    "IT→경제",
+    "IT→경제",
     "IT→정치",
-    "경제→정치",
-    "IT→정치"
+    "IT→경제"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [],
-  "concept": "주식정보 제공서비스 이용료 분리안내",
+  "concept": null,
   "spacePhoto": null,
-  "newTerms": [
-    "근원 CPI"
-  ],
+  "newTerms": [],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 63,
+      "fetchedNow": 4,
+      "kept": 62,
       "hidden": 51,
       "dead": false,
       "sleeping": false
@@ -44,8 +42,8 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 45,
-      "hidden": 7,
+      "kept": 46,
+      "hidden": 8,
       "dead": false,
       "sleeping": false
     },
@@ -83,7 +81,7 @@
       "category": "경제",
       "query": "불공정거래",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 4,
       "hidden": 1,
       "dead": false,
@@ -104,7 +102,7 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 45,
+      "kept": 46,
       "hidden": 12,
       "dead": false,
       "sleeping": false
@@ -124,7 +122,7 @@
       "query": "세법 개정안",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 21,
+      "kept": 20,
       "hidden": 10,
       "dead": false,
       "sleeping": false
@@ -164,7 +162,7 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 18,
+      "kept": 19,
       "hidden": 8,
       "dead": false,
       "sleeping": false
@@ -173,9 +171,9 @@
       "category": "경제",
       "query": "스테이블코인",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 6,
       "kept": 14,
-      "hidden": 9,
+      "hidden": 10,
       "dead": false,
       "sleeping": false
     },
@@ -184,7 +182,7 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 38,
+      "kept": 37,
       "hidden": 18,
       "dead": false,
       "sleeping": false
@@ -193,8 +191,8 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 1,
-      "kept": 4,
+      "fetchedNow": 3,
+      "kept": 3,
       "hidden": 10,
       "dead": false,
       "sleeping": false
@@ -233,7 +231,7 @@
       "category": "경제",
       "query": "보험사 건전성",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 6,
       "kept": 0,
       "hidden": 0,
       "dead": true,
@@ -314,7 +312,7 @@
       "query": "특검 공방",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
+      "kept": 9,
       "hidden": 8,
       "dead": false,
       "sleeping": false
@@ -325,7 +323,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 2,
+      "hidden": 3,
       "dead": true,
       "sleeping": false
     },
@@ -334,8 +332,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 157,
-      "hidden": 45,
+      "kept": 158,
+      "hidden": 46,
       "dead": false,
       "sleeping": false
     },
@@ -344,8 +342,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 15,
-      "hidden": 17,
+      "kept": 13,
+      "hidden": 19,
       "dead": false,
       "sleeping": false
     },
@@ -354,7 +352,7 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 39,
+      "kept": 40,
       "hidden": 27,
       "dead": false,
       "sleeping": false
@@ -374,8 +372,8 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 20,
-      "hidden": 19,
+      "kept": 19,
+      "hidden": 23,
       "dead": false,
       "sleeping": false
     },
@@ -384,8 +382,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 183,
-      "hidden": 19,
+      "kept": 182,
+      "hidden": 21,
       "dead": false,
       "sleeping": false
     },
@@ -393,7 +391,7 @@
       "category": "IT",
       "query": "핀테크",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 3,
       "kept": 13,
       "hidden": 5,
       "dead": false,
@@ -404,7 +402,7 @@
       "query": "천문학 연구",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
+      "kept": 9,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -413,9 +411,9 @@
       "category": "과학",
       "query": "과학 연구 성과",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 41,
-      "hidden": 13,
+      "fetchedNow": 7,
+      "kept": 43,
+      "hidden": 14,
       "dead": false,
       "sleeping": false
     },
@@ -434,7 +432,7 @@
       "query": "미술관 전시",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
+      "kept": 9,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -463,8 +461,8 @@
       "category": "문화",
       "query": "베스트셀러",
       "hot": false,
-      "fetchedNow": 2,
-      "kept": 1,
+      "fetchedNow": 3,
+      "kept": 2,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -473,8 +471,8 @@
       "category": "문화",
       "query": "영화 개봉",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 9,
+      "fetchedNow": 5,
+      "kept": 8,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -483,9 +481,19 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 4,
-      "kept": 47,
+      "fetchedNow": 3,
+      "kept": 46,
       "hidden": 5,
+      "dead": false,
+      "sleeping": false
+    },
+    {
+      "category": "경제",
+      "query": "엔비디아 젠슨 황 스캔들",
+      "hot": true,
+      "fetchedNow": 7,
+      "kept": 1,
+      "hidden": 1,
       "dead": false,
       "sleeping": false
     },
@@ -501,12 +509,32 @@
     },
     {
       "category": "정치",
+      "query": "사관학교 통합 반대",
+      "hot": true,
+      "fetchedNow": 7,
+      "kept": 0,
+      "hidden": 0,
+      "dead": false,
+      "sleeping": false
+    },
+    {
+      "category": "정치",
+      "query": "호남 반도체 클러스터",
+      "hot": true,
+      "fetchedNow": 7,
+      "kept": 0,
+      "hidden": 0,
+      "dead": false,
+      "sleeping": false
+    },
+    {
+      "category": "정치",
       "query": "대통령 개인정보 유출",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 1,
+      "kept": 0,
       "hidden": 1,
-      "dead": false,
+      "dead": true,
       "sleeping": false
     },
     {
@@ -514,8 +542,38 @@
       "query": "조작기소 특검법",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 3,
+      "kept": 4,
       "hidden": 18,
+      "dead": false,
+      "sleeping": false
+    },
+    {
+      "category": "IT",
+      "query": "엔비디아 AI칩 중국",
+      "hot": true,
+      "fetchedNow": 7,
+      "kept": 2,
+      "hidden": 3,
+      "dead": false,
+      "sleeping": false
+    },
+    {
+      "category": "IT",
+      "query": "국산 AI 반도체 협력",
+      "hot": true,
+      "fetchedNow": 7,
+      "kept": 0,
+      "hidden": 0,
+      "dead": false,
+      "sleeping": false
+    },
+    {
+      "category": "IT",
+      "query": "CES 2027 혁신상",
+      "hot": true,
+      "fetchedNow": 7,
+      "kept": 0,
+      "hidden": 0,
       "dead": false,
       "sleeping": false
     },
@@ -528,26 +586,9 @@
       "hidden": 1,
       "dead": false,
       "sleeping": false
-    },
-    {
-      "category": "IT",
-      "query": "하이브 정보 유출",
-      "hot": true,
-      "fetchedNow": 7,
-      "kept": 1,
-      "hidden": 0,
-      "dead": false,
-      "sleeping": false
     }
   ],
-  "newHot": [
-    "경제:엔비디아 젠슨 황 스캔들",
-    "정치:사관학교 통합 반대",
-    "정치:호남 반도체 클러스터",
-    "IT:엔비디아 AI칩 중국",
-    "IT:국산 AI 반도체 협력",
-    "IT:CES 2027 혁신상"
-  ],
+  "newHot": [],
   "keywordsSlept": [],
   "keywordsWoke": []
 }
