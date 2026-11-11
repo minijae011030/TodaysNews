@@ -1,30 +1,35 @@
 {
-  "updatedAt": "2026-11-11T03:01:33.900Z",
-  "count": 1807,
+  "updatedAt": "2026-11-11T04:01:29.355Z",
+  "count": 1802,
   "summarized": 1356,
-  "fetched": 455,
-  "newCount": 31,
+  "fetched": 446,
+  "newCount": 30,
   "newByCategory": {
+    "문화": 2,
     "정치": 8,
-    "경제": 11,
-    "문화": 3,
-    "IT": 7,
-    "과학": 2
+    "경제": 13,
+    "과학": 2,
+    "IT": 5
   },
-  "summarizedNow": 26,
-  "bodyFound": 24,
+  "summarizedNow": 25,
+  "bodyFound": 23,
   "pdfRead": 0,
-  "hidden": 0,
+  "hidden": 1,
   "moved": [
-    "경제→문화",
     "IT→경제",
-    "경제→정치",
     "IT→경제",
+    "IT→정치",
     "IT→경제",
     "IT→정치"
   ],
   "llmFailedBatches": 0,
-  "failedFeeds": [],
+  "failedFeeds": [
+    {
+      "category": "보도자료",
+      "source": "https://www.fss.or.kr/fss/bbs/B0000188/list.do?menuNo=200218",
+      "error": "fetch failed"
+    }
+  ],
   "concept": null,
   "spacePhoto": null,
   "newTerms": [],
@@ -35,7 +40,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 63,
-      "hidden": 46,
+      "hidden": 43,
       "dead": false,
       "sleeping": false
     },
@@ -44,7 +49,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 55,
+      "kept": 54,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -64,7 +69,7 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 21,
+      "kept": 22,
       "hidden": 19,
       "dead": false,
       "sleeping": false
@@ -114,7 +119,7 @@
       "query": "국회 정무위원회",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 18,
+      "kept": 17,
       "hidden": 5,
       "dead": false,
       "sleeping": false
@@ -134,7 +139,7 @@
       "query": "가상자산 규제",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
+      "kept": 7,
       "hidden": 6,
       "dead": false,
       "sleeping": false
@@ -174,7 +179,7 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 16,
+      "kept": 18,
       "hidden": 10,
       "dead": false,
       "sleeping": false
@@ -184,8 +189,8 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 26,
-      "hidden": 13,
+      "kept": 24,
+      "hidden": 12,
       "dead": false,
       "sleeping": false
     },
@@ -193,7 +198,7 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 3,
       "kept": 3,
       "hidden": 11,
       "dead": false,
@@ -213,7 +218,7 @@
       "category": "경제",
       "query": "보이스피싱",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 7,
       "kept": 14,
       "hidden": 24,
       "dead": false,
@@ -315,7 +320,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 7,
-      "hidden": 8,
+      "hidden": 7,
       "dead": false,
       "sleeping": false
     },
@@ -334,8 +339,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 160,
-      "hidden": 46,
+      "kept": 157,
+      "hidden": 47,
       "dead": false,
       "sleeping": false
     },
@@ -344,7 +349,7 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 12,
+      "kept": 16,
       "hidden": 20,
       "dead": false,
       "sleeping": false
@@ -354,8 +359,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 37,
-      "hidden": 24,
+      "kept": 36,
+      "hidden": 23,
       "dead": false,
       "sleeping": false
     },
@@ -384,8 +389,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 184,
-      "hidden": 22,
+      "kept": 185,
+      "hidden": 20,
       "dead": false,
       "sleeping": false
     },
@@ -473,8 +478,8 @@
       "category": "문화",
       "query": "영화 개봉",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 9,
+      "fetchedNow": 2,
+      "kept": 8,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -484,7 +489,7 @@
       "query": "드라마",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 47,
+      "kept": 48,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -494,7 +499,7 @@
       "query": "엔비디아 젠슨 황 스캔들",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 3,
+      "kept": 6,
       "hidden": 5,
       "dead": false,
       "sleeping": false
@@ -555,7 +560,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 3,
-      "hidden": 4,
+      "hidden": 5,
       "dead": false,
       "sleeping": false
     },
