@@ -1,5 +1,33 @@
 [
   {
+    "key": "신뢰받는자본시장현장에서묻고답을찾다",
+    "id": "d1104d8b2d",
+    "category": "보도자료",
+    "label": "보도자료",
+    "keepDays": 30,
+    "title": "신뢰받는 자본시장, 현장에서 묻고 답을 찾다",
+    "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249834&menuNo=200218",
+    "source": "금융감독원",
+    "publishedAt": "2026-11-13T01:00:44.721Z",
+    "snippet": "",
+    "titleTried": true,
+    "titleFix": 2,
+    "attachment": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=44d4af82953542b8a5d07cc8bb28caba&fileSn=2&bbsId=",
+    "summary": null,
+    "sv": 2,
+    "tags": [
+      "자본시장",
+      "기업가치제고",
+      "M&A"
+    ],
+    "essayPoint": "배경: 코리아 프리미엄 시대에도 저PBR 기업이 해소되지 않고 M&A 프리미엄이 지배주주에게만 집중되는 등 자본시장의 구조적 한계를 개선하기 위해 정책 간담회가 개최되었습니다.\n근거: 한국 PBR은 장기 박스권인 0.8~1.2배를 넘어섰으나 코스피 560개사와 코스닥 877개사의 PBR이 여전히 1배 미만이며, 고의 주가누르기 기업에 대해 장기 평균주가 대비 최소 30% 이상 할증 과세하는 방안이 검토됩니다.\n쟁점: 합병가액 산정 시 시가 기준을 폐지하고 공정가액과 외부평가를 도입하는 방안이 논의되는 한편, 의무공개매수 시 50%+1주 방식이 인수자금 증가로 M&A를 위축시킬 수 있다는 우려도 제기됩니다.",
+    "theme": "불공정거래·자본시장",
+    "terms": [
+      "PBR",
+      "의무공개매수"
+    ]
+  },
+  {
     "key": "26년도상반기기술금융테크평가및품질심사평가결과",
     "id": "72bcb10897",
     "category": "보도자료",
