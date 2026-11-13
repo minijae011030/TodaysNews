@@ -4,7 +4,7 @@
     "id": "8146fbd939",
     "category": "보도자료",
     "label": "보도자료",
-    "keepDays": 30,
+    "keepDays": 90,
     "title": "지역기업과의 동행, 6개 정책금융기관이 현장에서 함께 합니다..",
     "link": "https://www.fsc.go.kr/no010101/88143",
     "source": "금융위원회",
@@ -12,14 +12,26 @@
     "snippet": "",
     "titleTried": true,
     "titleFix": 2,
-    "attachment": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88143&fileTy=ATTACH&fileNo=2"
+    "attachment": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88143&fileTy=ATTACH&fileNo=2",
+    "summary": "6개 정책금융기관이 지역기업과의 동행을 위해 현장에서 직접 소통하고 지원에 나섭니다.",
+    "sv": 2,
+    "tags": [
+      "정책금융기관",
+      "지역기업",
+      "동행"
+    ],
+    "essayPoint": "배경: 지역 경제 활성화와 지방 이전 및 중소·벤처기업에 대한 현장 중심의 금융 지원 필요성이 커짐에 따라 정책금융기관들이 공동 대응에 나섰습니다.\n대응: 6개 정책금융기관이 현장에서 직접 기업들의 애로사항을 청취하고 맞춤형 지원 방안을 실행하기로 했습니다.\n쟁점: 일회성 행사에 그치지 않고 실제 지역 기업들의 자금 조달과 경쟁력 강화로 실질적으로 이어질 수 있을지가 관건입니다.",
+    "theme": "포용금융·서민금융",
+    "terms": [
+      "정책금융기관"
+    ]
   },
   {
     "key": "잠자고있는포인트지역화폐로바꿔골목상권에서쓴다",
     "id": "409c2bddab",
     "category": "보도자료",
     "label": "보도자료",
-    "keepDays": 30,
+    "keepDays": 90,
     "title": "잠자고 있는 포인트, 지역화폐로 바꿔 골목상권에서 쓴다.",
     "link": "https://www.fsc.go.kr/no010101/88142",
     "source": "금융위원회",
@@ -27,7 +39,19 @@
     "snippet": "",
     "titleTried": true,
     "titleFix": 2,
-    "attachment": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88142&fileTy=ATTACH&fileNo=2"
+    "attachment": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88142&fileTy=ATTACH&fileNo=2",
+    "summary": "잠자는 포인트를 지역화폐로 교환해 골목상권에서 사용할 수 있는 서비스가 도입됩니다.",
+    "sv": 2,
+    "tags": [
+      "포인트",
+      "지역화폐",
+      "골목상권"
+    ],
+    "essayPoint": "배경: 사용되지 않고 소멸하는 각종 카드 포인트와 마일리지의 활용도를 높이고, 침체된 골목상권의 소비를 촉진하기 위한 방안으로 추진되었습니다.\n대응: 잠자는 포인트를 지역화폐로 간편하게 전환하여 소상공인 가맹점에서 쓸 수 있도록 제도를 개선합니다.\n쟁점: 포인트 전환 과정의 편의성이 얼마나 확보되며 실제 지역 상권 매출 증대에 얼마나 기여할지 살펴봐야 합니다.",
+    "theme": "포용금융·서민금융",
+    "terms": [
+      "지역화폐"
+    ]
   },
   {
     "key": "서울가격상승폭둔화매물증가수도권내년1분기까지4만호이상입주",
