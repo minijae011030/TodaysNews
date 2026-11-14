@@ -1,24 +1,24 @@
 {
-  "updatedAt": "2026-11-14T10:02:11.796Z",
-  "count": 1856,
-  "summarized": 1315,
-  "fetched": 437,
-  "newCount": 25,
+  "updatedAt": "2026-11-14T11:01:12.621Z",
+  "count": 1842,
+  "summarized": 1308,
+  "fetched": 436,
+  "newCount": 13,
   "newByCategory": {
-    "정치": 7,
-    "IT": 11,
-    "경제": 5,
-    "문화": 2
+    "정치": 1,
+    "경제": 2,
+    "문화": 1,
+    "IT": 9
   },
-  "summarizedNow": 12,
-  "bodyFound": 6,
+  "summarizedNow": 16,
+  "bodyFound": 17,
   "pdfRead": 0,
-  "hidden": 1,
+  "hidden": 6,
   "moved": [
-    "IT→정치",
-    "경제→IT"
+    "IT→경제",
+    "IT→문화"
   ],
-  "llmFailedBatches": 1,
+  "llmFailedBatches": 0,
   "failedFeeds": [],
   "concept": null,
   "spacePhoto": null,
@@ -29,7 +29,7 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 61,
+      "kept": 59,
       "hidden": 32,
       "dead": false,
       "sleeping": false
@@ -39,8 +39,8 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 41,
-      "hidden": 17,
+      "kept": 40,
+      "hidden": 16,
       "dead": false,
       "sleeping": false
     },
@@ -60,7 +60,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 28,
-      "hidden": 25,
+      "hidden": 24,
       "dead": false,
       "sleeping": false
     },
@@ -99,7 +99,7 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 47,
+      "kept": 46,
       "hidden": 21,
       "dead": false,
       "sleeping": false
@@ -149,7 +149,7 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 23,
+      "kept": 22,
       "hidden": 15,
       "dead": false,
       "sleeping": false
@@ -159,7 +159,7 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 12,
+      "kept": 11,
       "hidden": 10,
       "dead": false,
       "sleeping": false
@@ -239,7 +239,7 @@
       "query": "상장폐지",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 4,
       "hidden": 9,
       "dead": false,
       "sleeping": false
@@ -310,7 +310,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 6,
-      "hidden": 3,
+      "hidden": 2,
       "dead": false,
       "sleeping": false
     },
@@ -329,8 +329,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 130,
-      "hidden": 45,
+      "kept": 129,
+      "hidden": 46,
       "dead": false,
       "sleeping": false
     },
@@ -340,7 +340,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 24,
-      "hidden": 23,
+      "hidden": 30,
       "dead": false,
       "sleeping": false
     },
@@ -349,8 +349,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 52,
-      "hidden": 29,
+      "kept": 49,
+      "hidden": 27,
       "dead": false,
       "sleeping": false
     },
@@ -370,7 +370,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 16,
-      "hidden": 36,
+      "hidden": 35,
       "dead": false,
       "sleeping": false
     },
@@ -379,7 +379,7 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 169,
+      "kept": 171,
       "hidden": 39,
       "dead": false,
       "sleeping": false
@@ -409,7 +409,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 45,
+      "kept": 43,
       "hidden": 13,
       "dead": false,
       "sleeping": false
@@ -439,7 +439,7 @@
       "query": "클래식 공연",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 3,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -448,7 +448,7 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 4,
       "kept": 9,
       "hidden": 1,
       "dead": false,
@@ -480,7 +480,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 41,
-      "hidden": 12,
+      "hidden": 15,
       "dead": false,
       "sleeping": false
     },
@@ -489,7 +489,7 @@
       "query": "엔비디아 젠슨 황 스캔들",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 62,
+      "kept": 60,
       "hidden": 29,
       "dead": false,
       "sleeping": false
@@ -510,7 +510,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 1,
-      "hidden": 2,
+      "hidden": 0,
       "dead": false,
       "sleeping": false
     },
@@ -540,7 +540,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 7,
+      "hidden": 6,
       "dead": true,
       "sleeping": false
     },
@@ -549,8 +549,8 @@
       "query": "엔비디아 AI칩 중국",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 22,
-      "hidden": 22,
+      "kept": 21,
+      "hidden": 21,
       "dead": false,
       "sleeping": false
     },
