@@ -1,37 +1,39 @@
 {
-  "updatedAt": "2026-11-14T05:01:08.993Z",
-  "count": 1906,
-  "summarized": 1349,
-  "fetched": 445,
-  "newCount": 21,
+  "updatedAt": "2026-11-14T06:01:12.700Z",
+  "count": 1902,
+  "summarized": 1343,
+  "fetched": 442,
+  "newCount": 23,
   "newByCategory": {
-    "문화": 3,
     "정치": 6,
-    "경제": 6,
-    "IT": 6
+    "IT": 7,
+    "경제": 7,
+    "문화": 1,
+    "과학": 2
   },
-  "summarizedNow": 16,
-  "bodyFound": 17,
+  "summarizedNow": 18,
+  "bodyFound": 18,
   "pdfRead": 0,
-  "hidden": 3,
+  "hidden": 1,
   "moved": [
-    "IT→문화",
+    "IT→경제",
+    "IT→정치",
     "IT→경제",
     "IT→경제"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [],
   "concept": null,
-  "spacePhoto": null,
+  "spacePhoto": "아폴로 12호와 서베이어 3호",
   "newTerms": [],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 72,
-      "hidden": 31,
+      "fetchedNow": 6,
+      "kept": 68,
+      "hidden": 32,
       "dead": false,
       "sleeping": false
     },
@@ -40,7 +42,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 46,
+      "kept": 45,
       "hidden": 21,
       "dead": false,
       "sleeping": false
@@ -90,7 +92,7 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 20,
+      "kept": 19,
       "hidden": 12,
       "dead": false,
       "sleeping": false
@@ -100,8 +102,8 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 50,
-      "hidden": 23,
+      "kept": 48,
+      "hidden": 21,
       "dead": false,
       "sleeping": false
     },
@@ -149,9 +151,9 @@
       "category": "경제",
       "query": "코스피 외국인",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 5,
       "kept": 24,
-      "hidden": 18,
+      "hidden": 17,
       "dead": false,
       "sleeping": false
     },
@@ -171,7 +173,7 @@
       "hot": false,
       "fetchedNow": 6,
       "kept": 8,
-      "hidden": 3,
+      "hidden": 2,
       "dead": false,
       "sleeping": false
     },
@@ -181,7 +183,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 23,
-      "hidden": 15,
+      "hidden": 16,
       "dead": false,
       "sleeping": false
     },
@@ -211,7 +213,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 6,
-      "hidden": 16,
+      "hidden": 15,
       "dead": false,
       "sleeping": false
     },
@@ -261,7 +263,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 8,
-      "hidden": 2,
+      "hidden": 1,
       "dead": false,
       "sleeping": false
     },
@@ -281,7 +283,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 12,
-      "hidden": 18,
+      "hidden": 17,
       "dead": false,
       "sleeping": false
     },
@@ -320,7 +322,7 @@
       "query": "원내대표 회동",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 3,
       "hidden": 3,
       "dead": false,
       "sleeping": false
@@ -330,7 +332,7 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 121,
+      "kept": 123,
       "hidden": 42,
       "dead": false,
       "sleeping": false
@@ -340,8 +342,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 30,
-      "hidden": 33,
+      "kept": 29,
+      "hidden": 32,
       "dead": false,
       "sleeping": false
     },
@@ -351,7 +353,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 53,
-      "hidden": 22,
+      "hidden": 27,
       "dead": false,
       "sleeping": false
     },
@@ -370,8 +372,8 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 16,
-      "hidden": 37,
+      "kept": 15,
+      "hidden": 36,
       "dead": false,
       "sleeping": false
     },
@@ -380,8 +382,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 169,
-      "hidden": 37,
+      "kept": 170,
+      "hidden": 38,
       "dead": false,
       "sleeping": false
     },
@@ -391,7 +393,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 1,
-      "hidden": 1,
+      "hidden": 0,
       "dead": false,
       "sleeping": false
     },
@@ -400,7 +402,7 @@
       "query": "천문학 연구",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 7,
+      "kept": 8,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -410,7 +412,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 51,
+      "kept": 49,
       "hidden": 19,
       "dead": false,
       "sleeping": false
@@ -430,7 +432,7 @@
       "query": "미술관 전시",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 10,
+      "kept": 9,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -470,7 +472,7 @@
       "query": "영화 개봉",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 12,
+      "kept": 13,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -479,9 +481,9 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 38,
-      "hidden": 9,
+      "fetchedNow": 6,
+      "kept": 37,
+      "hidden": 10,
       "dead": false,
       "sleeping": false
     },
@@ -490,7 +492,7 @@
       "query": "엔비디아 젠슨 황 스캔들",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 56,
+      "kept": 59,
       "hidden": 28,
       "dead": false,
       "sleeping": false
@@ -551,7 +553,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 24,
-      "hidden": 21,
+      "hidden": 24,
       "dead": false,
       "sleeping": false
     },
@@ -560,7 +562,7 @@
       "query": "국산 AI 반도체 협력",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 4,
       "hidden": 12,
       "dead": false,
       "sleeping": false
