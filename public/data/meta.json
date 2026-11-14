@@ -1,23 +1,24 @@
 {
-  "updatedAt": "2026-11-14T08:01:16.577Z",
-  "count": 1875,
-  "summarized": 1331,
-  "fetched": 439,
-  "newCount": 24,
+  "updatedAt": "2026-11-14T09:01:27.785Z",
+  "count": 1866,
+  "summarized": 1329,
+  "fetched": 437,
+  "newCount": 26,
   "newByCategory": {
-    "정치": 7,
-    "경제": 8,
-    "문화": 1,
-    "과학": 1,
-    "IT": 7
+    "정치": 6,
+    "경제": 11,
+    "IT": 7,
+    "문화": 2
   },
   "summarizedNow": 21,
-  "bodyFound": 16,
+  "bodyFound": 20,
   "pdfRead": 0,
-  "hidden": 2,
+  "hidden": 1,
   "moved": [
+    "경제→정치",
     "IT→경제",
-    "IT→정치",
+    "IT→경제",
+    "IT→경제",
     "IT→경제"
   ],
   "llmFailedBatches": 0,
@@ -41,7 +42,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 41,
+      "kept": 42,
       "hidden": 18,
       "dead": false,
       "sleeping": false
@@ -52,7 +53,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 1,
-      "hidden": 1,
+      "hidden": 0,
       "dead": false,
       "sleeping": false
     },
@@ -61,7 +62,7 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 31,
+      "kept": 29,
       "hidden": 25,
       "dead": false,
       "sleeping": false
@@ -91,7 +92,7 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 19,
+      "kept": 20,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -150,7 +151,7 @@
       "category": "경제",
       "query": "코스피 외국인",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 6,
       "kept": 23,
       "hidden": 16,
       "dead": false,
@@ -171,7 +172,7 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 7,
+      "kept": 8,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -182,7 +183,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 27,
-      "hidden": 16,
+      "hidden": 15,
       "dead": false,
       "sleeping": false
     },
@@ -211,8 +212,8 @@
       "query": "보이스피싱",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
-      "hidden": 16,
+      "kept": 7,
+      "hidden": 15,
       "dead": false,
       "sleeping": false
     },
@@ -261,7 +262,7 @@
       "query": "국민연금 기금",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
+      "kept": 7,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -271,7 +272,7 @@
       "query": "코리아 디스카운트",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 1,
+      "kept": 2,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -282,7 +283,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 11,
-      "hidden": 15,
+      "hidden": 13,
       "dead": false,
       "sleeping": false
     },
@@ -331,8 +332,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 124,
-      "hidden": 41,
+      "kept": 128,
+      "hidden": 42,
       "dead": false,
       "sleeping": false
     },
@@ -341,8 +342,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 26,
-      "hidden": 29,
+      "kept": 25,
+      "hidden": 28,
       "dead": false,
       "sleeping": false
     },
@@ -351,7 +352,7 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 55,
+      "kept": 52,
       "hidden": 29,
       "dead": false,
       "sleeping": false
@@ -372,7 +373,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 16,
-      "hidden": 35,
+      "hidden": 36,
       "dead": false,
       "sleeping": false
     },
@@ -381,8 +382,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 170,
-      "hidden": 36,
+      "kept": 169,
+      "hidden": 38,
       "dead": false,
       "sleeping": false
     },
@@ -410,9 +411,9 @@
       "category": "과학",
       "query": "과학 연구 성과",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 47,
-      "hidden": 16,
+      "fetchedNow": 6,
+      "kept": 46,
+      "hidden": 14,
       "dead": false,
       "sleeping": false
     },
@@ -470,8 +471,8 @@
       "category": "문화",
       "query": "영화 개봉",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 13,
+      "fetchedNow": 3,
+      "kept": 12,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -481,7 +482,7 @@
       "query": "드라마",
       "hot": false,
       "fetchedNow": 4,
-      "kept": 38,
+      "kept": 39,
       "hidden": 12,
       "dead": false,
       "sleeping": false
@@ -491,7 +492,7 @@
       "query": "엔비디아 젠슨 황 스캔들",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 61,
+      "kept": 60,
       "hidden": 29,
       "dead": false,
       "sleeping": false
@@ -522,7 +523,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 2,
-      "hidden": 4,
+      "hidden": 3,
       "dead": false,
       "sleeping": false
     },
@@ -552,7 +553,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 22,
-      "hidden": 22,
+      "hidden": 20,
       "dead": false,
       "sleeping": false
     },
@@ -571,7 +572,7 @@
       "query": "CES 2027 혁신상",
       "hot": true,
       "fetchedNow": 3,
-      "kept": 6,
+      "kept": 5,
       "hidden": 11,
       "dead": false,
       "sleeping": false
