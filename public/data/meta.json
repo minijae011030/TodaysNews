@@ -1,27 +1,23 @@
 {
-  "updatedAt": "2026-11-15T22:02:30.494Z",
-  "count": 1819,
+  "updatedAt": "2026-11-15T23:01:29.266Z",
+  "count": 1809,
   "summarized": 1303,
-  "fetched": 449,
-  "newCount": 30,
+  "fetched": 441,
+  "newCount": 28,
   "newByCategory": {
-    "IT": 8,
+    "IT": 7,
     "경제": 13,
-    "정치": 5,
-    "문화": 3,
-    "과학": 1
+    "정치": 6,
+    "문화": 2
   },
-  "summarizedNow": 25,
-  "bodyFound": 15,
+  "summarizedNow": 23,
+  "bodyFound": 17,
   "pdfRead": 0,
   "hidden": 1,
   "moved": [
     "IT→경제",
-    "경제→IT",
     "IT→경제",
-    "정치→경제",
-    "IT→경제",
-    "과학→문화"
+    "IT→경제"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [
@@ -31,7 +27,7 @@
       "error": "The operation was aborted due to timeout"
     }
   ],
-  "concept": "종합금융투자사업자(종투사) 발행어음",
+  "concept": null,
   "spacePhoto": null,
   "newTerms": [],
   "keywords": [
@@ -40,8 +36,8 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 64,
-      "hidden": 37,
+      "kept": 66,
+      "hidden": 38,
       "dead": false,
       "sleeping": false
     },
@@ -50,8 +46,8 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 37,
-      "hidden": 11,
+      "kept": 35,
+      "hidden": 9,
       "dead": false,
       "sleeping": false
     },
@@ -80,7 +76,7 @@
       "query": "공매도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 7,
+      "kept": 8,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -100,8 +96,8 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 24,
-      "hidden": 13,
+      "kept": 25,
+      "hidden": 12,
       "dead": false,
       "sleeping": false
     },
@@ -109,9 +105,9 @@
       "category": "경제",
       "query": "환율",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 32,
-      "hidden": 17,
+      "fetchedNow": 5,
+      "kept": 31,
+      "hidden": 16,
       "dead": false,
       "sleeping": false
     },
@@ -160,8 +156,8 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 19,
-      "hidden": 10,
+      "kept": 21,
+      "hidden": 11,
       "dead": false,
       "sleeping": false
     },
@@ -171,7 +167,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 20,
-      "hidden": 21,
+      "hidden": 20,
       "dead": false,
       "sleeping": false
     },
@@ -180,7 +176,7 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 4,
-      "kept": 11,
+      "kept": 10,
       "hidden": 3,
       "dead": false,
       "sleeping": false
@@ -191,7 +187,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 17,
-      "hidden": 13,
+      "hidden": 10,
       "dead": false,
       "sleeping": false
     },
@@ -199,8 +195,8 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 5,
+      "fetchedNow": 2,
+      "kept": 4,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -340,8 +336,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 135,
-      "hidden": 60,
+      "kept": 136,
+      "hidden": 59,
       "dead": false,
       "sleeping": false
     },
@@ -350,8 +346,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 19,
-      "hidden": 28,
+      "kept": 18,
+      "hidden": 27,
       "dead": false,
       "sleeping": false
     },
@@ -391,7 +387,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 167,
-      "hidden": 46,
+      "hidden": 45,
       "dead": false,
       "sleeping": false
     },
@@ -420,7 +416,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 38,
+      "kept": 37,
       "hidden": 7,
       "dead": false,
       "sleeping": false
@@ -449,8 +445,8 @@
       "category": "문화",
       "query": "클래식 공연",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 1,
+      "fetchedNow": 7,
+      "kept": 2,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -459,7 +455,7 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 8,
       "hidden": 1,
       "dead": false,
@@ -489,9 +485,9 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 3,
       "kept": 44,
-      "hidden": 18,
+      "hidden": 17,
       "dead": false,
       "sleeping": false
     },
@@ -500,7 +496,7 @@
       "query": "엔비디아 젠슨 황 스캔들",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 67,
+      "kept": 66,
       "hidden": 39,
       "dead": false,
       "sleeping": false
@@ -529,7 +525,7 @@
       "category": "정치",
       "query": "호남 반도체 클러스터",
       "hot": true,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 2,
       "hidden": 3,
       "dead": false,
@@ -560,7 +556,7 @@
       "query": "엔비디아 AI칩 중국",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 18,
+      "kept": 19,
       "hidden": 15,
       "dead": false,
       "sleeping": false
