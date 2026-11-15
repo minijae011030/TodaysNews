@@ -1,30 +1,32 @@
 {
-  "updatedAt": "2026-11-15T02:01:17.652Z",
-  "count": 1815,
-  "summarized": 1295,
-  "fetched": 442,
-  "newCount": 26,
+  "updatedAt": "2026-11-15T03:01:31.884Z",
+  "count": 1811,
+  "summarized": 1293,
+  "fetched": 443,
+  "newCount": 29,
   "newByCategory": {
-    "IT": 10,
-    "경제": 11,
-    "문화": 1,
-    "정치": 2,
-    "과학": 2
+    "정치": 6,
+    "경제": 12,
+    "IT": 8,
+    "문화": 2,
+    "과학": 1
   },
-  "summarizedNow": 21,
-  "bodyFound": 22,
+  "summarizedNow": 24,
+  "bodyFound": 18,
   "pdfRead": 0,
-  "hidden": 5,
+  "hidden": 2,
   "moved": [
     "IT→경제",
-    "정치→경제"
+    "IT→경제",
+    "IT→경제",
+    "과학→문화"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [
     {
-      "category": "문화",
-      "source": "https://mediahub.seoul.go.kr/news/rss/06",
-      "error": "fetch failed"
+      "category": "보도자료",
+      "source": "https://www.fsc.go.kr/no010101",
+      "error": "The operation was aborted due to timeout"
     }
   ],
   "concept": null,
@@ -37,7 +39,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 64,
-      "hidden": 29,
+      "hidden": 32,
       "dead": false,
       "sleeping": false
     },
@@ -56,7 +58,7 @@
       "query": "가계부채",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 1,
+      "kept": 2,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -66,7 +68,7 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 28,
+      "kept": 27,
       "hidden": 23,
       "dead": false,
       "sleeping": false
@@ -77,7 +79,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 8,
-      "hidden": 6,
+      "hidden": 5,
       "dead": false,
       "sleeping": false
     },
@@ -97,7 +99,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 23,
-      "hidden": 8,
+      "hidden": 9,
       "dead": false,
       "sleeping": false
     },
@@ -117,7 +119,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 4,
-      "hidden": 4,
+      "hidden": 3,
       "dead": false,
       "sleeping": false
     },
@@ -127,7 +129,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 1,
-      "hidden": 1,
+      "hidden": 0,
       "dead": false,
       "sleeping": false
     },
@@ -135,7 +137,7 @@
       "category": "경제",
       "query": "가상자산 규제",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 4,
       "hidden": 1,
       "dead": false,
@@ -146,18 +148,18 @@
       "query": "은행 대출 규제",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 1,
+      "kept": 0,
       "hidden": 1,
-      "dead": false,
+      "dead": true,
       "sleeping": false
     },
     {
       "category": "경제",
       "query": "코스피 외국인",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 21,
-      "hidden": 12,
+      "fetchedNow": 6,
+      "kept": 20,
+      "hidden": 11,
       "dead": false,
       "sleeping": false
     },
@@ -177,7 +179,7 @@
       "hot": false,
       "fetchedNow": 4,
       "kept": 8,
-      "hidden": 2,
+      "hidden": 1,
       "dead": false,
       "sleeping": false
     },
@@ -187,7 +189,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 24,
-      "hidden": 13,
+      "hidden": 12,
       "dead": false,
       "sleeping": false
     },
@@ -195,7 +197,7 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 3,
+      "fetchedNow": 2,
       "kept": 5,
       "hidden": 1,
       "dead": false,
@@ -217,7 +219,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 6,
-      "hidden": 15,
+      "hidden": 17,
       "dead": false,
       "sleeping": false
     },
@@ -247,7 +249,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 3,
-      "hidden": 9,
+      "hidden": 8,
       "dead": false,
       "sleeping": false
     },
@@ -327,7 +329,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 1,
-      "hidden": 3,
+      "hidden": 1,
       "dead": false,
       "sleeping": false
     },
@@ -337,7 +339,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 128,
-      "hidden": 50,
+      "hidden": 52,
       "dead": false,
       "sleeping": false
     },
@@ -376,8 +378,8 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 16,
-      "hidden": 33,
+      "kept": 17,
+      "hidden": 34,
       "dead": false,
       "sleeping": false
     },
@@ -385,9 +387,9 @@
       "category": "IT",
       "query": "AI 반도체",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 166,
-      "hidden": 40,
+      "fetchedNow": 6,
+      "kept": 165,
+      "hidden": 41,
       "dead": false,
       "sleeping": false
     },
@@ -415,9 +417,9 @@
       "category": "과학",
       "query": "과학 연구 성과",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 6,
       "kept": 41,
-      "hidden": 10,
+      "hidden": 9,
       "dead": false,
       "sleeping": false
     },
@@ -447,7 +449,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 2,
-      "hidden": 1,
+      "hidden": 0,
       "dead": false,
       "sleeping": false
     },
@@ -486,8 +488,8 @@
       "query": "드라마",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 44,
-      "hidden": 17,
+      "kept": 43,
+      "hidden": 18,
       "dead": false,
       "sleeping": false
     },
@@ -496,8 +498,8 @@
       "query": "엔비디아 젠슨 황 스캔들",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 62,
-      "hidden": 34,
+      "kept": 63,
+      "hidden": 33,
       "dead": false,
       "sleeping": false
     },
@@ -556,8 +558,8 @@
       "query": "엔비디아 AI칩 중국",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 24,
-      "hidden": 19,
+      "kept": 23,
+      "hidden": 18,
       "dead": false,
       "sleeping": false
     },
@@ -566,7 +568,7 @@
       "query": "국산 AI 반도체 협력",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 6,
       "hidden": 13,
       "dead": false,
       "sleeping": false
@@ -575,7 +577,7 @@
       "category": "IT",
       "query": "CES 2027 혁신상",
       "hot": true,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 3,
       "hidden": 15,
       "dead": false,
