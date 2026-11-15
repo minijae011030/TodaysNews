@@ -1,45 +1,42 @@
 {
-  "updatedAt": "2026-11-15T03:01:31.884Z",
-  "count": 1811,
-  "summarized": 1293,
-  "fetched": 443,
-  "newCount": 29,
+  "updatedAt": "2026-11-15T04:01:25.561Z",
+  "count": 1812,
+  "summarized": 1295,
+  "fetched": 451,
+  "newCount": 32,
   "newByCategory": {
-    "정치": 6,
+    "보도자료": 3,
+    "IT": 7,
     "경제": 12,
-    "IT": 8,
-    "문화": 2,
-    "과학": 1
+    "정치": 7,
+    "문화": 3
   },
-  "summarizedNow": 24,
-  "bodyFound": 18,
-  "pdfRead": 0,
-  "hidden": 2,
+  "summarizedNow": 27,
+  "bodyFound": 24,
+  "pdfRead": 3,
+  "hidden": 0,
   "moved": [
     "IT→경제",
     "IT→경제",
-    "IT→경제",
-    "과학→문화"
+    "IT→문화",
+    "IT→정치"
   ],
   "llmFailedBatches": 0,
-  "failedFeeds": [
-    {
-      "category": "보도자료",
-      "source": "https://www.fsc.go.kr/no010101",
-      "error": "The operation was aborted due to timeout"
-    }
-  ],
+  "failedFeeds": [],
   "concept": null,
   "spacePhoto": null,
-  "newTerms": [],
+  "newTerms": [
+    "딥페이크",
+    "리밸런싱"
+  ],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 64,
-      "hidden": 32,
+      "kept": 67,
+      "hidden": 31,
       "dead": false,
       "sleeping": false
     },
@@ -48,7 +45,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 38,
+      "kept": 39,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -79,7 +76,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 8,
-      "hidden": 5,
+      "hidden": 4,
       "dead": false,
       "sleeping": false
     },
@@ -88,7 +85,7 @@
       "query": "불공정거래",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 5,
       "hidden": 6,
       "dead": false,
       "sleeping": false
@@ -107,8 +104,8 @@
       "category": "경제",
       "query": "환율",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 40,
+      "fetchedNow": 7,
+      "kept": 37,
       "hidden": 21,
       "dead": false,
       "sleeping": false
@@ -157,8 +154,8 @@
       "category": "경제",
       "query": "코스피 외국인",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 20,
+      "fetchedNow": 7,
+      "kept": 21,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -168,8 +165,8 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 14,
-      "hidden": 12,
+      "kept": 15,
+      "hidden": 13,
       "dead": false,
       "sleeping": false
     },
@@ -177,8 +174,8 @@
       "category": "경제",
       "query": "스테이블코인",
       "hot": false,
-      "fetchedNow": 4,
-      "kept": 8,
+      "fetchedNow": 7,
+      "kept": 7,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -188,7 +185,7 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 24,
+      "kept": 23,
       "hidden": 12,
       "dead": false,
       "sleeping": false
@@ -197,7 +194,7 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 2,
+      "fetchedNow": 3,
       "kept": 5,
       "hidden": 1,
       "dead": false,
@@ -218,7 +215,7 @@
       "query": "보이스피싱",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 6,
+      "kept": 5,
       "hidden": 17,
       "dead": false,
       "sleeping": false
@@ -288,7 +285,7 @@
       "query": "여야 충돌",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 12,
+      "kept": 11,
       "hidden": 12,
       "dead": false,
       "sleeping": false
@@ -338,7 +335,7 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 128,
+      "kept": 131,
       "hidden": 52,
       "dead": false,
       "sleeping": false
@@ -348,8 +345,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 23,
-      "hidden": 30,
+      "kept": 22,
+      "hidden": 29,
       "dead": false,
       "sleeping": false
     },
@@ -358,7 +355,7 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 44,
+      "kept": 43,
       "hidden": 31,
       "dead": false,
       "sleeping": false
@@ -378,8 +375,8 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 17,
-      "hidden": 34,
+      "kept": 19,
+      "hidden": 33,
       "dead": false,
       "sleeping": false
     },
@@ -387,9 +384,9 @@
       "category": "IT",
       "query": "AI 반도체",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 165,
-      "hidden": 41,
+      "fetchedNow": 7,
+      "kept": 163,
+      "hidden": 42,
       "dead": false,
       "sleeping": false
     },
@@ -418,8 +415,8 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 41,
-      "hidden": 9,
+      "kept": 40,
+      "hidden": 8,
       "dead": false,
       "sleeping": false
     },
@@ -428,7 +425,7 @@
       "query": "노벨상",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 3,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -448,7 +445,7 @@
       "query": "클래식 공연",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 2,
+      "kept": 1,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -478,7 +475,7 @@
       "query": "영화 개봉",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
+      "kept": 11,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -487,7 +484,7 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 3,
       "kept": 43,
       "hidden": 18,
       "dead": false,
@@ -498,8 +495,8 @@
       "query": "엔비디아 젠슨 황 스캔들",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 63,
-      "hidden": 33,
+      "kept": 62,
+      "hidden": 34,
       "dead": false,
       "sleeping": false
     },
@@ -558,8 +555,8 @@
       "query": "엔비디아 AI칩 중국",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 23,
-      "hidden": 18,
+      "kept": 24,
+      "hidden": 17,
       "dead": false,
       "sleeping": false
     },
@@ -569,7 +566,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 6,
-      "hidden": 13,
+      "hidden": 15,
       "dead": false,
       "sleeping": false
     },
@@ -577,7 +574,7 @@
       "category": "IT",
       "query": "CES 2027 혁신상",
       "hot": true,
-      "fetchedNow": 6,
+      "fetchedNow": 4,
       "kept": 3,
       "hidden": 15,
       "dead": false,
