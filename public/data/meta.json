@@ -1,30 +1,35 @@
 {
-  "updatedAt": "2026-11-17T22:02:45.622Z",
-  "count": 1881,
-  "summarized": 1369,
-  "fetched": 412,
-  "newCount": 29,
+  "updatedAt": "2026-11-17T23:01:29.250Z",
+  "count": 1886,
+  "summarized": 1368,
+  "fetched": 425,
+  "newCount": 26,
   "newByCategory": {
-    "보도자료": 1,
-    "IT": 6,
-    "경제": 14,
+    "경제": 12,
     "문화": 2,
-    "정치": 4,
-    "과학": 2
+    "정치": 3,
+    "IT": 8,
+    "과학": 1
   },
-  "summarizedNow": 25,
-  "bodyFound": 20,
-  "pdfRead": 1,
-  "hidden": 2,
+  "summarizedNow": 22,
+  "bodyFound": 23,
+  "pdfRead": 0,
+  "hidden": 4,
   "moved": [
     "IT→경제",
     "IT→경제",
-    "IT→경제",
-    "IT→경제"
+    "과학→경제",
+    "경제→정치"
   ],
   "llmFailedBatches": 0,
-  "failedFeeds": [],
-  "concept": "전자금융감독규정",
+  "failedFeeds": [
+    {
+      "category": "보도자료",
+      "source": "https://www.fsc.go.kr/no010101",
+      "error": "The operation was aborted due to timeout"
+    }
+  ],
+  "concept": null,
   "spacePhoto": null,
   "newTerms": [],
   "keywords": [
@@ -33,8 +38,8 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 92,
-      "hidden": 39,
+      "kept": 89,
+      "hidden": 38,
       "dead": false,
       "sleeping": false
     },
@@ -43,8 +48,8 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 41,
-      "hidden": 21,
+      "kept": 43,
+      "hidden": 22,
       "dead": false,
       "sleeping": false
     },
@@ -63,7 +68,7 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 18,
+      "kept": 19,
       "hidden": 15,
       "dead": false,
       "sleeping": false
@@ -72,7 +77,7 @@
       "category": "경제",
       "query": "공매도",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 3,
       "hidden": 1,
       "dead": false,
@@ -93,8 +98,8 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 38,
-      "hidden": 14,
+      "kept": 39,
+      "hidden": 13,
       "dead": false,
       "sleeping": false
     },
@@ -132,7 +137,7 @@
       "category": "경제",
       "query": "가상자산 규제",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 5,
       "kept": 7,
       "hidden": 2,
       "dead": false,
@@ -163,7 +168,7 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 18,
+      "kept": 17,
       "hidden": 18,
       "dead": false,
       "sleeping": false
@@ -172,7 +177,7 @@
       "category": "경제",
       "query": "스테이블코인",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 12,
       "hidden": 5,
       "dead": false,
@@ -193,7 +198,7 @@
       "query": "비트코인",
       "hot": false,
       "fetchedNow": 3,
-      "kept": 3,
+      "kept": 2,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -232,7 +237,7 @@
       "category": "경제",
       "query": "보험사 건전성",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 5,
       "kept": 2,
       "hidden": 0,
       "dead": false,
@@ -314,7 +319,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 2,
-      "hidden": 6,
+      "hidden": 7,
       "dead": false,
       "sleeping": false
     },
@@ -333,8 +338,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 152,
-      "hidden": 62,
+      "kept": 151,
+      "hidden": 63,
       "dead": false,
       "sleeping": false
     },
@@ -343,8 +348,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 13,
-      "hidden": 27,
+      "kept": 12,
+      "hidden": 30,
       "dead": false,
       "sleeping": false
     },
@@ -353,8 +358,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 37,
-      "hidden": 23,
+      "kept": 36,
+      "hidden": 22,
       "dead": false,
       "sleeping": false
     },
@@ -383,7 +388,7 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 164,
+      "kept": 167,
       "hidden": 30,
       "dead": false,
       "sleeping": false
@@ -392,8 +397,8 @@
       "category": "IT",
       "query": "핀테크",
       "hot": false,
-      "fetchedNow": 0,
-      "kept": 9,
+      "fetchedNow": 2,
+      "kept": 8,
       "hidden": 6,
       "dead": false,
       "sleeping": false
@@ -412,8 +417,8 @@
       "category": "과학",
       "query": "과학 연구 성과",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 46,
+      "fetchedNow": 7,
+      "kept": 47,
       "hidden": 10,
       "dead": false,
       "sleeping": false
@@ -433,7 +438,7 @@
       "query": "미술관 전시",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 6,
+      "kept": 7,
       "hidden": 3,
       "dead": false,
       "sleeping": false
@@ -442,7 +447,7 @@
       "category": "문화",
       "query": "클래식 공연",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 3,
       "kept": 3,
       "hidden": 0,
       "dead": false,
@@ -473,8 +478,8 @@
       "query": "영화 개봉",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 16,
-      "hidden": 17,
+      "kept": 17,
+      "hidden": 18,
       "dead": false,
       "sleeping": false
     },
@@ -482,9 +487,29 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 39,
+      "fetchedNow": 3,
+      "kept": 37,
       "hidden": 11,
+      "dead": false,
+      "sleeping": false
+    },
+    {
+      "category": "경제",
+      "query": "엔비디아 젠슨 황",
+      "hot": true,
+      "fetchedNow": 7,
+      "kept": 1,
+      "hidden": 0,
+      "dead": false,
+      "sleeping": false
+    },
+    {
+      "category": "경제",
+      "query": "코스피 5000선 붕괴",
+      "hot": true,
+      "fetchedNow": 7,
+      "kept": 0,
+      "hidden": 0,
       "dead": false,
       "sleeping": false
     },
@@ -494,7 +519,17 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 48,
-      "hidden": 44,
+      "hidden": 45,
+      "dead": false,
+      "sleeping": false
+    },
+    {
+      "category": "정치",
+      "query": "조작기소 특검법",
+      "hot": true,
+      "fetchedNow": 7,
+      "kept": 6,
+      "hidden": 23,
       "dead": false,
       "sleeping": false
     },
@@ -524,7 +559,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 22,
-      "hidden": 8,
+      "hidden": 9,
       "dead": false,
       "sleeping": false
     },
@@ -549,11 +584,7 @@
       "sleeping": false
     }
   ],
-  "newHot": [
-    "경제:엔비디아 젠슨 황",
-    "경제:코스피 5000선 붕괴",
-    "정치:조작기소 특검법"
-  ],
+  "newHot": [],
   "keywordsSlept": [],
   "keywordsWoke": []
 }
