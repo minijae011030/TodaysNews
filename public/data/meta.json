@@ -1,26 +1,29 @@
 {
-  "updatedAt": "2026-11-17T10:02:30.113Z",
-  "count": 1859,
-  "summarized": 1351,
-  "fetched": 430,
-  "newCount": 32,
+  "updatedAt": "2026-11-17T11:01:45.360Z",
+  "count": 1876,
+  "summarized": 1371,
+  "fetched": 428,
+  "newCount": 28,
   "newByCategory": {
-    "정치": 7,
-    "IT": 10,
+    "정치": 10,
     "문화": 2,
-    "경제": 10,
-    "과학": 3
+    "IT": 8,
+    "경제": 8
   },
-  "summarizedNow": 24,
-  "bodyFound": 22,
+  "summarizedNow": 28,
+  "bodyFound": 24,
   "pdfRead": 0,
   "hidden": 0,
   "moved": [
-    "IT→과학",
+    "IT→경제",
     "경제→정치",
-    "IT→경제"
+    "경제→정치",
+    "경제→정치",
+    "IT→정치",
+    "IT→경제",
+    "과학→IT"
   ],
-  "llmFailedBatches": 1,
+  "llmFailedBatches": 0,
   "failedFeeds": [
     {
       "category": "문화",
@@ -36,9 +39,9 @@
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 5,
       "kept": 95,
-      "hidden": 36,
+      "hidden": 39,
       "dead": false,
       "sleeping": false
     },
@@ -97,7 +100,7 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 37,
+      "kept": 38,
       "hidden": 14,
       "dead": false,
       "sleeping": false
@@ -107,7 +110,7 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 37,
+      "kept": 39,
       "hidden": 9,
       "dead": false,
       "sleeping": false
@@ -157,8 +160,8 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 33,
-      "hidden": 4,
+      "kept": 36,
+      "hidden": 5,
       "dead": false,
       "sleeping": false
     },
@@ -187,7 +190,7 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 6,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -196,7 +199,7 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 3,
+      "fetchedNow": 4,
       "kept": 3,
       "hidden": 1,
       "dead": false,
@@ -267,8 +270,8 @@
       "query": "국민연금 기금",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
-      "hidden": 6,
+      "kept": 6,
+      "hidden": 8,
       "dead": false,
       "sleeping": false
     },
@@ -337,8 +340,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 149,
-      "hidden": 62,
+      "kept": 154,
+      "hidden": 61,
       "dead": false,
       "sleeping": false
     },
@@ -348,7 +351,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 13,
-      "hidden": 31,
+      "hidden": 26,
       "dead": false,
       "sleeping": false
     },
@@ -358,7 +361,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 37,
-      "hidden": 22,
+      "hidden": 23,
       "dead": false,
       "sleeping": false
     },
@@ -367,7 +370,7 @@
       "query": "개발자 채용",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 7,
+      "kept": 8,
       "hidden": 3,
       "dead": false,
       "sleeping": false
@@ -388,7 +391,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 161,
-      "hidden": 31,
+      "hidden": 30,
       "dead": false,
       "sleeping": false
     },
@@ -457,7 +460,7 @@
       "query": "연극",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 9,
+      "kept": 10,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -486,9 +489,9 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 38,
-      "hidden": 13,
+      "hidden": 11,
       "dead": false,
       "sleeping": false
     },
@@ -498,7 +501,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 46,
-      "hidden": 42,
+      "hidden": 44,
       "dead": false,
       "sleeping": false
     },
