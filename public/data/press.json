@@ -1,5 +1,20 @@
 [
   {
+    "key": "269월말국내은행의원화대출연체율현황잠정",
+    "id": "bb1f47c4ea",
+    "category": "보도자료",
+    "label": "보도자료",
+    "keepDays": 30,
+    "title": "26.9월말 국내은행의 원화대출 연체율 현황(잠정)",
+    "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249902&menuNo=200218",
+    "source": "금융감독원",
+    "publishedAt": "2026-11-18T00:00:47.791Z",
+    "snippet": "",
+    "titleTried": true,
+    "titleFix": 2,
+    "attachment": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=04241355717143bab589d41ade49207d&fileSn=2&bbsId="
+  },
+  {
     "key": "全금융권이상시적으로철저하게보안관리에임하도록it자산식별관리를의무화하고취약점점검평가제도를내실화하겠습니다",
     "id": "33a976d49a",
     "category": "보도자료",
