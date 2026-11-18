@@ -1,37 +1,54 @@
 {
-  "updatedAt": "2026-11-18T10:03:50.858Z",
-  "count": 1891,
-  "summarized": 1370,
-  "fetched": 445,
-  "newCount": 29,
+  "updatedAt": "2026-11-18T11:02:32.305Z",
+  "count": 1888,
+  "summarized": 1379,
+  "fetched": 432,
+  "newCount": 26,
   "newByCategory": {
-    "경제": 10,
+    "경제": 11,
     "정치": 7,
-    "IT": 9,
-    "과학": 2,
-    "문화": 1
+    "문화": 3,
+    "IT": 4,
+    "과학": 1
   },
-  "summarizedNow": 10,
-  "bodyFound": 10,
+  "summarizedNow": 31,
+  "bodyFound": 29,
   "pdfRead": 0,
-  "hidden": 0,
+  "hidden": 3,
   "moved": [
-    "문화→경제",
-    "경제→정치"
+    "IT→정치",
+    "IT→경제",
+    "IT→경제",
+    "과학→문화",
+    "IT→경제",
+    "IT→경제",
+    "과학→IT",
+    "IT→경제",
+    "경제→정치",
+    "IT→경제"
   ],
-  "llmFailedBatches": 2,
-  "failedFeeds": [],
+  "llmFailedBatches": 1,
+  "failedFeeds": [
+    {
+      "category": "보도자료",
+      "source": "https://www.fsc.go.kr/no010101",
+      "error": "The operation was aborted due to timeout"
+    }
+  ],
   "concept": null,
   "spacePhoto": null,
-  "newTerms": [],
+  "newTerms": [
+    "최혜국대우",
+    "자유무역협정"
+  ],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 89,
-      "hidden": 30,
+      "fetchedNow": 3,
+      "kept": 88,
+      "hidden": 29,
       "dead": false,
       "sleeping": false
     },
@@ -40,7 +57,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 37,
+      "kept": 38,
       "hidden": 20,
       "dead": false,
       "sleeping": false
@@ -80,7 +97,7 @@
       "query": "불공정거래",
       "hot": false,
       "fetchedNow": 5,
-      "kept": 6,
+      "kept": 5,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -90,7 +107,7 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 39,
+      "kept": 37,
       "hidden": 10,
       "dead": false,
       "sleeping": false
@@ -100,7 +117,7 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 40,
+      "kept": 41,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -129,8 +146,8 @@
       "category": "경제",
       "query": "가상자산 규제",
       "hot": false,
-      "fetchedNow": 4,
-      "kept": 5,
+      "fetchedNow": 5,
+      "kept": 6,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -161,7 +178,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 10,
-      "hidden": 14,
+      "hidden": 10,
       "dead": false,
       "sleeping": false
     },
@@ -180,7 +197,7 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 9,
+      "kept": 10,
       "hidden": 5,
       "dead": false,
       "sleeping": false
@@ -211,7 +228,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 16,
-      "hidden": 14,
+      "hidden": 15,
       "dead": false,
       "sleeping": false
     },
@@ -330,8 +347,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 163,
-      "hidden": 51,
+      "kept": 165,
+      "hidden": 49,
       "dead": false,
       "sleeping": false
     },
@@ -341,7 +358,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 15,
-      "hidden": 27,
+      "hidden": 26,
       "dead": false,
       "sleeping": false
     },
@@ -350,8 +367,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 34,
-      "hidden": 24,
+      "kept": 33,
+      "hidden": 23,
       "dead": false,
       "sleeping": false
     },
@@ -370,8 +387,8 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 20,
-      "hidden": 21,
+      "kept": 19,
+      "hidden": 20,
       "dead": false,
       "sleeping": false
     },
@@ -381,7 +398,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 174,
-      "hidden": 19,
+      "hidden": 20,
       "dead": false,
       "sleeping": false
     },
@@ -390,7 +407,7 @@
       "query": "핀테크",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 12,
+      "kept": 13,
       "hidden": 6,
       "dead": false,
       "sleeping": false
@@ -400,7 +417,7 @@
       "query": "천문학 연구",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 11,
+      "kept": 13,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -411,7 +428,7 @@
       "hot": false,
       "fetchedNow": 6,
       "kept": 52,
-      "hidden": 11,
+      "hidden": 12,
       "dead": false,
       "sleeping": false
     },
@@ -429,8 +446,8 @@
       "category": "문화",
       "query": "미술관 전시",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 6,
+      "fetchedNow": 6,
+      "kept": 7,
       "hidden": 3,
       "dead": false,
       "sleeping": false
@@ -441,7 +458,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 5,
-      "hidden": 1,
+      "hidden": 2,
       "dead": false,
       "sleeping": false
     },
@@ -449,7 +466,7 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 11,
       "hidden": 9,
       "dead": false,
@@ -460,7 +477,7 @@
       "query": "베스트셀러",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 11,
+      "kept": 12,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -479,9 +496,9 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 31,
-      "hidden": 9,
+      "fetchedNow": 3,
+      "kept": 29,
+      "hidden": 8,
       "dead": false,
       "sleeping": false
     },
@@ -490,8 +507,8 @@
       "query": "엔비디아 젠슨 황",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 22,
-      "hidden": 7,
+      "kept": 23,
+      "hidden": 10,
       "dead": false,
       "sleeping": false
     },
@@ -510,7 +527,7 @@
       "query": "엔비디아 젠슨 황 스캔들",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 28,
+      "kept": 26,
       "hidden": 39,
       "dead": false,
       "sleeping": false
