@@ -1,31 +1,30 @@
 {
-  "updatedAt": "2026-11-19T00:01:15.942Z",
-  "count": 1903,
-  "summarized": 1381,
-  "fetched": 452,
-  "newCount": 28,
+  "updatedAt": "2026-11-19T01:01:20.651Z",
+  "count": 1915,
+  "summarized": 1388,
+  "fetched": 447,
+  "newCount": 27,
   "newByCategory": {
-    "경제": 10,
-    "IT": 9,
-    "정치": 5,
+    "경제": 12,
     "문화": 2,
+    "IT": 7,
+    "정치": 4,
     "과학": 2
   },
-  "summarizedNow": 17,
-  "bodyFound": 17,
+  "summarizedNow": 32,
+  "bodyFound": 28,
   "pdfRead": 0,
-  "hidden": 1,
+  "hidden": 2,
   "moved": [
     "IT→경제",
-    "경제→IT"
+    "IT→경제",
+    "IT→경제"
   ],
-  "llmFailedBatches": 1,
+  "llmFailedBatches": 0,
   "failedFeeds": [],
   "concept": null,
   "spacePhoto": null,
-  "newTerms": [
-    "대손상각비"
-  ],
+  "newTerms": [],
   "keywords": [
     {
       "category": "경제",
@@ -33,7 +32,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 86,
-      "hidden": 31,
+      "hidden": 35,
       "dead": false,
       "sleeping": false
     },
@@ -42,7 +41,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 45,
+      "kept": 46,
       "hidden": 21,
       "dead": false,
       "sleeping": false
@@ -81,7 +80,7 @@
       "category": "경제",
       "query": "불공정거래",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 5,
       "hidden": 4,
       "dead": false,
@@ -102,7 +101,7 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 40,
+      "kept": 39,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -152,8 +151,8 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 37,
-      "hidden": 10,
+      "kept": 35,
+      "hidden": 11,
       "dead": false,
       "sleeping": false
     },
@@ -171,8 +170,8 @@
       "category": "경제",
       "query": "스테이블코인",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 10,
+      "fetchedNow": 5,
+      "kept": 9,
       "hidden": 6,
       "dead": false,
       "sleeping": false
@@ -182,7 +181,7 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 5,
-      "kept": 9,
+      "kept": 8,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -191,7 +190,7 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 2,
       "kept": 2,
       "hidden": 2,
       "dead": false,
@@ -212,7 +211,7 @@
       "query": "보이스피싱",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 15,
+      "kept": 16,
       "hidden": 16,
       "dead": false,
       "sleeping": false
@@ -233,7 +232,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 7,
-      "hidden": 7,
+      "hidden": 8,
       "dead": false,
       "sleeping": false
     },
@@ -242,7 +241,7 @@
       "query": "상장폐지",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 3,
+      "kept": 2,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -323,7 +322,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 1,
+      "hidden": 0,
       "dead": true,
       "sleeping": false
     },
@@ -332,8 +331,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 160,
-      "hidden": 51,
+      "kept": 158,
+      "hidden": 52,
       "dead": false,
       "sleeping": false
     },
@@ -342,7 +341,7 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 16,
+      "kept": 17,
       "hidden": 27,
       "dead": false,
       "sleeping": false
@@ -352,8 +351,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 33,
-      "hidden": 21,
+      "kept": 32,
+      "hidden": 25,
       "dead": false,
       "sleeping": false
     },
@@ -372,7 +371,7 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 20,
+      "kept": 19,
       "hidden": 19,
       "dead": false,
       "sleeping": false
@@ -382,8 +381,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 178,
-      "hidden": 18,
+      "kept": 177,
+      "hidden": 21,
       "dead": false,
       "sleeping": false
     },
@@ -393,7 +392,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 12,
-      "hidden": 6,
+      "hidden": 7,
       "dead": false,
       "sleeping": false
     },
@@ -412,8 +411,8 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 54,
-      "hidden": 13,
+      "kept": 55,
+      "hidden": 12,
       "dead": false,
       "sleeping": false
     },
@@ -432,7 +431,7 @@
       "query": "미술관 전시",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 7,
+      "kept": 8,
       "hidden": 3,
       "dead": false,
       "sleeping": false
@@ -463,7 +462,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 10,
-      "hidden": 4,
+      "hidden": 2,
       "dead": false,
       "sleeping": false
     },
@@ -471,7 +470,7 @@
       "category": "문화",
       "query": "영화 개봉",
       "hot": false,
-      "fetchedNow": 4,
+      "fetchedNow": 7,
       "kept": 18,
       "hidden": 19,
       "dead": false,
@@ -481,8 +480,8 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 34,
+      "fetchedNow": 5,
+      "kept": 33,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -492,7 +491,7 @@
       "query": "엔비디아 젠슨 황",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 27,
+      "kept": 31,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -513,7 +512,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 24,
-      "hidden": 38,
+      "hidden": 39,
       "dead": false,
       "sleeping": false
     },
@@ -523,7 +522,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 7,
-      "hidden": 35,
+      "hidden": 36,
       "dead": false,
       "sleeping": false
     },
@@ -552,7 +551,7 @@
       "query": "엔비디아 AI칩 중국",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 17,
+      "kept": 16,
       "hidden": 9,
       "dead": false,
       "sleeping": false
