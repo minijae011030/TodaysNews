@@ -1,27 +1,26 @@
 {
-  "updatedAt": "2026-11-19T22:02:37.729Z",
-  "count": 1931,
-  "summarized": 1387,
-  "fetched": 431,
-  "newCount": 30,
+  "updatedAt": "2026-11-19T23:01:18.576Z",
+  "count": 1936,
+  "summarized": 1386,
+  "fetched": 434,
+  "newCount": 26,
   "newByCategory": {
-    "보도자료": 1,
-    "문화": 2,
-    "경제": 15,
-    "정치": 5,
     "IT": 6,
-    "과학": 1
+    "경제": 13,
+    "문화": 1,
+    "정치": 4,
+    "과학": 2
   },
-  "summarizedNow": 27,
-  "bodyFound": 20,
-  "pdfRead": 1,
-  "hidden": 0,
+  "summarizedNow": 22,
+  "bodyFound": 19,
+  "pdfRead": 0,
+  "hidden": 4,
   "moved": [
+    "문화→경제",
     "IT→경제",
     "IT→경제",
-    "정치→경제",
     "IT→경제",
-    "과학→경제"
+    "IT→경제"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [
@@ -31,7 +30,7 @@
       "error": "Status code 404"
     }
   ],
-  "concept": "전자금융감독규정",
+  "concept": null,
   "spacePhoto": null,
   "newTerms": [],
   "keywords": [
@@ -40,7 +39,7 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 82,
+      "kept": 81,
       "hidden": 35,
       "dead": false,
       "sleeping": false
@@ -50,8 +49,8 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 41,
-      "hidden": 17,
+      "kept": 42,
+      "hidden": 19,
       "dead": false,
       "sleeping": false
     },
@@ -71,7 +70,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 18,
-      "hidden": 11,
+      "hidden": 10,
       "dead": false,
       "sleeping": false
     },
@@ -80,7 +79,7 @@
       "query": "공매도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 7,
+      "kept": 9,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -100,7 +99,7 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 35,
+      "kept": 31,
       "hidden": 9,
       "dead": false,
       "sleeping": false
@@ -109,8 +108,8 @@
       "category": "경제",
       "query": "환율",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 35,
+      "fetchedNow": 4,
+      "kept": 36,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -121,7 +120,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 12,
-      "hidden": 20,
+      "hidden": 21,
       "dead": false,
       "sleeping": false
     },
@@ -139,8 +138,8 @@
       "category": "경제",
       "query": "가상자산 규제",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 7,
+      "fetchedNow": 7,
+      "kept": 6,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -179,7 +178,7 @@
       "category": "경제",
       "query": "스테이블코인",
       "hot": false,
-      "fetchedNow": 3,
+      "fetchedNow": 4,
       "kept": 7,
       "hidden": 6,
       "dead": false,
@@ -199,7 +198,7 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 3,
+      "fetchedNow": 5,
       "kept": 4,
       "hidden": 2,
       "dead": false,
@@ -219,21 +218,11 @@
       "category": "경제",
       "query": "보이스피싱",
       "hot": false,
-      "fetchedNow": 3,
-      "kept": 10,
-      "hidden": 13,
+      "fetchedNow": 7,
+      "kept": 9,
+      "hidden": 16,
       "dead": false,
       "sleeping": false
-    },
-    {
-      "category": "경제",
-      "query": "금융사고 제재",
-      "hot": false,
-      "fetchedNow": 7,
-      "kept": 0,
-      "hidden": 0,
-      "dead": true,
-      "sleeping": true
     },
     {
       "category": "경제",
@@ -270,7 +259,7 @@
       "query": "국민연금 기금",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 9,
+      "kept": 10,
       "hidden": 12,
       "dead": false,
       "sleeping": false
@@ -290,8 +279,8 @@
       "query": "여야 충돌",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
-      "hidden": 8,
+      "kept": 4,
+      "hidden": 9,
       "dead": false,
       "sleeping": false
     },
@@ -341,7 +330,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 151,
-      "hidden": 53,
+      "hidden": 52,
       "dead": false,
       "sleeping": false
     },
@@ -351,7 +340,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 21,
-      "hidden": 31,
+      "hidden": 32,
       "dead": false,
       "sleeping": false
     },
@@ -361,7 +350,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 32,
-      "hidden": 27,
+      "hidden": 29,
       "dead": false,
       "sleeping": false
     },
@@ -381,7 +370,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 20,
-      "hidden": 24,
+      "hidden": 23,
       "dead": false,
       "sleeping": false
     },
@@ -399,7 +388,7 @@
       "category": "IT",
       "query": "핀테크",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 13,
       "hidden": 6,
       "dead": false,
@@ -479,9 +468,9 @@
       "category": "문화",
       "query": "영화 개봉",
       "hot": false,
-      "fetchedNow": 2,
-      "kept": 17,
-      "hidden": 15,
+      "fetchedNow": 6,
+      "kept": 16,
+      "hidden": 12,
       "dead": false,
       "sleeping": false
     },
@@ -489,8 +478,8 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 37,
+      "fetchedNow": 6,
+      "kept": 38,
       "hidden": 14,
       "dead": false,
       "sleeping": false
@@ -500,8 +489,8 @@
       "query": "엔비디아 젠슨 황",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 43,
-      "hidden": 20,
+      "kept": 44,
+      "hidden": 21,
       "dead": false,
       "sleeping": false
     },
@@ -520,8 +509,8 @@
       "query": "엔비디아 젠슨 황 스캔들",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 15,
-      "hidden": 34,
+      "kept": 14,
+      "hidden": 31,
       "dead": false,
       "sleeping": false
     },
@@ -561,7 +550,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 13,
-      "hidden": 7,
+      "hidden": 9,
       "dead": false,
       "sleeping": false
     },
@@ -584,11 +573,19 @@
       "hidden": 4,
       "dead": false,
       "sleeping": false
+    },
+    {
+      "category": "경제",
+      "query": "금융사고 제재",
+      "hot": false,
+      "fetchedNow": 0,
+      "kept": 0,
+      "hidden": 0,
+      "dead": true,
+      "sleeping": true
     }
   ],
   "newHot": [],
-  "keywordsSlept": [
-    "금융사고 제재"
-  ],
+  "keywordsSlept": [],
   "keywordsWoke": []
 }
