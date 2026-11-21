@@ -1,27 +1,23 @@
 {
-  "updatedAt": "2026-11-21T22:02:32.167Z",
-  "count": 1869,
-  "summarized": 1334,
-  "fetched": 434,
-  "newCount": 29,
+  "updatedAt": "2026-11-21T23:01:14.142Z",
+  "count": 1858,
+  "summarized": 1332,
+  "fetched": 429,
+  "newCount": 26,
   "newByCategory": {
-    "정치": 5,
+    "정치": 7,
     "문화": 2,
-    "경제": 15,
-    "과학": 2,
-    "IT": 5
+    "경제": 11,
+    "IT": 6
   },
-  "summarizedNow": 25,
+  "summarizedNow": 22,
   "bodyFound": 19,
   "pdfRead": 0,
-  "hidden": 0,
+  "hidden": 1,
   "moved": [
+    "IT→정치",
     "IT→경제",
-    "IT→경제",
-    "IT→경제",
-    "IT→과학",
-    "IT→경제",
-    "정치→경제"
+    "IT→경제"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [
@@ -31,7 +27,7 @@
       "error": "Status code 404"
     }
   ],
-  "concept": "기한이익상실(DEO)",
+  "concept": null,
   "spacePhoto": null,
   "newTerms": [],
   "keywords": [
@@ -40,7 +36,7 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 42,
+      "kept": 43,
       "hidden": 26,
       "dead": false,
       "sleeping": false
@@ -51,7 +47,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 47,
-      "hidden": 20,
+      "hidden": 18,
       "dead": false,
       "sleeping": false
     },
@@ -90,7 +86,7 @@
       "query": "불공정거래",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 6,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -100,8 +96,8 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 32,
-      "hidden": 14,
+      "kept": 29,
+      "hidden": 13,
       "dead": false,
       "sleeping": false
     },
@@ -120,7 +116,7 @@
       "query": "국회 정무위원회",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
+      "kept": 11,
       "hidden": 19,
       "dead": false,
       "sleeping": false
@@ -170,7 +166,7 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 6,
       "hidden": 3,
       "dead": false,
       "sleeping": false
@@ -190,7 +186,7 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 25,
+      "kept": 26,
       "hidden": 14,
       "dead": false,
       "sleeping": false
@@ -199,7 +195,7 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 2,
+      "fetchedNow": 6,
       "kept": 8,
       "hidden": 6,
       "dead": false,
@@ -221,19 +217,9 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 5,
-      "hidden": 16,
+      "hidden": 17,
       "dead": false,
       "sleeping": false
-    },
-    {
-      "category": "경제",
-      "query": "금융사고 제재",
-      "hot": false,
-      "fetchedNow": 7,
-      "kept": 0,
-      "hidden": 0,
-      "dead": true,
-      "sleeping": true
     },
     {
       "category": "경제",
@@ -250,7 +236,7 @@
       "query": "상장폐지",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
+      "kept": 9,
       "hidden": 8,
       "dead": false,
       "sleeping": false
@@ -321,7 +307,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 2,
-      "hidden": 7,
+      "hidden": 6,
       "dead": false,
       "sleeping": false
     },
@@ -341,7 +327,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 137,
-      "hidden": 65,
+      "hidden": 64,
       "dead": false,
       "sleeping": false
     },
@@ -350,8 +336,8 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 14,
-      "hidden": 19,
+      "kept": 16,
+      "hidden": 18,
       "dead": false,
       "sleeping": false
     },
@@ -360,7 +346,7 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 48,
+      "kept": 47,
       "hidden": 38,
       "dead": false,
       "sleeping": false
@@ -380,7 +366,7 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 20,
+      "kept": 22,
       "hidden": 26,
       "dead": false,
       "sleeping": false
@@ -389,8 +375,8 @@
       "category": "IT",
       "query": "AI 반도체",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 153,
+      "fetchedNow": 6,
+      "kept": 152,
       "hidden": 32,
       "dead": false,
       "sleeping": false
@@ -469,7 +455,7 @@
       "category": "문화",
       "query": "베스트셀러",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 4,
       "hidden": 2,
       "dead": false,
@@ -480,8 +466,8 @@
       "query": "영화 개봉",
       "hot": false,
       "fetchedNow": 5,
-      "kept": 12,
-      "hidden": 28,
+      "kept": 11,
+      "hidden": 27,
       "dead": false,
       "sleeping": false
     },
@@ -489,8 +475,8 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 44,
+      "fetchedNow": 5,
+      "kept": 45,
       "hidden": 10,
       "dead": false,
       "sleeping": false
@@ -500,7 +486,7 @@
       "query": "엔비디아 젠슨 황",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 59,
+      "kept": 57,
       "hidden": 31,
       "dead": false,
       "sleeping": false
@@ -521,7 +507,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 12,
+      "hidden": 11,
       "dead": true,
       "sleeping": false
     },
@@ -531,7 +517,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 7,
-      "hidden": 23,
+      "hidden": 21,
       "dead": false,
       "sleeping": false
     },
@@ -560,7 +546,7 @@
       "query": "엔비디아 AI칩 중국",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 19,
+      "kept": 17,
       "hidden": 13,
       "dead": false,
       "sleeping": false
@@ -584,6 +570,16 @@
       "hidden": 0,
       "dead": false,
       "sleeping": false
+    },
+    {
+      "category": "경제",
+      "query": "금융사고 제재",
+      "hot": false,
+      "fetchedNow": 0,
+      "kept": 0,
+      "hidden": 0,
+      "dead": true,
+      "sleeping": true
     }
   ],
   "newHot": [],
