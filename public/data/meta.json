@@ -1,21 +1,22 @@
 {
-  "updatedAt": "2026-11-21T08:01:25.201Z",
-  "count": 1891,
-  "summarized": 1354,
-  "fetched": 421,
-  "newCount": 21,
+  "updatedAt": "2026-11-21T09:01:43.532Z",
+  "count": 1884,
+  "summarized": 1346,
+  "fetched": 417,
+  "newCount": 23,
   "newByCategory": {
-    "정치": 6,
-    "IT": 6,
-    "경제": 7,
-    "문화": 2
+    "정치": 7,
+    "경제": 9,
+    "문화": 2,
+    "IT": 5
   },
-  "summarizedNow": 17,
-  "bodyFound": 16,
+  "summarizedNow": 19,
+  "bodyFound": 17,
   "pdfRead": 0,
   "hidden": 0,
   "moved": [
     "IT→경제",
+    "IT→정치",
     "IT→경제"
   ],
   "llmFailedBatches": 0,
@@ -24,19 +25,26 @@
       "category": "IT",
       "source": "https://d2.naver.com/d2.atom",
       "error": "Status code 404"
+    },
+    {
+      "category": "보도자료",
+      "source": "https://www.fsc.go.kr/no010101",
+      "error": "The operation was aborted due to timeout"
     }
   ],
   "concept": null,
   "spacePhoto": null,
-  "newTerms": [],
+  "newTerms": [
+    "증거금"
+  ],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 49,
-      "hidden": 28,
+      "kept": 45,
+      "hidden": 27,
       "dead": false,
       "sleeping": false
     },
@@ -45,7 +53,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 52,
+      "kept": 53,
       "hidden": 20,
       "dead": false,
       "sleeping": false
@@ -55,7 +63,7 @@
       "query": "가계부채",
       "hot": false,
       "fetchedNow": 5,
-      "kept": 2,
+      "kept": 1,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -75,8 +83,8 @@
       "query": "공매도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 22,
-      "hidden": 11,
+      "kept": 24,
+      "hidden": 12,
       "dead": false,
       "sleeping": false
     },
@@ -96,7 +104,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 31,
-      "hidden": 14,
+      "hidden": 13,
       "dead": false,
       "sleeping": false
     },
@@ -105,7 +113,7 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 42,
+      "kept": 41,
       "hidden": 7,
       "dead": false,
       "sleeping": false
@@ -175,7 +183,7 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 5,
-      "kept": 5,
+      "kept": 4,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -185,8 +193,8 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 22,
-      "hidden": 13,
+      "kept": 25,
+      "hidden": 12,
       "dead": false,
       "sleeping": false
     },
@@ -215,7 +223,7 @@
       "query": "보이스피싱",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 9,
+      "kept": 8,
       "hidden": 19,
       "dead": false,
       "sleeping": false
@@ -226,7 +234,7 @@
       "hot": false,
       "fetchedNow": 0,
       "kept": 3,
-      "hidden": 8,
+      "hidden": 7,
       "dead": false,
       "sleeping": false
     },
@@ -236,7 +244,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 9,
-      "hidden": 7,
+      "hidden": 8,
       "dead": false,
       "sleeping": false
     },
@@ -244,7 +252,7 @@
       "category": "경제",
       "query": "사모펀드 MBK",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 1,
       "hidden": 1,
       "dead": false,
@@ -256,7 +264,7 @@
       "hot": false,
       "fetchedNow": 6,
       "kept": 3,
-      "hidden": 1,
+      "hidden": 0,
       "dead": false,
       "sleeping": false
     },
@@ -325,8 +333,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 144,
-      "hidden": 60,
+      "kept": 142,
+      "hidden": 62,
       "dead": false,
       "sleeping": false
     },
@@ -345,8 +353,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 46,
-      "hidden": 37,
+      "kept": 47,
+      "hidden": 38,
       "dead": false,
       "sleeping": false
     },
@@ -355,7 +363,7 @@
       "query": "개발자 채용",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
+      "kept": 4,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -365,8 +373,8 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 20,
-      "hidden": 26,
+      "kept": 21,
+      "hidden": 25,
       "dead": false,
       "sleeping": false
     },
@@ -375,8 +383,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 159,
-      "hidden": 30,
+      "kept": 156,
+      "hidden": 32,
       "dead": false,
       "sleeping": false
     },
@@ -385,7 +393,7 @@
       "query": "핀테크",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 11,
+      "kept": 10,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -395,7 +403,7 @@
       "query": "천문학 연구",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 15,
+      "kept": 14,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -405,7 +413,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 39,
+      "kept": 38,
       "hidden": 15,
       "dead": false,
       "sleeping": false
@@ -425,7 +433,7 @@
       "query": "미술관 전시",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 7,
+      "kept": 8,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -455,7 +463,7 @@
       "query": "베스트셀러",
       "hot": false,
       "fetchedNow": 5,
-      "kept": 7,
+      "kept": 6,
       "hidden": 3,
       "dead": false,
       "sleeping": false
@@ -466,7 +474,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 13,
-      "hidden": 25,
+      "hidden": 26,
       "dead": false,
       "sleeping": false
     },
@@ -474,9 +482,9 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 7,
       "kept": 44,
-      "hidden": 13,
+      "hidden": 14,
       "dead": false,
       "sleeping": false
     },
@@ -485,8 +493,8 @@
       "query": "엔비디아 젠슨 황",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 59,
-      "hidden": 34,
+      "kept": 58,
+      "hidden": 33,
       "dead": false,
       "sleeping": false
     },
@@ -506,7 +514,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 13,
+      "hidden": 12,
       "dead": true,
       "sleeping": false
     },
@@ -515,7 +523,7 @@
       "query": "조작기소 특검법",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 5,
       "hidden": 23,
       "dead": false,
       "sleeping": false
