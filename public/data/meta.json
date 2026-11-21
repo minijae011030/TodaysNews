@@ -1,28 +1,32 @@
 {
-  "updatedAt": "2026-11-21T01:01:12.784Z",
-  "count": 1901,
-  "summarized": 1387,
-  "fetched": 426,
-  "newCount": 30,
+  "updatedAt": "2026-11-21T02:01:12.077Z",
+  "count": 1897,
+  "summarized": 1383,
+  "fetched": 422,
+  "newCount": 26,
   "newByCategory": {
-    "정치": 7,
-    "경제": 13,
     "문화": 2,
-    "IT": 7,
-    "과학": 1
+    "정치": 7,
+    "경제": 12,
+    "IT": 5
   },
-  "summarizedNow": 26,
-  "bodyFound": 24,
+  "summarizedNow": 22,
+  "bodyFound": 13,
   "pdfRead": 0,
   "hidden": 0,
   "moved": [
     "IT→경제",
-    "IT→정치",
     "IT→경제",
-    "과학→경제"
+    "IT→경제",
+    "경제→정치"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [
+    {
+      "category": "경제",
+      "source": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "error": "Status code 404"
+    },
     {
       "category": "IT",
       "source": "https://d2.naver.com/d2.atom",
@@ -31,9 +35,7 @@
   ],
   "concept": null,
   "spacePhoto": null,
-  "newTerms": [
-    "기업공개(IPO)"
-  ],
+  "newTerms": [],
   "keywords": [
     {
       "category": "경제",
@@ -41,7 +43,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 63,
-      "hidden": 34,
+      "hidden": 33,
       "dead": false,
       "sleeping": false
     },
@@ -50,8 +52,8 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 49,
-      "hidden": 17,
+      "kept": 51,
+      "hidden": 18,
       "dead": false,
       "sleeping": false
     },
@@ -70,8 +72,8 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 18,
-      "hidden": 13,
+      "kept": 16,
+      "hidden": 12,
       "dead": false,
       "sleeping": false
     },
@@ -90,7 +92,7 @@
       "query": "불공정거래",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 5,
+      "kept": 4,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -100,8 +102,8 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 33,
-      "hidden": 13,
+      "kept": 32,
+      "hidden": 14,
       "dead": false,
       "sleeping": false
     },
@@ -110,7 +112,7 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 39,
+      "kept": 41,
       "hidden": 9,
       "dead": false,
       "sleeping": false
@@ -119,9 +121,9 @@
       "category": "경제",
       "query": "국회 정무위원회",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 11,
-      "hidden": 20,
+      "hidden": 19,
       "dead": false,
       "sleeping": false
     },
@@ -160,7 +162,7 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 32,
+      "kept": 30,
       "hidden": 16,
       "dead": false,
       "sleeping": false
@@ -169,7 +171,7 @@
       "category": "경제",
       "query": "소비자물가",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 9,
       "hidden": 7,
       "dead": false,
@@ -179,9 +181,9 @@
       "category": "경제",
       "query": "스테이블코인",
       "hot": false,
-      "fetchedNow": 4,
-      "kept": 6,
-      "hidden": 5,
+      "fetchedNow": 6,
+      "kept": 5,
+      "hidden": 3,
       "dead": false,
       "sleeping": false
     },
@@ -190,8 +192,8 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 13,
-      "hidden": 11,
+      "kept": 15,
+      "hidden": 12,
       "dead": false,
       "sleeping": false
     },
@@ -199,7 +201,7 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 3,
+      "fetchedNow": 5,
       "kept": 5,
       "hidden": 3,
       "dead": false,
@@ -260,7 +262,7 @@
       "query": "국민연금 기금",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 6,
+      "kept": 5,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -311,7 +313,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 2,
-      "hidden": 9,
+      "hidden": 8,
       "dead": false,
       "sleeping": false
     },
@@ -340,7 +342,7 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 17,
+      "kept": 16,
       "hidden": 20,
       "dead": false,
       "sleeping": false
@@ -350,8 +352,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 43,
-      "hidden": 30,
+      "kept": 44,
+      "hidden": 31,
       "dead": false,
       "sleeping": false
     },
@@ -360,7 +362,7 @@
       "query": "개발자 채용",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 3,
       "hidden": 3,
       "dead": false,
       "sleeping": false
@@ -380,8 +382,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 167,
-      "hidden": 22,
+      "kept": 165,
+      "hidden": 24,
       "dead": false,
       "sleeping": false
     },
@@ -410,7 +412,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 49,
+      "kept": 47,
       "hidden": 15,
       "dead": false,
       "sleeping": false
@@ -449,9 +451,9 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 6,
-      "hidden": 3,
+      "hidden": 2,
       "dead": false,
       "sleeping": false
     },
@@ -460,8 +462,8 @@
       "query": "베스트셀러",
       "hot": false,
       "fetchedNow": 4,
-      "kept": 8,
-      "hidden": 4,
+      "kept": 7,
+      "hidden": 3,
       "dead": false,
       "sleeping": false
     },
@@ -470,8 +472,8 @@
       "query": "영화 개봉",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 13,
-      "hidden": 4,
+      "kept": 14,
+      "hidden": 7,
       "dead": false,
       "sleeping": false
     },
@@ -490,7 +492,7 @@
       "query": "엔비디아 젠슨 황",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 49,
+      "kept": 51,
       "hidden": 31,
       "dead": false,
       "sleeping": false
@@ -511,7 +513,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 17,
+      "hidden": 16,
       "dead": true,
       "sleeping": false
     },
