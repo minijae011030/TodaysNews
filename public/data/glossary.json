@@ -3111,6 +3111,16 @@
     "level": 2
   },
   {
+    "term": "안전자산",
+    "aliases": [
+      "Safe Asset",
+      "Safe-Haven Asset"
+    ],
+    "definition": "경제적 불확실성이나 금융시장 불안 시에도 원금 손실의 위험이 매우 낮고 가치가 유지되거나 상승하는 자산을 의미합니다. 대표적인 예로 미국 국채, 금, 주요 선진국 통화 등이 있습니다.",
+    "addedAt": "2026-11-23",
+    "level": 1
+  },
+  {
     "term": "알트코인",
     "aliases": [
       "Altcoin"
