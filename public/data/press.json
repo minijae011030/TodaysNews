@@ -4,7 +4,7 @@
     "id": "fc3543fff5",
     "category": "보도자료",
     "label": "보도자료",
-    "keepDays": 30,
+    "keepDays": 90,
     "title": "부산 해양금융 경쟁력 강화를 위한 2026 부산 해양금융위크 및 해양금융컨벤션 개최",
     "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249959&menuNo=200218",
     "source": "금융감독원",
@@ -28,7 +28,7 @@
     "id": "6f4520949e",
     "category": "보도자료",
     "label": "보도자료",
-    "keepDays": 30,
+    "keepDays": 90,
     "title": "불법사금융 근절 및 피해예방, 지원 협력체계 구축을 위한 금융감독원-부산광역시-부산경찰청간 업무협약 체결",
     "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=249960&menuNo=200218",
     "source": "금융감독원",
@@ -60,7 +60,21 @@
     "snippet": "",
     "titleTried": true,
     "titleFix": 2,
-    "attachment": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=34722ac7f1a046b79a06549cd74eba9a&fileSn=2&bbsId="
+    "attachment": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=34722ac7f1a046b79a06549cd74eba9a&fileSn=2&bbsId=",
+    "summary": "금융정보분석원과 금융감독원은 개정 특금법에 따라 기존 가상자산사업자 28개사 모두 기한 내에 부칙신고서를 제출했다고 밝혔습니다. 당국은 대주주 신용 요건 등 새로 도입된 강화된 심사 항목을 중심으로 심사에 착수할 예정입니다.",
+    "sv": 2,
+    "tags": [
+      "특금법",
+      "가상자산사업자",
+      "부칙신고"
+    ],
+    "essayPoint": "배경: 가상자산업권의 건전성과 투명성을 제고하기 위해 대주주와 재무상태 등을 심사하는 개정 특금법이 시행되었습니다.\n근거: 신고 대상인 기존 가상자산사업자 28개사가 모두 기한인 11월 20일 내에 부칙신고서를 제출했습니다.\n쟁점: 부채비율 200% 이하 및 법령준수체계 요건의 적용이 1년간 유예되나, 유예기간 종료 후 미충족 시 직권말소될 수 있어 지속적인 이행 점검이 필요합니다.",
+    "theme": "가상자산·디지털금융",
+    "terms": [
+      "특금법",
+      "가상자산사업자",
+      "부칙신고"
+    ]
   },
   {
     "key": "상장기업의자기주식1일취득한도확대를3개월간시행합니다",
