@@ -1,35 +1,42 @@
 {
-  "updatedAt": "2026-11-24T11:05:07.782Z",
-  "count": 1997,
-  "summarized": 1368,
-  "fetched": 431,
-  "newCount": 30,
+  "updatedAt": "2026-11-24T22:04:20.778Z",
+  "count": 2004,
+  "summarized": 1385,
+  "fetched": 409,
+  "newCount": 31,
   "newByCategory": {
-    "정치": 6,
-    "경제": 11,
-    "문화": 2,
-    "IT": 10,
-    "과학": 1
+    "정치": 7,
+    "경제": 10,
+    "IT": 11,
+    "문화": 1,
+    "과학": 2
   },
-  "summarizedNow": 19,
-  "bodyFound": 16,
+  "summarizedNow": 42,
+  "bodyFound": 35,
   "pdfRead": 1,
-  "hidden": 1,
+  "hidden": 0,
   "moved": [
-    "IT→경제"
+    "문화→정치",
+    "문화→정치",
+    "IT→경제",
+    "IT→정치",
+    "과학→문화",
+    "경제→정치"
   ],
-  "llmFailedBatches": 4,
+  "llmFailedBatches": 2,
   "failedFeeds": [],
-  "concept": null,
+  "concept": "자기주식 취득한도 완화",
   "spacePhoto": null,
-  "newTerms": [],
+  "newTerms": [
+    "후순위채"
+  ],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 73,
+      "kept": 74,
       "hidden": 49,
       "dead": false,
       "sleeping": false
@@ -39,8 +46,8 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 55,
-      "hidden": 24,
+      "kept": 57,
+      "hidden": 25,
       "dead": false,
       "sleeping": false
     },
@@ -48,9 +55,9 @@
       "category": "경제",
       "query": "가계부채",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 7,
       "kept": 3,
-      "hidden": 3,
+      "hidden": 2,
       "dead": false,
       "sleeping": false
     },
@@ -78,8 +85,8 @@
       "category": "경제",
       "query": "불공정거래",
       "hot": false,
-      "fetchedNow": 3,
-      "kept": 8,
+      "fetchedNow": 7,
+      "kept": 7,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -89,8 +96,8 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 19,
-      "hidden": 7,
+      "kept": 18,
+      "hidden": 8,
       "dead": false,
       "sleeping": false
     },
@@ -99,8 +106,8 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 21,
-      "hidden": 6,
+      "kept": 19,
+      "hidden": 5,
       "dead": false,
       "sleeping": false
     },
@@ -110,7 +117,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 8,
-      "hidden": 7,
+      "hidden": 8,
       "dead": false,
       "sleeping": false
     },
@@ -169,7 +176,7 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 14,
+      "kept": 12,
       "hidden": 16,
       "dead": false,
       "sleeping": false
@@ -179,8 +186,8 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 28,
-      "hidden": 14,
+      "kept": 30,
+      "hidden": 15,
       "dead": false,
       "sleeping": false
     },
@@ -188,8 +195,8 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 5,
-      "kept": 6,
+      "fetchedNow": 3,
+      "kept": 7,
       "hidden": 5,
       "dead": false,
       "sleeping": false
@@ -208,11 +215,21 @@
       "category": "경제",
       "query": "보이스피싱",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 5,
       "kept": 7,
-      "hidden": 14,
+      "hidden": 15,
       "dead": false,
       "sleeping": false
+    },
+    {
+      "category": "경제",
+      "query": "금융사고 제재",
+      "hot": false,
+      "fetchedNow": 7,
+      "kept": 0,
+      "hidden": 0,
+      "dead": true,
+      "sleeping": true
     },
     {
       "category": "경제",
@@ -229,7 +246,7 @@
       "query": "상장폐지",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 4,
+      "kept": 3,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -270,7 +287,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 6,
-      "hidden": 6,
+      "hidden": 8,
       "dead": false,
       "sleeping": false
     },
@@ -310,7 +327,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 1,
-      "hidden": 1,
+      "hidden": 0,
       "dead": false,
       "sleeping": false
     },
@@ -339,8 +356,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 44,
-      "hidden": 23,
+      "kept": 45,
+      "hidden": 24,
       "dead": false,
       "sleeping": false
     },
@@ -369,8 +386,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 161,
-      "hidden": 16,
+      "kept": 159,
+      "hidden": 17,
       "dead": false,
       "sleeping": false
     },
@@ -379,7 +396,7 @@
       "query": "핀테크",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 18,
+      "kept": 19,
       "hidden": 10,
       "dead": false,
       "sleeping": false
@@ -389,7 +406,7 @@
       "query": "천문학 연구",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 12,
+      "kept": 13,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -398,9 +415,9 @@
       "category": "과학",
       "query": "과학 연구 성과",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 44,
-      "hidden": 17,
+      "fetchedNow": 7,
+      "kept": 43,
+      "hidden": 18,
       "dead": false,
       "sleeping": false
     },
@@ -418,8 +435,8 @@
       "category": "문화",
       "query": "미술관 전시",
       "hot": false,
-      "fetchedNow": 4,
-      "kept": 11,
+      "fetchedNow": 7,
+      "kept": 10,
       "hidden": 5,
       "dead": false,
       "sleeping": false
@@ -438,8 +455,8 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 4,
-      "kept": 9,
+      "fetchedNow": 7,
+      "kept": 10,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -460,7 +477,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 15,
-      "hidden": 24,
+      "hidden": 23,
       "dead": false,
       "sleeping": false
     },
@@ -468,9 +485,9 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 3,
+      "fetchedNow": 7,
       "kept": 39,
-      "hidden": 12,
+      "hidden": 13,
       "dead": false,
       "sleeping": false
     },
@@ -479,8 +496,8 @@
       "query": "엔비디아 젠슨 황",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 55,
-      "hidden": 35,
+      "kept": 56,
+      "hidden": 36,
       "dead": false,
       "sleeping": false
     },
@@ -495,16 +512,6 @@
       "sleeping": false
     },
     {
-      "category": "경제",
-      "query": "엔비디아 젠슨 황 스캔들",
-      "hot": true,
-      "fetchedNow": 7,
-      "kept": 7,
-      "hidden": 16,
-      "dead": false,
-      "sleeping": false
-    },
-    {
       "category": "정치",
       "query": "조작기소 특검법",
       "hot": true,
@@ -513,69 +520,14 @@
       "hidden": 28,
       "dead": false,
       "sleeping": false
-    },
-    {
-      "category": "정치",
-      "query": "사관학교 통합 반대",
-      "hot": true,
-      "fetchedNow": 7,
-      "kept": 1,
-      "hidden": 0,
-      "dead": false,
-      "sleeping": false
-    },
-    {
-      "category": "정치",
-      "query": "호남 반도체 클러스터",
-      "hot": true,
-      "fetchedNow": 7,
-      "kept": 1,
-      "hidden": 0,
-      "dead": false,
-      "sleeping": false
-    },
-    {
-      "category": "IT",
-      "query": "엔비디아 AI칩 중국",
-      "hot": true,
-      "fetchedNow": 7,
-      "kept": 18,
-      "hidden": 18,
-      "dead": false,
-      "sleeping": false
-    },
-    {
-      "category": "IT",
-      "query": "국산 AI 반도체 협력",
-      "hot": true,
-      "fetchedNow": 7,
-      "kept": 3,
-      "hidden": 5,
-      "dead": false,
-      "sleeping": false
-    },
-    {
-      "category": "IT",
-      "query": "CES 2027 혁신상",
-      "hot": true,
-      "fetchedNow": 7,
-      "kept": 3,
-      "hidden": 0,
-      "dead": false,
-      "sleeping": false
-    },
-    {
-      "category": "경제",
-      "query": "금융사고 제재",
-      "hot": false,
-      "fetchedNow": 0,
-      "kept": 0,
-      "hidden": 0,
-      "dead": true,
-      "sleeping": true
     }
   ],
-  "newHot": [],
+  "newHot": [
+    "경제:젠슨 황 복귀",
+    "경제:코스피 5000 회복",
+    "정치:오세훈 국무회의",
+    "IT:개인정보 유출 해킹"
+  ],
   "keywordsSlept": [],
   "keywordsWoke": []
 }
