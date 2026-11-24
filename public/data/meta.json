@@ -1,42 +1,38 @@
 {
-  "updatedAt": "2026-11-24T22:04:20.778Z",
-  "count": 2004,
-  "summarized": 1385,
-  "fetched": 409,
+  "updatedAt": "2026-11-24T23:02:30.717Z",
+  "count": 2013,
+  "summarized": 1387,
+  "fetched": 429,
   "newCount": 31,
   "newByCategory": {
-    "정치": 7,
-    "경제": 10,
-    "IT": 11,
-    "문화": 1,
+    "정치": 5,
+    "경제": 13,
+    "문화": 2,
+    "IT": 9,
     "과학": 2
   },
-  "summarizedNow": 42,
-  "bodyFound": 35,
-  "pdfRead": 1,
-  "hidden": 0,
+  "summarizedNow": 24,
+  "bodyFound": 18,
+  "pdfRead": 0,
+  "hidden": 2,
   "moved": [
-    "문화→정치",
-    "문화→정치",
+    "정치→경제",
     "IT→경제",
-    "IT→정치",
-    "과학→문화",
-    "경제→정치"
+    "IT→경제",
+    "IT→경제"
   ],
   "llmFailedBatches": 2,
   "failedFeeds": [],
-  "concept": "자기주식 취득한도 완화",
+  "concept": null,
   "spacePhoto": null,
-  "newTerms": [
-    "후순위채"
-  ],
+  "newTerms": [],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 74,
+      "fetchedNow": 5,
+      "kept": 73,
       "hidden": 49,
       "dead": false,
       "sleeping": false
@@ -46,8 +42,8 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 57,
-      "hidden": 25,
+      "kept": 55,
+      "hidden": 27,
       "dead": false,
       "sleeping": false
     },
@@ -76,7 +72,7 @@
       "query": "공매도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 28,
+      "kept": 29,
       "hidden": 28,
       "dead": false,
       "sleeping": false
@@ -86,7 +82,7 @@
       "query": "불공정거래",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 7,
+      "kept": 6,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -96,7 +92,7 @@
       "query": "미국 연준",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 18,
+      "kept": 22,
       "hidden": 8,
       "dead": false,
       "sleeping": false
@@ -116,7 +112,7 @@
       "query": "국회 정무위원회",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
+      "kept": 7,
       "hidden": 8,
       "dead": false,
       "sleeping": false
@@ -156,8 +152,8 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 28,
-      "hidden": 9,
+      "kept": 29,
+      "hidden": 10,
       "dead": false,
       "sleeping": false
     },
@@ -166,7 +162,7 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
+      "kept": 7,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -177,7 +173,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 12,
-      "hidden": 16,
+      "hidden": 17,
       "dead": false,
       "sleeping": false
     },
@@ -186,7 +182,7 @@
       "query": "주가 폭락",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 30,
+      "kept": 31,
       "hidden": 15,
       "dead": false,
       "sleeping": false
@@ -215,21 +211,11 @@
       "category": "경제",
       "query": "보이스피싱",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 6,
       "kept": 7,
-      "hidden": 15,
+      "hidden": 14,
       "dead": false,
       "sleeping": false
-    },
-    {
-      "category": "경제",
-      "query": "금융사고 제재",
-      "hot": false,
-      "fetchedNow": 7,
-      "kept": 0,
-      "hidden": 0,
-      "dead": true,
-      "sleeping": true
     },
     {
       "category": "경제",
@@ -336,8 +322,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 162,
-      "hidden": 50,
+      "kept": 161,
+      "hidden": 53,
       "dead": false,
       "sleeping": false
     },
@@ -346,7 +332,7 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 17,
+      "kept": 15,
       "hidden": 33,
       "dead": false,
       "sleeping": false
@@ -356,8 +342,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 45,
-      "hidden": 24,
+      "kept": 46,
+      "hidden": 25,
       "dead": false,
       "sleeping": false
     },
@@ -376,7 +362,7 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 25,
+      "kept": 27,
       "hidden": 23,
       "dead": false,
       "sleeping": false
@@ -386,7 +372,7 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 159,
+      "kept": 157,
       "hidden": 17,
       "dead": false,
       "sleeping": false
@@ -396,7 +382,7 @@
       "query": "핀테크",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 19,
+      "kept": 20,
       "hidden": 10,
       "dead": false,
       "sleeping": false
@@ -416,7 +402,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 43,
+      "kept": 44,
       "hidden": 18,
       "dead": false,
       "sleeping": false
@@ -456,7 +442,7 @@
       "query": "연극",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
+      "kept": 11,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -486,8 +472,28 @@
       "query": "드라마",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 39,
+      "kept": 38,
       "hidden": 13,
+      "dead": false,
+      "sleeping": false
+    },
+    {
+      "category": "경제",
+      "query": "젠슨 황 복귀",
+      "hot": true,
+      "fetchedNow": 7,
+      "kept": 0,
+      "hidden": 0,
+      "dead": false,
+      "sleeping": false
+    },
+    {
+      "category": "경제",
+      "query": "코스피 5000 회복",
+      "hot": true,
+      "fetchedNow": 7,
+      "kept": 0,
+      "hidden": 0,
       "dead": false,
       "sleeping": false
     },
@@ -513,6 +519,16 @@
     },
     {
       "category": "정치",
+      "query": "오세훈 국무회의",
+      "hot": true,
+      "fetchedNow": 7,
+      "kept": 0,
+      "hidden": 0,
+      "dead": false,
+      "sleeping": false
+    },
+    {
+      "category": "정치",
       "query": "조작기소 특검법",
       "hot": true,
       "fetchedNow": 7,
@@ -520,14 +536,29 @@
       "hidden": 28,
       "dead": false,
       "sleeping": false
+    },
+    {
+      "category": "IT",
+      "query": "개인정보 유출 해킹",
+      "hot": true,
+      "fetchedNow": 7,
+      "kept": 0,
+      "hidden": 0,
+      "dead": false,
+      "sleeping": false
+    },
+    {
+      "category": "경제",
+      "query": "금융사고 제재",
+      "hot": false,
+      "fetchedNow": 0,
+      "kept": 0,
+      "hidden": 0,
+      "dead": true,
+      "sleeping": true
     }
   ],
-  "newHot": [
-    "경제:젠슨 황 복귀",
-    "경제:코스피 5000 회복",
-    "정치:오세훈 국무회의",
-    "IT:개인정보 유출 해킹"
-  ],
+  "newHot": [],
   "keywordsSlept": [],
   "keywordsWoke": []
 }
