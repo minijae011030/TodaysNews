@@ -2479,6 +2479,16 @@
     "level": 1
   },
   {
+    "term": "소비자신뢰지수",
+    "aliases": [
+      "CSI",
+      "Consumer Confidence Index"
+    ],
+    "definition": "소비자들이 경제 상황과 경기 전망을 어떻게 생각하는지 조사하여 나타내는 지표입니다. 향후 소비 지출과 경제 동향을 예측하는 데 활용됩니다.",
+    "addedAt": "2026-11-25",
+    "level": 1
+  },
+  {
     "term": "소비자심리지수",
     "aliases": [
       "CCSI",
