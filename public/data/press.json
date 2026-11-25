@@ -1,5 +1,20 @@
 [
   {
+    "key": "2026년1~9월보험회사경영실적잠정",
+    "id": "017bdf3b5f",
+    "category": "보도자료",
+    "label": "보도자료",
+    "keepDays": 30,
+    "title": "2026년 1~9월 보험회사 경영실적(잠정)",
+    "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=250011&menuNo=200218",
+    "source": "금융감독원",
+    "publishedAt": "2026-11-25T05:00:43.942Z",
+    "snippet": "",
+    "titleTried": true,
+    "titleFix": 2,
+    "attachment": "https://www.fss.or.kr/fss/cmmn/file/fileDown.do?menuNo=200218&atchFileId=95ea11bd336746bca88295f4274d9c36&fileSn=2&bbsId="
+  },
+  {
     "key": "다음금융은이미시작됐다제8회코리아핀테크위크2026개막",
     "id": "4ef9b6c88e",
     "category": "보도자료",
