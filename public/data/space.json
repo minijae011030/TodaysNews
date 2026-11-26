@@ -1,10 +1,11 @@
 {
   "v": 3,
-  "date": "2026-11-25",
-  "title": "SPHEREx Seeing Through Dust",
-  "credit": "NASA/JPL-Caltech SPHEREx; data from NASA/IPAC IRSA. Processing: The Bright Nobles (Muhammet Mücahit Soylu, Serdar Aydın, Furkan Küpeli), ChronosphereX (chronospherex.com).",
-  "link": "https://apod.nasa.gov/apod/ap261125.html",
-  "video": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/november/galaksi_merkezi_spherex.mp4",
-  "titleKo": "SPHEREx가 포착한 은하 중심의 먼지 너머",
-  "story": "우리 은하의 중심은 별이 죽을 때 뿜어져 나온 수많은 우주 먼지들로 가득 차 있습니다. 나사의 SPHEREx 위성이 적외선으로 포착한 오늘의 영상은 파장에 따라 은하 중심이 어떻게 다르게 보이는지 보여줍니다. 근적외선 영역에서는 빛이 먼지에 막혀 은하 중심이 거의 보이지 않지만, 중적외선 영역에서는 빛이 먼지를 뚫고 위성에 도달하게 됩니다."
+  "date": "2026-11-26",
+  "title": "Eye in the Sky: The Milky Way over Lençóis",
+  "credit": "NASA",
+  "link": "https://science.nasa.gov/image-article/apod-2026-november-26-eye-in-the-sky-the-milky-way-over-lencois/",
+  "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Milky_Way_Lencois.jpg?w=2048&h=2048&fit=clip",
+  "hdImage": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Milky_Way_Lencois.jpg?w=4096&h=4096&fit=clip",
+  "titleKo": "하늘의 눈: 렌소이스 위로 펼쳐진 은하수",
+  "story": "브라질의 렌소이스 마라녠시스 국립공원의 하얀 모래 언덕과 어두운 석호 위로 밝게 빛나는 은하수의 모습입니다. 광각 렌즈를 사용하여 촬영된 이 합성 사진은 어두운 석호의 윤곽과 은하수의 아치형 모양이 어우러져 마치 우주와 지상에 걸쳐 있는 거대한 눈처럼 보이는 착시를 만들어냅니다. 사진 속에는 어두운 먼지띠와 다채로운 성운을 포함한 은하수의 두드러진 특징들이 선명하게 담겨 있습니다."
 }
