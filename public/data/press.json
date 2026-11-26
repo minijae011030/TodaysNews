@@ -1,10 +1,24 @@
 [
   {
+    "key": "다음미션만성공하면수익금이2배☞나만아는꿀알바가아닌팀미션사기입니다",
+    "id": "c38cc13318",
+    "category": "보도자료",
+    "label": "보도자료",
+    "keepDays": 30,
+    "title": "“다음 미션만 성공하면 수익금이 2배?” ☞ 나만 아는 ‘꿀알바’가 아닌 ‘팀미션사기‘ 입니다..",
+    "link": "https://www.fsc.go.kr/no010101/88240",
+    "source": "금융위원회",
+    "publishedAt": "2026-11-26T07:00:48.326Z",
+    "snippet": "",
+    "hidden": true,
+    "duplicate": true
+  },
+  {
     "key": "다음미션만성공하면수익금이2배나만아는꿀알바가아닌팀미션사기입니다",
     "id": "d0a296e713",
     "category": "보도자료",
     "label": "보도자료",
-    "keepDays": 30,
+    "keepDays": 90,
     "title": "다음 미션만 성공하면 수익금이 2배 나만 아는 '꿀알바'가 아닌 '팀미션사기' 입니다.",
     "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=250035&menuNo=200218",
     "source": "금융감독원",
@@ -24,14 +38,15 @@
     "theme": "소비자보호·분쟁",
     "terms": [
       "특정금융정보법"
-    ]
+    ],
+    "coverage": 2
   },
   {
     "key": "금융에이야기와상상을더하다제21회금융공모전시상식개최",
     "id": "a099b5e059",
     "category": "보도자료",
     "label": "보도자료",
-    "keepDays": 30,
+    "keepDays": 90,
     "title": "금융에 이야기와 상상을 더하다 제21회 금융공모전 시상식 개최",
     "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=250034&menuNo=200218",
     "source": "금융감독원",
@@ -54,7 +69,7 @@
     "id": "826bbadc78",
     "category": "보도자료",
     "label": "보도자료",
-    "keepDays": 30,
+    "keepDays": 90,
     "title": "26년 부적격 유사투자자문업자 직권말소 처리",
     "link": "https://www.fss.or.kr/fss/bbs/B0000188/view.do?nttId=250033&menuNo=200218",
     "source": "금융감독원",
