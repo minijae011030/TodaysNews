@@ -1,5 +1,20 @@
 [
   {
+    "key": "금융시장동향및증시안정조치진행상황점검",
+    "id": "08fcadc6dd",
+    "category": "보도자료",
+    "label": "보도자료",
+    "keepDays": 30,
+    "title": "금융시장 동향 및 증시안정조치 진행상황 점검.",
+    "link": "https://www.fsc.go.kr/no010101/88256",
+    "source": "금융위원회",
+    "publishedAt": "2026-11-27T03:00:48.807Z",
+    "snippet": "",
+    "titleTried": true,
+    "titleFix": 2,
+    "attachment": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88256&fileTy=ATTACH&fileNo=2"
+  },
+  {
     "key": "금융회사검사제재인허가전반의공공성과투명성을제고합니다",
     "id": "4b25339bf8",
     "category": "보도자료",
