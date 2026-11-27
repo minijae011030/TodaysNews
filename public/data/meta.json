@@ -1,37 +1,32 @@
 {
-  "updatedAt": "2026-11-27T00:01:10.883Z",
-  "count": 1965,
-  "summarized": 1418,
-  "fetched": 427,
-  "newCount": 27,
+  "updatedAt": "2026-11-27T01:01:16.692Z",
+  "count": 1966,
+  "summarized": 1417,
+  "fetched": 433,
+  "newCount": 29,
   "newByCategory": {
-    "보도자료": 1,
-    "경제": 12,
+    "경제": 15,
     "정치": 5,
-    "과학": 1,
-    "문화": 4,
-    "IT": 4
+    "문화": 2,
+    "IT": 5,
+    "과학": 2
   },
-  "summarizedNow": 23,
-  "bodyFound": 20,
-  "pdfRead": 1,
+  "summarizedNow": 25,
+  "bodyFound": 22,
+  "pdfRead": 0,
   "hidden": 1,
   "moved": [
     "IT→경제",
-    "IT→정치",
-    "경제→문화",
     "IT→경제",
-    "정치→문화",
-    "정치→경제",
-    "과학→경제"
+    "IT→경제",
+    "IT→경제",
+    "IT→경제"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [],
   "concept": null,
   "spacePhoto": null,
-  "newTerms": [
-    "공적주택"
-  ],
+  "newTerms": [],
   "keywords": [
     {
       "category": "경제",
@@ -39,7 +34,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 72,
-      "hidden": 32,
+      "hidden": 34,
       "dead": false,
       "sleeping": false
     },
@@ -48,8 +43,8 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 76,
-      "hidden": 36,
+      "kept": 77,
+      "hidden": 35,
       "dead": false,
       "sleeping": false
     },
@@ -59,7 +54,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 4,
+      "hidden": 5,
       "dead": true,
       "sleeping": false
     },
@@ -68,7 +63,7 @@
       "query": "자본시장 제도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 20,
+      "kept": 19,
       "hidden": 25,
       "dead": false,
       "sleeping": false
@@ -78,7 +73,7 @@
       "query": "공매도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 13,
+      "kept": 12,
       "hidden": 12,
       "dead": false,
       "sleeping": false
@@ -88,7 +83,7 @@
       "query": "불공정거래",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
+      "kept": 4,
       "hidden": 8,
       "dead": false,
       "sleeping": false
@@ -108,7 +103,7 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 26,
+      "kept": 28,
       "hidden": 8,
       "dead": false,
       "sleeping": false
@@ -178,8 +173,8 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 16,
-      "hidden": 13,
+      "kept": 17,
+      "hidden": 11,
       "dead": false,
       "sleeping": false
     },
@@ -197,7 +192,7 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 3,
       "kept": 5,
       "hidden": 3,
       "dead": false,
@@ -219,7 +214,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 9,
-      "hidden": 15,
+      "hidden": 18,
       "dead": false,
       "sleeping": false
     },
@@ -228,7 +223,7 @@
       "query": "보험사 건전성",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 2,
+      "kept": 1,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -258,8 +253,8 @@
       "query": "국민연금 기금",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
-      "hidden": 11,
+      "kept": 2,
+      "hidden": 10,
       "dead": false,
       "sleeping": false
     },
@@ -309,7 +304,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 3,
-      "hidden": 12,
+      "hidden": 10,
       "dead": false,
       "sleeping": false
     },
@@ -328,7 +323,7 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 132,
+      "kept": 131,
       "hidden": 44,
       "dead": false,
       "sleeping": false
@@ -349,7 +344,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 63,
-      "hidden": 25,
+      "hidden": 27,
       "dead": false,
       "sleeping": false
     },
@@ -368,7 +363,7 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 26,
+      "kept": 27,
       "hidden": 26,
       "dead": false,
       "sleeping": false
@@ -377,9 +372,9 @@
       "category": "IT",
       "query": "AI 반도체",
       "hot": false,
-      "fetchedNow": 3,
-      "kept": 168,
-      "hidden": 19,
+      "fetchedNow": 7,
+      "kept": 166,
+      "hidden": 21,
       "dead": false,
       "sleeping": false
     },
@@ -387,8 +382,8 @@
       "category": "IT",
       "query": "핀테크",
       "hot": false,
-      "fetchedNow": 4,
-      "kept": 23,
+      "fetchedNow": 7,
+      "kept": 24,
       "hidden": 17,
       "dead": false,
       "sleeping": false
@@ -398,7 +393,7 @@
       "query": "천문학 연구",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 6,
       "hidden": 2,
       "dead": false,
       "sleeping": false
@@ -408,7 +403,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 57,
+      "kept": 56,
       "hidden": 19,
       "dead": false,
       "sleeping": false
@@ -429,7 +424,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 9,
-      "hidden": 7,
+      "hidden": 5,
       "dead": false,
       "sleeping": false
     },
@@ -447,7 +442,7 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 11,
       "hidden": 3,
       "dead": false,
@@ -467,7 +462,7 @@
       "category": "문화",
       "query": "영화 개봉",
       "hot": false,
-      "fetchedNow": 1,
+      "fetchedNow": 6,
       "kept": 18,
       "hidden": 9,
       "dead": false,
@@ -477,7 +472,7 @@
       "category": "문화",
       "query": "드라마",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 4,
       "kept": 37,
       "hidden": 8,
       "dead": false,
@@ -488,8 +483,8 @@
       "query": "젠슨 황 복귀",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 40,
-      "hidden": 13,
+      "kept": 41,
+      "hidden": 14,
       "dead": false,
       "sleeping": false
     },
@@ -508,7 +503,7 @@
       "query": "엔비디아 젠슨 황",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 30,
+      "kept": 28,
       "hidden": 15,
       "dead": false,
       "sleeping": false
