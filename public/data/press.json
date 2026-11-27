@@ -4,7 +4,7 @@
     "id": "08fcadc6dd",
     "category": "보도자료",
     "label": "보도자료",
-    "keepDays": 30,
+    "keepDays": 90,
     "title": "금융시장 동향 및 증시안정조치 진행상황 점검.",
     "link": "https://www.fsc.go.kr/no010101/88256",
     "source": "금융위원회",
@@ -12,7 +12,16 @@
     "snippet": "",
     "titleTried": true,
     "titleFix": 2,
-    "attachment": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88256&fileTy=ATTACH&fileNo=2"
+    "attachment": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=88256&fileTy=ATTACH&fileNo=2",
+    "summary": "정부가 관계기관 합동 시장상황점검회의를 개최하고 최근 국내외 금융·외환 및 부동산시장 동향과 시장안정조치 이행 상황을 점검했습니다. 참석자들은 외환·채권시장이 대체로 안정세를 보이고 있으나 글로벌 불확실성으로 증시 변동성이 커지고 있어 실물경제와의 파급경로를 밀착 모니터링하기로 했습니다.",
+    "sv": 2,
+    "tags": [
+      "시장상황점검회의",
+      "불법공매도",
+      "증시안정조치"
+    ],
+    "essayPoint": "배경: 글로벌 AI 산업의 불확실성과 통상여건 변화로 인해 국내외 증시의 변동성이 확대되면서 정부가 시장 안정을 위한 점검에 나섰습니다.\n대응: 정부는 관계기관 합동으로 11월 24일부터 '불법공매도 합동점검 TF'를 가동해 일일 동향을 점검하고 위법 혐의에 엄정 대응하고 있습니다.\n쟁점: 반도체 경기와 금융시장 간의 연계성이 높아진 상황에서 실물경제와 금융시장 간의 위험 파급경로에 대한 철저한 대비가 요구됩니다.",
+    "theme": "거시·통화·외환"
   },
   {
     "key": "금융회사검사제재인허가전반의공공성과투명성을제고합니다",
