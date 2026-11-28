@@ -1,26 +1,23 @@
 {
-  "updatedAt": "2026-11-28T00:01:17.189Z",
+  "updatedAt": "2026-11-28T01:01:22.578Z",
   "count": 1957,
-  "summarized": 1413,
-  "fetched": 428,
-  "newCount": 29,
+  "summarized": 1411,
+  "fetched": 427,
+  "newCount": 28,
   "newByCategory": {
-    "문화": 4,
-    "경제": 12,
-    "IT": 7,
-    "정치": 5,
-    "과학": 1
+    "경제": 13,
+    "문화": 2,
+    "정치": 6,
+    "IT": 7
   },
-  "summarizedNow": 25,
-  "bodyFound": 21,
+  "summarizedNow": 24,
+  "bodyFound": 23,
   "pdfRead": 0,
   "hidden": 0,
   "moved": [
     "IT→경제",
     "IT→경제",
-    "IT→경제",
-    "정치→문화",
-    "경제→문화"
+    "IT→경제"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [],
@@ -33,8 +30,8 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 75,
-      "hidden": 36,
+      "kept": 77,
+      "hidden": 35,
       "dead": false,
       "sleeping": false
     },
@@ -43,8 +40,8 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 84,
-      "hidden": 29,
+      "kept": 85,
+      "hidden": 30,
       "dead": false,
       "sleeping": false
     },
@@ -52,7 +49,7 @@
       "category": "경제",
       "query": "가계부채",
       "hot": false,
-      "fetchedNow": 7,
+      "fetchedNow": 6,
       "kept": 0,
       "hidden": 6,
       "dead": true,
@@ -94,7 +91,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 8,
-      "hidden": 7,
+      "hidden": 8,
       "dead": false,
       "sleeping": false
     },
@@ -103,7 +100,7 @@
       "query": "환율",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 36,
+      "kept": 39,
       "hidden": 19,
       "dead": false,
       "sleeping": false
@@ -134,7 +131,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 11,
-      "hidden": 3,
+      "hidden": 2,
       "dead": false,
       "sleeping": false
     },
@@ -153,7 +150,7 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 24,
+      "kept": 23,
       "hidden": 16,
       "dead": false,
       "sleeping": false
@@ -163,7 +160,7 @@
       "query": "소비자물가",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 20,
+      "kept": 19,
       "hidden": 25,
       "dead": false,
       "sleeping": false
@@ -173,8 +170,8 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 6,
-      "kept": 13,
-      "hidden": 6,
+      "kept": 12,
+      "hidden": 5,
       "dead": false,
       "sleeping": false
     },
@@ -192,7 +189,7 @@
       "category": "경제",
       "query": "비트코인",
       "hot": false,
-      "fetchedNow": 2,
+      "fetchedNow": 1,
       "kept": 4,
       "hidden": 2,
       "dead": false,
@@ -213,8 +210,8 @@
       "query": "보이스피싱",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
-      "hidden": 17,
+      "kept": 6,
+      "hidden": 16,
       "dead": false,
       "sleeping": false
     },
@@ -254,7 +251,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 9,
-      "hidden": 6,
+      "hidden": 5,
       "dead": false,
       "sleeping": false
     },
@@ -324,7 +321,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 132,
-      "hidden": 48,
+      "hidden": 47,
       "dead": false,
       "sleeping": false
     },
@@ -343,7 +340,7 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 61,
+      "kept": 62,
       "hidden": 23,
       "dead": false,
       "sleeping": false
@@ -364,7 +361,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 30,
-      "hidden": 41,
+      "hidden": 43,
       "dead": false,
       "sleeping": false
     },
@@ -373,8 +370,8 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 167,
-      "hidden": 20,
+      "kept": 165,
+      "hidden": 22,
       "dead": false,
       "sleeping": false
     },
@@ -382,7 +379,7 @@
       "category": "IT",
       "query": "핀테크",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 7,
       "kept": 22,
       "hidden": 17,
       "dead": false,
@@ -403,7 +400,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 54,
+      "kept": 52,
       "hidden": 14,
       "dead": false,
       "sleeping": false
@@ -433,7 +430,7 @@
       "query": "클래식 공연",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 8,
+      "kept": 7,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -463,7 +460,7 @@
       "query": "영화 개봉",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 20,
+      "kept": 19,
       "hidden": 11,
       "dead": false,
       "sleeping": false
@@ -473,8 +470,8 @@
       "query": "드라마",
       "hot": false,
       "fetchedNow": 4,
-      "kept": 33,
-      "hidden": 6,
+      "kept": 35,
+      "hidden": 8,
       "dead": false,
       "sleeping": false
     },
@@ -484,7 +481,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 53,
-      "hidden": 20,
+      "hidden": 22,
       "dead": false,
       "sleeping": false
     },
@@ -494,7 +491,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 1,
-      "hidden": 5,
+      "hidden": 2,
       "dead": false,
       "sleeping": false
     },
@@ -503,7 +500,7 @@
       "query": "엔비디아 젠슨 황",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 6,
+      "kept": 5,
       "hidden": 10,
       "dead": false,
       "sleeping": false
