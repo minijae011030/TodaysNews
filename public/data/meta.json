@@ -1,38 +1,36 @@
 {
-  "updatedAt": "2026-11-28T05:01:01.981Z",
-  "count": 1936,
-  "summarized": 1389,
-  "fetched": 428,
-  "newCount": 19,
+  "updatedAt": "2026-11-28T06:01:02.141Z",
+  "count": 1929,
+  "summarized": 1381,
+  "fetched": 426,
+  "newCount": 20,
   "newByCategory": {
-    "경제": 5,
-    "IT": 8,
-    "정치": 3,
+    "경제": 4,
     "문화": 2,
+    "정치": 5,
+    "IT": 8,
     "과학": 1
   },
-  "summarizedNow": 15,
-  "bodyFound": 13,
+  "summarizedNow": 16,
+  "bodyFound": 14,
   "pdfRead": 0,
   "hidden": 0,
   "moved": [
     "정치→경제",
-    "정치→IT",
-    "정치→IT",
-    "IT→과학"
+    "IT→경제"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [],
   "concept": null,
-  "spacePhoto": null,
+  "spacePhoto": "아폴로 17호 VIP 사이트의 입체 사진",
   "newTerms": [],
   "keywords": [
     {
       "category": "경제",
       "query": "금융감독원",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 73,
+      "fetchedNow": 6,
+      "kept": 71,
       "hidden": 34,
       "dead": false,
       "sleeping": false
@@ -42,8 +40,8 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 85,
-      "hidden": 32,
+      "kept": 84,
+      "hidden": 31,
       "dead": false,
       "sleeping": false
     },
@@ -63,7 +61,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 15,
-      "hidden": 26,
+      "hidden": 23,
       "dead": false,
       "sleeping": false
     },
@@ -172,7 +170,7 @@
       "query": "스테이블코인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 9,
+      "kept": 8,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -193,7 +191,7 @@
       "hot": false,
       "fetchedNow": 2,
       "kept": 4,
-      "hidden": 2,
+      "hidden": 1,
       "dead": false,
       "sleeping": false
     },
@@ -212,7 +210,7 @@
       "query": "보이스피싱",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 5,
+      "kept": 4,
       "hidden": 14,
       "dead": false,
       "sleeping": false
@@ -253,7 +251,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 8,
-      "hidden": 5,
+      "hidden": 4,
       "dead": false,
       "sleeping": false
     },
@@ -272,7 +270,7 @@
       "query": "여야 충돌",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 10,
+      "kept": 12,
       "hidden": 7,
       "dead": false,
       "sleeping": false
@@ -323,7 +321,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 134,
-      "hidden": 54,
+      "hidden": 57,
       "dead": false,
       "sleeping": false
     },
@@ -343,7 +341,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 65,
-      "hidden": 24,
+      "hidden": 25,
       "dead": false,
       "sleeping": false
     },
@@ -362,8 +360,8 @@
       "query": "해킹 개인정보 유출",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 29,
-      "hidden": 50,
+      "kept": 31,
+      "hidden": 54,
       "dead": false,
       "sleeping": false
     },
@@ -371,9 +369,9 @@
       "category": "IT",
       "query": "AI 반도체",
       "hot": false,
-      "fetchedNow": 7,
-      "kept": 164,
-      "hidden": 26,
+      "fetchedNow": 6,
+      "kept": 160,
+      "hidden": 27,
       "dead": false,
       "sleeping": false
     },
@@ -383,7 +381,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 16,
-      "hidden": 12,
+      "hidden": 10,
       "dead": false,
       "sleeping": false
     },
@@ -402,7 +400,7 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 46,
+      "kept": 44,
       "hidden": 12,
       "dead": false,
       "sleeping": false
@@ -421,7 +419,7 @@
       "category": "문화",
       "query": "미술관 전시",
       "hot": false,
-      "fetchedNow": 6,
+      "fetchedNow": 5,
       "kept": 9,
       "hidden": 1,
       "dead": false,
@@ -441,7 +439,7 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 6,
       "kept": 10,
       "hidden": 7,
       "dead": false,
@@ -473,7 +471,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 39,
-      "hidden": 13,
+      "hidden": 14,
       "dead": false,
       "sleeping": false
     },
@@ -482,7 +480,7 @@
       "query": "젠슨 황 복귀",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 47,
+      "kept": 44,
       "hidden": 24,
       "dead": false,
       "sleeping": false
@@ -533,7 +531,7 @@
       "hot": true,
       "fetchedNow": 7,
       "kept": 5,
-      "hidden": 28,
+      "hidden": 27,
       "dead": false,
       "sleeping": false
     },
