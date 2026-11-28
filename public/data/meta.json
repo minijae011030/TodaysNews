@@ -1,31 +1,29 @@
 {
-  "updatedAt": "2026-11-28T09:01:15.178Z",
-  "count": 1896,
-  "summarized": 1355,
-  "fetched": 411,
-  "newCount": 25,
+  "updatedAt": "2026-11-28T10:01:12.762Z",
+  "count": 1884,
+  "summarized": 1348,
+  "fetched": 414,
+  "newCount": 17,
   "newByCategory": {
-    "정치": 9,
+    "정치": 6,
     "문화": 2,
-    "경제": 6,
-    "과학": 1,
-    "IT": 7
+    "IT": 2,
+    "경제": 7
   },
-  "summarizedNow": 21,
-  "bodyFound": 18,
+  "summarizedNow": 17,
+  "bodyFound": 15,
   "pdfRead": 0,
-  "hidden": 0,
+  "hidden": 2,
   "moved": [
-    "IT→정치",
+    "과학→정치",
     "경제→정치",
-    "IT→경제",
-    "경제→정치"
+    "IT→경제"
   ],
   "llmFailedBatches": 0,
   "failedFeeds": [
     {
-      "category": "문화",
-      "source": "https://mediahub.seoul.go.kr/news/rss/06",
+      "category": "IT",
+      "source": "https://tech.kakao.com/feed/",
       "error": "fetch failed"
     }
   ],
@@ -38,7 +36,7 @@
       "query": "금융감독원",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 70,
+      "kept": 67,
       "hidden": 32,
       "dead": false,
       "sleeping": false
@@ -48,7 +46,7 @@
       "query": "기준금리",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 86,
+      "kept": 88,
       "hidden": 25,
       "dead": false,
       "sleeping": false
@@ -69,7 +67,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 13,
-      "hidden": 22,
+      "hidden": 21,
       "dead": false,
       "sleeping": false
     },
@@ -78,7 +76,7 @@
       "query": "공매도",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 12,
+      "kept": 11,
       "hidden": 4,
       "dead": false,
       "sleeping": false
@@ -89,7 +87,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 4,
-      "hidden": 7,
+      "hidden": 4,
       "dead": false,
       "sleeping": false
     },
@@ -128,7 +126,7 @@
       "query": "세법 개정안",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 3,
+      "kept": 4,
       "hidden": 0,
       "dead": false,
       "sleeping": false
@@ -147,8 +145,8 @@
       "category": "경제",
       "query": "은행 대출 규제",
       "hot": false,
-      "fetchedNow": 6,
-      "kept": 8,
+      "fetchedNow": 7,
+      "kept": 9,
       "hidden": 1,
       "dead": false,
       "sleeping": false
@@ -158,7 +156,7 @@
       "query": "코스피 외국인",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 22,
+      "kept": 19,
       "hidden": 13,
       "dead": false,
       "sleeping": false
@@ -169,7 +167,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 18,
-      "hidden": 23,
+      "hidden": 22,
       "dead": false,
       "sleeping": false
     },
@@ -219,7 +217,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 4,
-      "hidden": 10,
+      "hidden": 9,
       "dead": false,
       "sleeping": false
     },
@@ -309,7 +307,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 0,
-      "hidden": 3,
+      "hidden": 4,
       "dead": true,
       "sleeping": false
     },
@@ -328,8 +326,8 @@
       "query": "이재명 대통령",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 131,
-      "hidden": 65,
+      "kept": 129,
+      "hidden": 66,
       "dead": false,
       "sleeping": false
     },
@@ -338,7 +336,7 @@
       "query": "오세훈",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 14,
+      "kept": 13,
       "hidden": 30,
       "dead": false,
       "sleeping": false
@@ -348,8 +346,8 @@
       "query": "국민의힘 민주당",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 62,
-      "hidden": 26,
+      "kept": 63,
+      "hidden": 29,
       "dead": false,
       "sleeping": false
     },
@@ -369,7 +367,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 32,
-      "hidden": 55,
+      "hidden": 51,
       "dead": false,
       "sleeping": false
     },
@@ -378,7 +376,7 @@
       "query": "AI 반도체",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 152,
+      "kept": 151,
       "hidden": 28,
       "dead": false,
       "sleeping": false
@@ -389,7 +387,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 12,
-      "hidden": 6,
+      "hidden": 5,
       "dead": false,
       "sleeping": false
     },
@@ -408,8 +406,8 @@
       "query": "과학 연구 성과",
       "hot": false,
       "fetchedNow": 7,
-      "kept": 45,
-      "hidden": 16,
+      "kept": 44,
+      "hidden": 18,
       "dead": false,
       "sleeping": false
     },
@@ -437,7 +435,7 @@
       "category": "문화",
       "query": "클래식 공연",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 6,
       "kept": 8,
       "hidden": 4,
       "dead": false,
@@ -447,9 +445,9 @@
       "category": "문화",
       "query": "연극",
       "hot": false,
-      "fetchedNow": 5,
+      "fetchedNow": 6,
       "kept": 8,
-      "hidden": 7,
+      "hidden": 6,
       "dead": false,
       "sleeping": false
     },
@@ -479,7 +477,7 @@
       "hot": false,
       "fetchedNow": 7,
       "kept": 42,
-      "hidden": 14,
+      "hidden": 15,
       "dead": false,
       "sleeping": false
     },
@@ -488,8 +486,8 @@
       "query": "젠슨 황 복귀",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 39,
-      "hidden": 21,
+      "kept": 38,
+      "hidden": 20,
       "dead": false,
       "sleeping": false
     },
@@ -498,7 +496,7 @@
       "query": "코스피 5000 회복",
       "hot": true,
       "fetchedNow": 7,
-      "kept": 1,
+      "kept": 2,
       "hidden": 0,
       "dead": false,
       "sleeping": false
